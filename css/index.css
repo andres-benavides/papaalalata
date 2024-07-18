@@ -1,0 +1,51 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+div#General{
+    display: flex;
+    margin: auto;
+    width: 1349px;
+    height: 2000px;
+    background: #8E8A89;
+
+}
+
+div#Header{
+    width: 1349px;
+    height: 105px;  
+    background-image: url("img/img/31cf39_0a52ef63125b4bdeb6b244610d783645~mv2.png");
+    background-position: center;
+
+}
+
+div#logo{
+    display: flex;
+    position: relative;
+    margin-top: -99px;
+    margin-left: -10px;
+    float: left;
+}
+div#Nav{
+    display: flex;
+    margin-left: 390px;
+    margin-top: -50px;      
+}
+
+
+div#Redes{
+    display: flex;
+    margin-top: -60px;
+    margin-right: 25px;;
+    float: right;
+}
+
+.imagen{
+    display: flex;
+    position: relative;
+    width: 40px;
+    margin: 0 3px;
+    border-radius: 50%;
+}
+
