@@ -29,8 +29,12 @@ div#logo{
 }
 div#Nav{
     display: flex;
-    margin-left: 390px;
-    margin-top: -50px;      
+    margin-left: 330px;
+    margin-top: -60px; 
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 31px;
 }
 
 
