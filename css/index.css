@@ -7,27 +7,29 @@ div#General{
     display: flex;
     margin: auto;
     width: 1349px;
-    height: 2000px;
-    background: #8E8A89;
-
+    height: 4896px;
+    background-color: #AA2103;
+    overflow: hidden;
+    /*overflow: hidden;  POR REVISAR   */
 }
-
+/*Inicio de footer y Nav*/
 div#Header{
     width: 1349px;
-    height: 105px;  
-    background-image: url("img/img/31cf39_0a52ef63125b4bdeb6b244610d783645~mv2.png");
-    background-position: center;
-
+    height: 105px;
 }
 
 div#logo{
+    width: 290px;
+    margin-left: -10px;
     display: flex;
     position: relative;
     margin-top: -99px;
-    margin-left: -10px;
     float: left;
+
 }
 div#Nav{
+    width: 700px;
+    height: 35px;
     display: flex;
     margin-left: 330px;
     margin-top: -60px; 
@@ -35,8 +37,9 @@ div#Nav{
     font-weight: 400;
     font-style: normal; 
     font-size: 31px;
-}
+    position: relative;
 
+}
 
 div#Redes{
     display: flex;
@@ -53,3 +56,216 @@ div#Redes{
     border-radius: 50%;
 }
 
+/*Fin de Footer and Nav*/
+
+div#main{   
+    width: 1349px;
+    height: 698px;
+    margin-top: 89px;
+    position: absolute;
+    
+}
+
+div#texto-1{
+    padding-top: 80px;
+    padding-left: 50PX;
+    background: radial-gradient(#AA2103,#FF4A23 );
+    position: relative;
+    margin-top: -670px;
+    margin-left: 15px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 100EM; 
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 50PX;
+    line-height: 130px;
+    animation-name: mtexto;
+    animation-duration: 2s;
+    animation-delay: 2s;
+}
+
+@keyframes mtexto{
+    0% { right: 650px;}
+    100% { right: 0px;}
+}
+
+.btn{
+    background-color: #ffff;
+    color: #AA2103;
+    cursor: pointer;
+    border: 2px solid #AA2103;
+}
+.btn:hover{
+    color: white;
+    background-color: #FF4A23;
+}
+
+
+
+div#imagen-1{
+    margin-top: -410px;
+    margin-left: 760px;
+    position: relative;
+    transform: rotate(15deg);
+    animation-name: movimiento;
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
+
+@keyframes movimiento {
+    0% { left: 650px;}
+    100% { left: 0px;}
+
+}
+div#papas{
+    position: absolute;
+}
+
+div#seccion-1{
+    margin-top: 45px;
+    height: 650px;
+    width: auto;
+}
+
+
+div#imagen-2{
+    transform: rotate(40deg);
+    margin-top: -515px;
+    margin-left: -50px;
+    width: 25%;
+    height: 67%;
+    position: relative;
+}
+
+div#imagen-3{
+    transform: rotate(40deg);
+    margin-top: -415px;
+    margin-left: 260px;
+    width: 25%;
+    height: 67%;
+    position: relative; 
+}
+
+div#imagen-4{
+    transform: rotate(29deg);
+    margin-top: -405px;
+    margin-left: 560px;
+    width: 25%;
+    height: 67%;
+    position: relative; 
+}
+
+
+div#imagen-5{
+    margin-top: -645px;
+    margin-left: 900px;
+    width: 25%;
+    height: 67%;
+    position: relative; 
+}
+
+div#imagen-6{
+    margin-top: -355px;
+    margin-left: 820px;
+    width: 35%;
+    height: 67%;
+    position: relative;   
+}
+
+
+div#seccion-2{
+    margin-top: -50px;
+    width: auto;
+    height: 500px;
+    position: relative;
+}
+
+
+div#seccion-3{
+    width: auto;
+    height: 500px;
+    position: relative;
+}
+
+.btn-1{
+    margin-left: 620px;
+    margin-top: -85px;
+    width: 115px;
+    height: 30px;
+    background-color: #ffff;
+    color: #AA2103;
+    cursor: pointer;
+    border: 2px solid #AA2103;
+    position: relative;
+}
+.btn-1:hover{
+    color: white;
+    background-color: #FF4A23;
+}
+
+
+div#seccion-4{
+    margin-top: -1%;
+    background-color: #ffff;
+    width: auto;
+    height: 550px;
+    position: relative;
+}
+
+div#seccion-5{
+    width: auto;
+    height: 450px;
+    position: relative;
+}
+
+div#seccion-6{
+    height: 30em;
+    background-image: url(../img/novedadesMesa\ de\ trabajo\ 1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 110%;
+}
+
+div#seccion-7{
+    width: auto;
+    height: 300px;
+    position: relative;
+
+}
+
+div#seccion-8{
+    box-sizing:border-box;
+    padding: 1em;
+    font-family: arial;
+    border: none;
+}
+
+.boton{
+    background-color: #FBCF05;
+    color: #ffff;
+    padding: 15px 18px 0px;
+    text-align: center;
+    margin-left: 1%;
+
+}
+.boton:hover{
+    color: white;
+    background-color: #FF4A23;
+}
+
+
+div#logo-2{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 30%;
+}
+
+.imagen-2{
+    display: flex;
+    position: relative;
+    width: 30px;
+    margin: 2px;
+    border-radius: 50%;
+}
