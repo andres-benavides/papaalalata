@@ -4,18 +4,19 @@
 }
 
 div#General{
-    display: flex;
+
     margin: auto;
     width: 1349px;
-    height: 4896px;
+    height: 4895px;
     background-color: #AA2103;
-    overflow: hidden;
+
     /*overflow: hidden;  POR REVISAR   */
 }
 /*Inicio de footer y Nav*/
 div#Header{
     width: 1349px;
     height: 105px;
+    position: absolute;
 }
 
 div#logo{
@@ -258,7 +259,7 @@ div#logo-2{
     border-radius: 50%;
 }
 
-.menu {
+#menu {
     width: 700px;
     height: 35px;
     display: flex;
