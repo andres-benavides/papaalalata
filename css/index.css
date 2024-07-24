@@ -4,45 +4,89 @@
 }
 
 div#General{
-
-    margin: auto;
     width: 1349px;
     height: 4895px;
-    background-color: #AA2103;
+    background-color: #FEB902;
 
     /*overflow: hidden;  POR REVISAR   */
 }
 /*Inicio de footer y Nav*/
-div#Header{
-    width: 1349px;
-    height: 105px;
-    position: absolute;
+header {
+    width: 100%;
+    height: 18vh;
 }
 
-div#logo{
-    width: 290px;
-    margin-left: -10px;
-    display: flex;
-    position: relative;
-    margin-top: -99px;
-    float: left;
+#logo{
+width: 21%;
+height: 100%;
+position: relative;
+margin-top: -9%;
 
 }
 
-div#Redes{
-    display: flex;
-    margin-top: -60px;
-    margin-right: 25px;;
-    float: right;
+#nav{
+width: 67%;
+height: 100%;
+margin-top: -120px;
+padding-top: 1%;
+margin-left: 19%;
+position: relative;
+
+
+}
+
+.menu {
+width: 100%;
+height: 1005;
+display: flex;
+padding: 40px;
+margin-left: 4%; 
+font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-style: normal; 
+font-size: 31px;
+position: relative;
+color: #000;
+margin-top: 0px;
+
+}
+
+li ul{
+display: none;
+margin-top: 0px;
+}
+
+li:hover ul{
+display: block;
+
+}
+
+.inicio{
+color: #000;
+margin-top: none;
+}
+.inicio:hover{
+color: #FF4A23;
+margin: none;
+}
+
+#redes{
+display: flex;
+width: 10%;
+height: 40%;
+float: right;
+margin-top: -6%;
+margin-right: 3%;
+position: relative;
 
 }
 
 .imagen{
-    display: flex;
-    position: relative;
-    width: 40px;
-    margin: 0 3px;
-    border-radius: 50%;
+position: relative;
+width: 40px;
+margin: 0 3px;
+border-radius: 50%;
+
 }
 
 /*Fin de Footer and Nav*/
@@ -50,17 +94,14 @@ div#Redes{
 div#main{   
     width: 1349px;
     height: 698px;
-    margin-top: 89px;
-    position: absolute;
-    
+    position: relative;
 }
 
-div#texto-1{
-    padding-top: 80px;
+div#texto-1{    
     padding-left: 50PX;
     background: radial-gradient(#AA2103,#FF4A23 );
     position: relative;
-    margin-top: -670px;
+    margin-top: -620px;
     margin-left: 15px;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
@@ -94,7 +135,7 @@ div#texto-1{
 
 
 div#imagen-1{
-    margin-top: -410px;
+    margin-top: -375px;
     margin-left: 760px;
     position: relative;
     transform: rotate(15deg);
