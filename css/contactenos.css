@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.general{
+    width: 1349px;
+    height: 1992px;
+    overflow: hidden;
+    background-position: center;
+    position: relative;
+    background-color: gray;
+}
+
+
+header {
+    width: 100%;
+    height: 115px;
+}
+
+#logo{
+width: 21%;
+height: 100%;
+position: relative;
+margin-top: -9%;
+}
+
+#nav{
+width: 67%;
+height: 100%;
+margin-top: -120px;
+padding-top: 1%;
+margin-left: 19%;
+position: relative;
+}
+
+.menu {
+width: 100%;
+height: 1005%;
+display: flex;
+padding: 40px;
+margin-left: 4%; 
+font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-style: normal; 
+font-size: 31px;
+position: relative;
+color: #000;
+}
+
+li ul{
+display: none;
+}
+
+li:hover ul{
+display: block;
+}
+
+.inicio{
+color: #000;
+}
+.inicio:hover{
+color: #FF4A23;
+}
+
+#redes{
+display: flex;
+width: 10%;
+height: 40%;
+float: right;
+margin-top: -6%;
+margin-right: 3%;
+position: relative;
+}
+
+.imagen{
+position: relative;
+width: 40px;
+margin: 0 3px;
+border-radius: 50%;
+}
+
+.main{
+    width: 1000px;
+    height: 3340px;
+    background-color: grey;
+}
+
+#slider{
+    width: 3000px;
+    height: 500px;
+    overflow: hidden;
+}
+
+#contenedor{
+    display: flex;
+    width: 100%;
+    animation: mover 7s infinite alternate ease-in-out; 
+}
+
+#imagen-1{
+    width: 104%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-image: url(../img/1.webp);
+}
+
+#imagen-2{
+    width: 112%;
+    height: 500px;
+    margin-left: -6%;
+    background-repeat: no-repeat;
+    background-image: url(../img/2.webp);
+}
+
+
+h1{
+    position: relative;
+    color: #FFFF;
+    font-size: 3em;
+    width: 4%;
+    margin-left: 1%;
+}
+
+@keyframes mover {
+    0%{margin-left: 0%}
+    25%{margin-left: 0%;}
+    75%{margin-left: -45%;}
+    100%{margin-left: -45%}
+}
+
+
+#seccion-2{
+
+    width: 135%;
+    height: 125vh;
+    position: relative;
+    margin-top: -0.5%;
+    background-size: 100%;
+    background-position: cover;
+    background-image: url(../img/COLLAGE_Mesa\ de\ trabajo\ 1.jpg);
+}
+
+#contenedor-2{
+    width: 100%;
+    height: 100%;
+    padding-top: 1%;
+
+}
+
+.form{
+width: 40%; 
+height: 95vh;
+background-color: #F1F1F1;
+border-radius: 15px;
+position: relative;
+margin-top: 7%;
+margin-left: 28%;
+
+
+}
+
+.campo{
+    margin-top: 10%;
+    padding: 25px;
+    display: flexbox;
+    border-radius: 12px;
+    margin-left: 35px;
+    background-color: #F6CD61;
+    border: none;
+}
+.campos{
+    margin-top: 5%;
+    padding: 25px;
+    display: flexbox;
+    border-radius: 12px;
+    margin-left: 35px;
+    background-color: #F6CD61;
+    border: none;
+}
+
+
+
+.desplegable{
+    width: 100px;
+}
+
+.links a{
+ text-decoration: none;
+ display: block;
+ padding: 4px;
+ color: #000;
+ border: none;
+ text-align: center;
+ overflow: hidden;
+}
+
+.links{
+    width: 215px;
+    margin-top: 15%;
+    margin-left: 35%;
+    background-color: #F6CD61;
+    border-radius: 11px;
+    border: none;
+    padding: 12px;
+    width: 230px;
+    position: relative;
+    color: gray;
+}
+
+.links a:hover{
+    background-color: #F1F1F1;
+    
+}
+
+.desplegable:hover .links{
+    display:block;
+}
+
+
+.comentarios{
+    width: 90%;
+    height: 30%;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+
+.enviar{
+    width: 90%;
+    height: 5%;
+    margin-top: 3%;
+    font-size: 2em;
+    margin-left: 2%;
+    font-family: arial;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    
+    background-color: #2d0266;
+    border-radius: 11px;
+    border: none;
+}
+
+.enviar:hover{
+    color: #ec8600;
+    background-color: #F1F1F1;
+    opacity: 90%;
+    border-color: #ec8600;
+}
+
+.maps{
+    width: 136%;
+    height: 400px;
+}
+
+#seccion-3{
+    width: 100%; 
+    height: 15%;
+    margin-top: -125%;
+}
