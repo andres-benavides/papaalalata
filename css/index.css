@@ -75,7 +75,7 @@ display: flex;
 width: 10%;
 height: 40%;
 float: right;
-margin-top: -6%;
+margin-top: -5%;
 margin-right: 3%;
 position: relative;
 
@@ -113,12 +113,11 @@ div#texto-1{
     line-height: 130px;
     animation-name: mtexto;
     animation-duration: 2s;
-    animation-delay: 2s;
 }
 
 @keyframes mtexto{
-    0% { right: 650px;}
-    100% { right: 0px;}
+    0% { opacity: 0%; right: 50px;}
+    100% { opacity: 100%; right: 0px;}
 }
 
 .btn{
@@ -140,13 +139,13 @@ div#imagen-1{
     position: relative;
     transform: rotate(15deg);
     animation-name: movimiento;
-    animation-duration: 3s;
-    animation-delay: 2s;
+    animation-duration: 2s;
+
 }
 
 @keyframes movimiento {
-    0% { left: 650px;}
-    100% { left: 0px;}
+    0% { opacity: 0%; left: 90px;}
+    100% { opacity: 100%; left: 0px;}
 
 }
 div#papas{
@@ -275,7 +274,8 @@ div#seccion-8{
 .boton{
     background-color: #FBCF05;
     color: #ffff;
-    padding: 15px 18px 0px;
+    padding: 10px;
+    position: relative;
     text-align: center;
     margin-left: 1%;
 

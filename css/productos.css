@@ -1,0 +1,604 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.general{
+    width: 1348px;
+    height: 5921px;
+    background-color: rgb(11, 107, 203);
+
+}
+
+header {
+    width: 100%;
+    height: 115px;
+}
+#logo{
+width: 21%;
+height: 100%;
+position: relative;
+margin-top: -9%;
+}
+
+#nav{
+width: 67%;
+height: 100%;
+margin-top: -120px;
+padding-top: 1%;
+margin-left: 19%;
+position: relative;
+}
+
+.menu {
+width: 100%;
+height: 1005;
+display: flex;
+padding: 40px;
+margin-left: 4%; 
+font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-style: normal; 
+font-size: 31px;
+position: relative;
+color: #000;
+}
+
+li ul{
+display: none;
+}
+
+li:hover ul{
+display: block;
+}
+
+.inicio{
+color: #000;
+}
+.inicio:hover{
+color: #FF4A23;
+}
+
+#redes{
+display: flex;
+width: 10%;
+height: 40%;
+float: right;
+margin-top: -6%;
+margin-right: 3%;
+position: relative;
+}
+
+.imagen{
+position: relative;
+width: 40px;
+margin: 0 3px;
+border-radius: 50%;
+}
+
+/*fin de nav*/
+
+
+/*Inicio de main*/
+.main{
+    width: 1348px;
+    height: 213vh;
+    display: flex;
+    margin-top: -3;
+}
+
+.izq{
+    width: 50%;
+    height: 5188px;
+    background-image: url(../img/izq.webp);
+    background-size: 100%;
+    margin-top: -0.5%;
+
+}
+
+.der{
+    width: 50%;
+    height: 5188px;
+    background-image: url(../img/fondo\ azulArtboard\ 1.webp);
+    background-size: 100%;
+    margin-top: -0.5%;
+}
+
+.text-1{ 
+    width: 100%;
+    margin-top: 4%;
+    font-size: 4.7em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #1A9FEC;
+    position: absolute;
+    animation-name: mtexto;
+    animation-duration: 5s;
+
+}
+   
+@keyframes mtexto{
+    0% { opacity: 0%; left: 50%;}
+    100% { opacity: 100%; left: 0%;}
+}
+
+.text-2{
+    width: 100%;
+    margin-left: 48%;
+    font-size: 4.1em;
+    margin-top: 188px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #F9F493;
+    position: relative;
+    animation-name: mtexto-1;
+    animation-duration: 5s;
+
+}
+
+@keyframes mtexto-1{
+    0% { opacity: 0%; left: 50%;}
+    100% { opacity: 100%; left: 0%;}
+}
+
+
+.text-3{
+    width: 100%;
+    margin-left: 49.7%;
+    font-size: 6.8em;
+    margin-top: -25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FF0000;
+    position: relative;
+    animation-name: mtexto-2;
+    animation-duration: 5s;
+
+}
+
+@keyframes mtexto-2{
+    0% { opacity: 0%; left: 50%;}
+    100% { opacity: 100%; left: 0%;}
+}
+
+.imagen-1{
+    width: 39%;
+    height: 6.5%;
+    margin-left: 7.2%;
+    margin-top: -24%;
+    position: relative;
+    transform: rotate(21deg);
+    animation-name: imagen-1;
+    animation-duration: 5s;
+}
+@keyframes imagen-1{
+    0% {  opacity: 0% ; left: 50%;}
+    100% { opacity: 100%; left: 0%;}
+}
+
+.imagen-2{
+    width: 40%;
+    height: 7.5%;
+    margin-left: 59%;
+    margin-right: 3%;
+    margin-top: 14%;
+    position: relative;
+    animation-name: imagen-2;
+    animation-duration: 5s;
+}
+@keyframes imagen-2{
+    0% {  opacity: 0% ; left: 100%;}
+    100% { opacity: 100%; left: 0%;}
+}
+
+.imagen-3{
+    width: 40%;
+    height: 7.5%;
+    margin-left: 20%;
+    margin-right: 3%;
+    margin-top: 26%;
+    position: relative;
+    transform: rotate(18deg);
+    animation-name: imagen-3;
+    animation-duration: 5s;
+}
+
+@keyframes imagen-3{
+    0% {  opacity: 0% ; left: 30%;}
+    100% { opacity: 100%; left: 0%;}
+}
+
+.imagen-4{
+    width: 51%;
+    height: 8.5%;
+    margin-left: 45%;
+    margin-top: -10%;
+    position: relative;
+    animation-name: imagen-4;
+    animation-duration: 5s;
+}
+
+@keyframes imagen-4{
+    0% {  opacity: 0% ; left: 30%;}
+    100% { opacity: 100%; left: 0%;}
+}
+
+.imagen-5{
+    width: 45%;
+    height: 8.3%;
+    margin-top: 4%;
+}
+
+.imagen-6{
+    width: 95%;
+    height: 11%;
+    position: relative;
+    margin-top: -77%;
+    margin-left: 10%;
+    animation-name: imagen-5;
+    animation-duration: 5s;
+}
+@keyframes imagen-5{
+    0% {  opacity: 0% ; left: 20%;}
+    100% { opacity: 100%; left: 0%;}
+}
+
+.imagen-7{
+    width: 45%;
+    height: 8.3%;
+    margin-left: 32%;
+    position: relative;
+    margin-right: 15%;
+    margin-top: 7%;
+}
+
+.imagen-8{
+    width: 100%; 
+    height: 600px;
+    margin-top: -65%;
+    margin-left: -5%;
+    position: relative;
+    animation-name: imagen-6;
+    animation-duration: 5s;
+}
+
+@keyframes imagen-6{
+    0% {  opacity: 0% ; left: 10%;}
+    100% { opacity: 100%; left: 0%;}
+}
+
+.imagen-9{
+    width: 45%;
+    height: 8.3%;
+    margin-top: 21%;
+    margin-left: 45%;
+    position: relative;
+}
+
+.imagen-10{
+    width: 100%;
+    height: 8.5%;
+    margin-top: -73%;
+    position: relative;
+    animation-name: imagen-7;
+    animation-duration: 5s;
+}
+
+@keyframes imagen-7{
+    0% {  opacity: 0% ; right: 10%;}
+    100% { opacity: 100%; right: 0%;}
+}
+
+.imagen-11{
+    width: 45%;
+    height: 8.3%;
+    margin-left: 52%;
+    margin-top: 15%;
+    position: relative;
+}
+
+
+.imagen-12{
+    width: 98%;
+    height: 8.5%;
+    margin-top: -76%;
+    margin-left: -4%;
+    position: relative;
+    animation-name: imagen-8;
+    animation-duration: 5s;
+}
+
+@keyframes imagen-8{
+    0% {  opacity: 0% ; left: 10%;}
+    100% { opacity: 100%; left: 0%;}
+}
+
+.imagen-13{
+    width: 45%;
+    height: 8.3%;
+    margin-left: 1.6%;
+    margin-top: 19%;
+    position: relative;
+}
+
+.imagen-14{
+    width: 98%;
+    height: 8.5%;
+    margin-top: -73%;
+    margin-left: 6%;
+    position: relative;
+    animation-name: imagen-8;
+    animation-duration: 5s;
+}
+
+@keyframes imagen-8{
+    0% {  opacity: 0% ; left: 10%;}
+    100% { opacity: 100%; left: 0%;}
+}
+
+.imagen-15{
+    width: 99%;
+    height: 9%;
+    margin-top: 40%;
+    position: relative;
+    animation-name: imagen-9;
+    animation-duration: 5s;
+}
+
+@keyframes imagen-9{
+    0% {  opacity: 0% ; left: 10%;}
+    100% { opacity: 100%; left: 0%;}
+}
+
+.imagen-16{
+    width: 99%;
+    height: 9%;
+    margin-top: 40%;
+    position: relative;
+    animation-name: imagen-10;
+    animation-duration: 5s;
+
+}
+
+@keyframes imagen-10{
+    0% {  opacity: 0% ; right: 10%;}
+    100% { opacity: 100%;  right: 0%;}
+}
+
+
+.text-4{
+    width: 160%;
+    height: 79px;
+    margin-left: 24%;
+    margin-top: 5%;
+    font-size: 2.9em;
+    position: relative;
+
+}
+
+.text-4 h1:hover{
+    transition: all 600ms;
+    transform: scale(1.1);
+    color: #FF4A23;
+}
+
+.imagen-17{
+    width: 148%;
+    height: 13%;
+    margin-left: -60%;
+    margin-top: 72%;    
+    position: relative;
+    animation-name: imagen-11;
+    animation-duration: 5s;
+}
+
+@keyframes imagen-11{
+    0% {  opacity: 0% ; left: 10%;}
+    100% { opacity: 100%;  left: 0%;}
+}
+
+.imagen-18{
+    width: 148%;
+    height: 13%;
+    margin-top: 86%;
+    position: relative;
+    animation-name: imagen-12;
+    animation-duration: 5s;
+}
+
+@keyframes imagen-12{
+    0% {  opacity: 0% ; right: 10%;}
+    100% { opacity: 100%;  right: 0%;}
+}
+
+
+.imagen-19{
+    width: 148%;
+    height: 12%;
+    margin-top: 80%;
+    margin-left: -70%;
+    position: relative;
+    animation-name: imagen-13;
+    animation-duration: 5s;
+}
+
+@keyframes imagen-13{
+    0% {  opacity: 0% ; left: 10%;}
+    100% { opacity: 100%;  left: 0%;}
+}
+
+.btn{
+    width: 150px; 
+    height: 25px; 
+    border-radius: 70px; 
+    font-size: 17px; 
+    font-family: Arial; 
+    margin-top: -155px; 
+    margin-left: 31%; 
+    position: absolute; 
+    border-color: #F32C00; 
+    text-align: center; 
+    text-decoration: none; 
+    padding-top: 10px;
+    background-color: #ffff;
+    color: #AA2103;
+    cursor: pointer;
+    border: 2px solid #AA2103;
+}
+.btn:hover{
+    color: white;
+    background-color: #FF4A23;
+}
+
+.btn-1{
+    width: 150px; 
+    height: 25px; 
+    border-radius: 70px; 
+    font-size: 17px; 
+    font-family: Arial; 
+    margin-top: 3px; 
+    margin-left: 11.5%; 
+    position: absolute; 
+    border-color: #F32C00; 
+    text-align: center; 
+    text-decoration: none; 
+    padding-top: 10px;
+    background-color: #ffff;
+    color: #AA2103;
+    cursor: pointer;
+    border: 2px solid #AA2103;
+}
+.btn-1:hover{
+    color: white;
+    background-color: #FF4A23;
+}
+
+.btn-2{
+    width: 150px; 
+    height: 25px; 
+    border-radius: 70px; 
+    font-size: 17px; 
+    font-family: Arial; 
+    margin-top: -170px; 
+    margin-left: 5%; 
+    position: absolute; 
+    border-color: #F32C00; 
+    text-align: center; 
+    text-decoration: none; 
+    padding-top: 10px;
+    background-color: #ffff;
+    color: #AA2103;
+    cursor: pointer;
+    border: 2px solid #AA2103;
+}
+.btn-2:hover{
+    color: white;
+    background-color: #FF4A23;
+}
+
+.btn-3{
+    width: 150px; 
+    height: 25px; 
+    border-radius: 70px; 
+    font-size: 17px; 
+    font-family: Arial; 
+    margin-top: -110px; 
+    margin-left: 10%; 
+    position: absolute; 
+    border-color: #F32C00; 
+    text-align: center; 
+    text-decoration: none; 
+    padding-top: 10px;
+    background-color: #ffff;
+    color: #AA2103;
+    cursor: pointer;
+    border: 2px solid #AA2103;
+}
+.btn-3:hover{
+    color: white;
+    background-color: #FF4A23;
+}
+
+.btn-4{
+    width: 150px; 
+    height: 25px; 
+    border-radius: 70px; 
+    font-size: 17px; 
+    font-family: Arial; 
+    margin-top: -140px; 
+    margin-left: 33%; 
+    position: absolute; 
+    border-color: #F32C00; 
+    text-align: center; 
+    text-decoration: none; 
+    padding-top: 10px;
+    background-color: #ffff;
+    color: #AA2103;
+    cursor: pointer;
+    border: 2px solid #AA2103;
+}
+.btn-4:hover{
+    color: white;
+    background-color: #FF4A23;
+}
+
+.btn-5{
+    width: 150px; 
+    height: 25px; 
+    border-radius: 70px; 
+    font-size: 17px; 
+    font-family: Arial; 
+    margin-top: -30px; 
+    margin-left: 7.5%; 
+    position: absolute; 
+    border-color: #F32C00; 
+    text-align: center; 
+    text-decoration: none; 
+    padding-top: 10px;
+    background-color: #ffff;
+    color: #AA2103;
+    cursor: pointer;
+    border: 2px solid #AA2103;
+}
+.btn-5:hover{
+    color: white;
+    background-color: #FF4A23;
+}
+
+.btn-6{
+    width: 150px; 
+    height: 25px; 
+    border-radius: 70px; 
+    font-size: 17px; 
+    font-family: Arial; 
+    margin-top: -15px; 
+    margin-left: 33%; 
+    position: absolute; 
+    border-color: #F32C00; 
+    text-align: center; 
+    text-decoration: none; 
+    padding-top: 10px;
+    background-color: #ffff;
+    color: #AA2103;
+    cursor: pointer;
+    border: 2px solid #AA2103;
+}
+.btn-6:hover{
+    color: white;
+    background-color: #FF4A23;
+}
+
+.banner{
+    width: 100%;
+    height: 400px;
+    margin-top: 288%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
