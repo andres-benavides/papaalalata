@@ -5,8 +5,9 @@
 
 div#General{
     width: 1349px;
-    height: 4895px;
+    height: 5050px;
     background-color: #FEB902;
+    overflow: hidden;
 
     /*overflow: hidden;  POR REVISAR   */
 }
@@ -28,26 +29,23 @@ margin-top: -9%;
 width: 67%;
 height: 100%;
 margin-top: -120px;
-padding-top: 1%;
 margin-left: 19%;
-position: relative;
+
 
 
 }
 
 .menu {
-width: 100%;
-height: 1005;
+width: 89%;
+height: 9%;
 display: flex;
-padding: 40px;
+padding: 50px;
 margin-left: 4%; 
 font-family: "Bebas Neue", sans-serif;
-font-weight: 400;
-font-style: normal; 
+font-weight: 400; 
 font-size: 31px;
-position: relative;
 color: #000;
-margin-top: 0px;
+position: relative;
 
 }
 
@@ -82,7 +80,6 @@ position: relative;
 }
 
 .imagen{
-position: relative;
 width: 40px;
 margin: 0 3px;
 border-radius: 50%;
@@ -93,8 +90,20 @@ border-radius: 50%;
 
 div#main{   
     width: 1349px;
-    height: 698px;
+    height: 698vh;
     position: relative;
+}
+
+.btn-wsp{
+    position: fixed;
+    width: 190px;
+    height: 90px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 50px;
+    border-radius: 12px;
+    text-align: center;
+    z-index: 100;
 }
 
 div#texto-1{    

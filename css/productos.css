@@ -5,8 +5,9 @@
 
 .general{
     width: 1348px;
-    height: 5921px;
+    height: 5875px;
     background-color: rgb(11, 107, 203);
+    overflow: hidden;
 
 }
 
@@ -32,13 +33,12 @@ position: relative;
 
 .menu {
 width: 100%;
-height: 1005;
+height: 40%;
 display: flex;
 padding: 40px;
 margin-left: 4%; 
 font-family: "Bebas Neue", sans-serif;
-font-weight: 400;
-font-style: normal; 
+font-weight: 400; 
 font-size: 31px;
 position: relative;
 color: #000;
@@ -105,8 +105,8 @@ border-radius: 50%;
 }
 
 .text-1{ 
-    width: 100%;
-    margin-top: 4%;
+    width: 50%;
+    margin-top: 6%;
     font-size: 4.7em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #1A9FEC;
@@ -117,7 +117,7 @@ border-radius: 50%;
 }
    
 @keyframes mtexto{
-    0% { opacity: 0%; left: 50%;}
+    0% { opacity: 0%; left: 30%;}
     100% { opacity: 100%; left: 0%;}
 }
 
@@ -197,7 +197,7 @@ border-radius: 50%;
     position: relative;
     transform: rotate(18deg);
     animation-name: imagen-3;
-    animation-duration: 5s;
+    animation-duration: 6s;
 }
 
 @keyframes imagen-3{
@@ -212,7 +212,7 @@ border-radius: 50%;
     margin-top: -10%;
     position: relative;
     animation-name: imagen-4;
-    animation-duration: 5s;
+    animation-duration: 6s;
 }
 
 @keyframes imagen-4{
@@ -233,7 +233,7 @@ border-radius: 50%;
     margin-top: -77%;
     margin-left: 10%;
     animation-name: imagen-5;
-    animation-duration: 5s;
+    animation-duration: 12s;
 }
 @keyframes imagen-5{
     0% {  opacity: 0% ; left: 20%;}
@@ -256,7 +256,7 @@ border-radius: 50%;
     margin-left: -5%;
     position: relative;
     animation-name: imagen-6;
-    animation-duration: 5s;
+    animation-duration: 12s;
 }
 
 @keyframes imagen-6{
@@ -278,7 +278,7 @@ border-radius: 50%;
     margin-top: -73%;
     position: relative;
     animation-name: imagen-7;
-    animation-duration: 5s;
+    animation-duration: 12s;
 }
 
 @keyframes imagen-7{
@@ -302,7 +302,7 @@ border-radius: 50%;
     margin-left: -4%;
     position: relative;
     animation-name: imagen-8;
-    animation-duration: 5s;
+    animation-duration: 12s;
 }
 
 @keyframes imagen-8{
@@ -325,7 +325,7 @@ border-radius: 50%;
     margin-left: 6%;
     position: relative;
     animation-name: imagen-8;
-    animation-duration: 5s;
+    animation-duration: 12s;
 }
 
 @keyframes imagen-8{
@@ -339,7 +339,7 @@ border-radius: 50%;
     margin-top: 40%;
     position: relative;
     animation-name: imagen-9;
-    animation-duration: 5s;
+    animation-duration: 14s;
 }
 
 @keyframes imagen-9{
@@ -353,7 +353,7 @@ border-radius: 50%;
     margin-top: 40%;
     position: relative;
     animation-name: imagen-10;
-    animation-duration: 5s;
+    animation-duration: 14s;
 
 }
 
@@ -588,10 +588,21 @@ border-radius: 50%;
 .banner{
     width: 100%;
     height: 400px;
-    margin-top: 288%;
+    margin-top: 280%;
 
 }
 
+.btn-wsp{
+    position: fixed;
+    width: 190px;
+    height: 90px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 50px;
+    border-radius: 12px;
+    text-align: center;
+    z-index: 100;
+}
 
 
 
