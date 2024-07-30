@@ -3,9 +3,15 @@
     padding: 0%;
 }
 
+body{
+    background: #c0c0c0;
+}
+
+
 .general{
 width: 1348.9px;
 height: 1478px;
+margin: auto;
 overflow: hidden;
 
 }
@@ -142,15 +148,12 @@ background-color: #029BDE;
 
 }
 
-
 .btn-wsp{
     position: fixed;
     width: 190px;
     height: 90px;
     line-height: 55px;
     bottom: 30px;
-    right: 50px;
     border-radius: 12px;
-    text-align: center;
     z-index: 100;
 }

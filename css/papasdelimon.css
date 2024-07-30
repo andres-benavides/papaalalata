@@ -3,14 +3,19 @@
     padding: 0%;
 }
 
+body{
+    background: #c0c0c0;
+}
+
 .general{
-width: 1348.9px;
+width: 1348px;
 height: 1478px;
+margin: auto;
 overflow: hidden;
 
 }
 header {
-width: 1348.9px;
+width: 1348px;
 height: 115px;
 }
 #logo{
@@ -148,8 +153,6 @@ background-color: #029BDE;
     height: 90px;
     line-height: 55px;
     bottom: 30px;
-    right: 50px;
     border-radius: 12px;
-    text-align: center;
     z-index: 100;
 }

@@ -3,13 +3,17 @@
     padding: 0;
 }
 
+body{
+    background: #c0c0c0;
+}
+
 .general{
     width: 1349px;
     height: 3652px;
     overflow: hidden;
+    margin: auto;
     background-position: center;
     position: relative;
-    background-color: gray;
 }
 
 
@@ -284,8 +288,6 @@ h1{
     height: 90px;
     line-height: 55px;
     bottom: 30px;
-    right: 50px;
     border-radius: 12px;
-    text-align: center;
     z-index: 100;
 }

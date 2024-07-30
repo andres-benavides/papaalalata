@@ -3,10 +3,16 @@
     margin: 0;
 }
 
+body{
+    background: #c0c0c0;
+}
+
+
 .general{
     width: 1349px;
     height: 1992px;
     overflow: hidden;
+    margin: auto;
     background-position: center;
     position: relative;
     background-color: gray;
@@ -133,7 +139,7 @@ h1{
 #seccion-2{
 
     width: 135%;
-    height: 125vh;
+    height: 770px;
     position: relative;
     margin-top: -0.5%;
     background-size: 100%;
@@ -150,7 +156,7 @@ h1{
 
 .form{
 width: 40%; 
-height: 95vh;
+height: 500px;
 background-color: #F1F1F1;
 border-radius: 15px;
 position: relative;
@@ -161,6 +167,8 @@ margin-left: 28%;
 }
 
 .campo{
+    max-width: 1000px;
+    max-height: 50px;
     margin-top: 10%;
     padding: 25px;
     display: flexbox;
@@ -219,8 +227,11 @@ margin-left: 28%;
 
 
 .comentarios{
-    width: 90%;
-    height: 30%;
+    width: 490px;
+    height: 80px;
+    max-width: 700px;
+    max-height: 700px;
+    position: relative;
     margin-top: 2%;
     margin-left: 5%;
 }
@@ -229,14 +240,13 @@ margin-left: 28%;
 .enviar{
     width: 90%;
     height: 5%;
-    margin-top: 3%;
+    margin-top: 5%;
     font-size: 2em;
     margin-left: 2%;
     font-family: arial;
     color: #fff;
     text-align: center;
-    padding: 15px;
-    
+    padding: 12px;
     background-color: #2d0266;
     border-radius: 11px;
     border: none;
@@ -266,8 +276,6 @@ margin-left: 28%;
     height: 90px;
     line-height: 55px;
     bottom: 30px;
-    right: 50px;
     border-radius: 12px;
-    text-align: center;
     z-index: 100;
 }

@@ -3,9 +3,15 @@
     margin: 0;
 }
 
+body{
+    background: #c0c0c0;
+}
+
+
 .general{
     width: 1348px;
     height: 5875px;
+    margin: auto;
     background-color: rgb(11, 107, 203);
     overflow: hidden;
 
@@ -82,14 +88,14 @@ border-radius: 50%;
 /*Inicio de main*/
 .main{
     width: 1348px;
-    height: 213vh;
+    height: 5180px;
     display: flex;
-    margin-top: -3;
+
 }
 
 .izq{
     width: 50%;
-    height: 5188px;
+    height: 5180px;
     background-image: url(../img/izq.webp);
     background-size: 100%;
     margin-top: -0.5%;
@@ -98,19 +104,19 @@ border-radius: 50%;
 
 .der{
     width: 50%;
-    height: 5188px;
+    height: 5180px;
     background-image: url(../img/fondo\ azulArtboard\ 1.webp);
     background-size: 100%;
     margin-top: -0.5%;
 }
 
 .text-1{ 
-    width: 50%;
-    margin-top: 6%;
+    width: 100%;
+    margin-top: 11%;
     font-size: 4.7em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #1A9FEC;
-    position: absolute;
+    position: relative;
     animation-name: mtexto;
     animation-duration: 5s;
 
@@ -125,7 +131,7 @@ border-radius: 50%;
     width: 100%;
     margin-left: 48%;
     font-size: 4.1em;
-    margin-top: 188px;
+    margin-top: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #F9F493;
     position: relative;
@@ -251,8 +257,8 @@ border-radius: 50%;
 
 .imagen-8{
     width: 100%; 
-    height: 600px;
-    margin-top: -65%;
+    height: 11%;
+    margin-top: -52%;
     margin-left: -5%;
     position: relative;
     animation-name: imagen-6;
@@ -290,7 +296,7 @@ border-radius: 50%;
     width: 45%;
     height: 8.3%;
     margin-left: 52%;
-    margin-top: 15%;
+    margin-top: 26%;
     position: relative;
 }
 
@@ -383,7 +389,7 @@ border-radius: 50%;
     width: 148%;
     height: 13%;
     margin-left: -60%;
-    margin-top: 72%;    
+    margin-top: 65%;    
     position: relative;
     animation-name: imagen-11;
     animation-duration: 5s;
@@ -412,7 +418,7 @@ border-radius: 50%;
 .imagen-19{
     width: 148%;
     height: 12%;
-    margin-top: 80%;
+    margin-top: 74%;
     margin-left: -70%;
     position: relative;
     animation-name: imagen-13;
@@ -430,8 +436,9 @@ border-radius: 50%;
     border-radius: 70px; 
     font-size: 17px; 
     font-family: Arial; 
-    margin-top: -155px; 
-    margin-left: 31%; 
+    margin-top: 395px; 
+    margin-left: -45%;
+    border-style: solid; 
     position: absolute; 
     border-color: #F32C00; 
     text-align: center; 
@@ -453,8 +460,8 @@ border-radius: 50%;
     border-radius: 70px; 
     font-size: 17px; 
     font-family: Arial; 
-    margin-top: 3px; 
-    margin-left: 11.5%; 
+    margin-top: 570px; 
+    margin-left: -71%; 
     position: absolute; 
     border-color: #F32C00; 
     text-align: center; 
@@ -476,8 +483,8 @@ border-radius: 50%;
     border-radius: 70px; 
     font-size: 17px; 
     font-family: Arial; 
-    margin-top: -170px; 
-    margin-left: 5%; 
+    margin-top: 270px; 
+    margin-left: -95%; 
     position: absolute; 
     border-color: #F32C00; 
     text-align: center; 
@@ -499,8 +506,8 @@ border-radius: 50%;
     border-radius: 70px; 
     font-size: 17px; 
     font-family: Arial; 
-    margin-top: -110px; 
-    margin-left: 10%; 
+    margin-top: 325px; 
+    margin-left: -78%; 
     position: absolute; 
     border-color: #F32C00; 
     text-align: center; 
@@ -522,8 +529,8 @@ border-radius: 50%;
     border-radius: 70px; 
     font-size: 17px; 
     font-family: Arial; 
-    margin-top: -140px; 
-    margin-left: 33%; 
+    margin-top: 300px; 
+    margin-left: -38%; 
     position: absolute; 
     border-color: #F32C00; 
     text-align: center; 
@@ -545,8 +552,8 @@ border-radius: 50%;
     border-radius: 70px; 
     font-size: 17px; 
     font-family: Arial; 
-    margin-top: -30px; 
-    margin-left: 7.5%; 
+    margin-top: 430px; 
+    margin-left: -83%; 
     position: absolute; 
     border-color: #F32C00; 
     text-align: center; 
@@ -568,8 +575,8 @@ border-radius: 50%;
     border-radius: 70px; 
     font-size: 17px; 
     font-family: Arial; 
-    margin-top: -15px; 
-    margin-left: 33%; 
+    margin-top: 455px; 
+    margin-left: -35%; 
     position: absolute; 
     border-color: #F32C00; 
     text-align: center; 
@@ -588,7 +595,8 @@ border-radius: 50%;
 .banner{
     width: 100%;
     height: 400px;
-    margin-top: 280%;
+    margin-top: -1%;
+
 
 }
 
@@ -598,9 +606,7 @@ border-radius: 50%;
     height: 90px;
     line-height: 55px;
     bottom: 30px;
-    right: 50px;
     border-radius: 12px;
-    text-align: center;
     z-index: 100;
 }
 

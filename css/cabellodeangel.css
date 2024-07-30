@@ -3,6 +3,10 @@
     padding: 0px;
    }
    
+body{
+    background: #c0c0c0;
+}
+
    div#General{
        display: flex;
        margin: auto;
@@ -129,8 +133,6 @@ div#seccion-2{
     height: 90px;
     line-height: 55px;
     bottom: 30px;
-    right: 50px;
     border-radius: 12px;
-    text-align: center;
     z-index: 100;
 }

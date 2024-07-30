@@ -3,14 +3,19 @@
     padding: 0%;
 }
 
+body{
+    background: #c0c0c0;
+}
+
 .general{
-width: 1348.9px;
+width: 1348px;
 height: 1478px;
+margin: auto;
 overflow: hidden;
 
 }
 header {
-width: 1348.9px;
+width: 1348px;
 height: 115px;
 }
 #logo{
@@ -78,7 +83,7 @@ border-radius: 50%;
 
 
 div#seccion-1{
-width: 1348.9px;
+width: 1348px;
 height: 550px;
 margin-top: -35px;
 background-color: #fff;
@@ -117,7 +122,7 @@ border-radius: 50%;
 }
 
 div#seccion-2{
-width: 1348.9px;
+width: 1348px;
 height: 600px;
 position:relative;
 }
@@ -148,8 +153,6 @@ background-color: #029BDE;
     height: 90px;
     line-height: 55px;
     bottom: 30px;
-    right: 50px;
     border-radius: 12px;
-    text-align: center;
     z-index: 100;
 }
