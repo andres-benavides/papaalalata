@@ -154,36 +154,35 @@ h1{
 
 }
 
-.form{
+.form-parent{
 width: 40%; 
-height: 500px;
+height: 550px;
 background-color: #F1F1F1;
-border-radius: 15px;
+/* border-radius: 15px; */
 position: relative;
 margin-top: 7%;
 margin-left: 28%;
-
-
+padding: 20px;
 }
 
 .campo{
     max-width: 1000px;
     max-height: 50px;
-    margin-top: 10%;
-    padding: 25px;
+    margin-top: 5%;
+    padding: 14px;
     display: flexbox;
-    border-radius: 12px;
+    /* border-radius: 12px; */
     margin-left: 35px;
-    background-color: #F6CD61;
+    background-color: #e8ca53;
     border: none;
 }
 .campos{
     margin-top: 5%;
-    padding: 25px;
+    padding: 14px;
     display: flexbox;
-    border-radius: 12px;
+    /* border-radius: 12px; */
     margin-left: 35px;
-    background-color: #F6CD61;
+    background-color: #e8ca53;
     border: none;
 }
 
@@ -192,7 +191,19 @@ margin-left: 28%;
 .desplegable{
     width: 100px;
 }
-
+#captcha-content{
+    margin-top: 2%;
+    padding: 2px;
+    display: flexbox;
+    border-radius: 12px;
+    margin-left: 35px;
+}
+#code{
+    width: 100px;
+    height: 25px;
+    /* background-color: #e8ca53; */
+    border: none;
+}
 .links a{
  text-decoration: none;
  display: block;
@@ -204,14 +215,13 @@ margin-left: 28%;
 }
 
 .links{
-    width: 215px;
-    margin-top: 15%;
+    width: 206px;
+    margin-top: 24%;
     margin-left: 35%;
-    background-color: #F6CD61;
-    border-radius: 11px;
+    background-color: #e8ca53;
+    /* border-radius: 11px; */
     border: none;
     padding: 12px;
-    width: 230px;
     position: relative;
     color: gray;
 }
@@ -241,7 +251,7 @@ margin-left: 28%;
     width: 90%;
     height: 5%;
     margin-top: 5%;
-    font-size: 2em;
+    font-size: 1em;
     margin-left: 2%;
     font-family: arial;
     color: #fff;
@@ -250,15 +260,21 @@ margin-left: 28%;
     background-color: #2d0266;
     border-radius: 11px;
     border: none;
+    cursor: pointer;
 }
 
 .enviar:hover{
-    color: #ec8600;
-    background-color: #F1F1F1;
-    opacity: 90%;
+    background-color: #2d0266;
+    opacity: 50%;
     border-color: #ec8600;
 }
 
+#save-massage{
+    margin-top: 2%;
+    margin-left: 3%;
+    color: #45cccc;
+    display: none;
+}
 .maps{
     width: 136%;
     height: 400px;
