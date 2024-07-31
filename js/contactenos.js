@@ -9,27 +9,56 @@ $( document ).ready(function() {
     resourceExtra: [],
     clickRefresh: true,
   });
+  //validar email
+  $('#email').on('keypress',function(e){
+    var email = $('#email').val();
+    var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; 
+    console.log(email)
+    if (!emailRegex.test(email)) {
+        $('#error-message').text('Por favor, introduce un correo electrónico válido.');
+        $('#error-message').fadeIn();
+        return; 
+    } else {
+        $('#error-message').text('');
+    }
+  })
 
+  
   //ENVIAR FORMULARIO
   $('#btn-form').on('click', function(e){
     e.preventDefault();
     const ans = captcha.valid($('input[name="code"]').val());
+
+    var email = $('#email').val();
+    var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; 
+
+    if (!emailRegex.test(email)) {
+        $('#error-message').text('Por favor, introduce un correo electrónico válido.');
+        $('#error-message').fadeIn();
+        return; 
+    } else {
+        $('#error-message').text('');
+    }
    
     if(ans){
-      $('#contact-form')[0].reset();
-      $('#save-massage').fadeIn();
+      $('#btn-form').addClass('disabled');
+    
+       $.ajax({
+        url: './core/insert_contact.php',
+        type: 'POST',
+        data: $('#contact-form').serialize(),
+        success: function(response) {
+              $('#contact-form')[0].reset();
+              $('#save-message').fadeIn();
+              $('#btn-form').removeClass('disabled');
+        },
+        error: function(xhr, status, error) {
+            console.error(xhr.responseText);
+            $('#btn-form').removeClass('disabled');
+        }
+    });
     }
-    // $.ajax({
-    //     url: 'http://localhost:8585/papaalalata/insert_contact.php',
-    //     type: 'POST',
-    //     data: $('#contact-form').serialize(),
-    //     success: function(response) {
-    //         alert(response);
-    //     },
-    //     error: function(xhr, status, error) {
-    //         console.error(xhr.responseText);
-    //     }
-    // });
+   
   });
  
 });

@@ -269,10 +269,17 @@ padding: 20px;
     border-color: #ec8600;
 }
 
-#save-massage{
+#messages{
     margin-top: 2%;
-    margin-left: 3%;
+    margin-left: 3%; 
+}
+#save-message{
     color: #45cccc;
+    display: none;
+}
+#error-message{
+
+    color: red;
     display: none;
 }
 .maps{
@@ -294,4 +301,10 @@ padding: 20px;
     bottom: 30px;
     border-radius: 12px;
     z-index: 100;
+}
+.disabled {
+    pointer-events: none;  /* Deshabilita los eventos de clic */
+    opacity: 0.6;  /* Cambia la apariencia para que parezca deshabilitado */
+    background-color: #d3d3d3;  /* Cambia el color de fondo para parecer deshabilitado */
+    cursor: not-allowed;  /* Cambia el cursor al pasar por encima del botón */
 }

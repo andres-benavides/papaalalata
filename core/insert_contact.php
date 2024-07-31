@@ -18,10 +18,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $product = $_POST['product'] ?? '';
     $message = $_POST['message'] ?? '';
 
-    if (empty($name) || empty($email) || empty($phone) || empty($product)) {
-        echo "All fields are required.";
-        exit;
-    }
 
     try {
         $stmt = $pdo->prepare("INSERT INTO contacts (name, lastname, email, phone, product, message) VALUES (:name, :lastname, :email, :phone, :product, :message)");
