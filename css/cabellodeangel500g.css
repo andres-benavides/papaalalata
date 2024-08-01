@@ -64,6 +64,54 @@ color: #000;
 color: #FF4A23;
 }
 
+.sub-menu{
+    width: 120px;
+    height: 98px;
+    margin-left: -50px;
+}
+
+.inicio-sub{
+    color: #000;
+    border-style: 2px;
+    margin-top: none;
+    font-size: 25px; 
+
+}
+
+.inicio-sub:hover{
+    color: #FF4A23;
+    background-color: #fff;
+    margin: none;
+}
+
+.menu li ul li{
+    position: relative;    
+ }
+
+
+.menu li ul li ul{
+    margin-left: 80px;
+    margin-top: -45px;
+    right: -50px;
+    top:  0px; 
+}
+
+
+.menu li ul li ul a{
+    list-style: none;
+    text-decoration: none;   
+}
+
+.menu li ul li ul li {
+    display: none;
+}
+
+.menu li ul li:hover ul li {
+    display: block;
+}
+
+
+
 #redes{
 display: flex;
 width: 10%;
