@@ -1,0 +1,19 @@
+{
+  "chipsnaturales8g":{
+    "images":[
+      "img/Natural 8gr.png",
+      "img/Natural 8gr.png"
+    ],
+    "title":"Papa sabor a natural",
+    "description":"Disfruta el sabro natural de la papa como solo papa a la lata sabe hacerlo.Elaborada con papa seleccionada, aceite vegetal y savorizante. Ideal para la lonchera o como pasabocas.",
+    "presentation": "8 Grs  Paquete de 30 unds (Treinta), en caja de 11 trentenas."
+  },
+  "papasdelimon":{
+    "images":[
+      "img/Natural 8gr.png"
+    ],
+    "title":"PAPAS SABOR LIMON",
+    "description":"Disfruta el sabro natural de la papa como solo papa a la<br> lata sabe hacerlo. <br>Elaborada con papa seleccionada, aceite vegetal y<br>savorizante. Ideal para la lonchera o como pasabocas.",
+    "presentation": "8 Grs  Paquete de 30 unds (Treinta), en caja de 11 trentenas."
+  }
+}
