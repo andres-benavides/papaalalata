@@ -331,9 +331,10 @@ h1{
 
 .btn-wsp{
     position: fixed;
-    width: 190px;
-    height: 90px;
+    width: 300px;
+    height: 150px;
     line-height: 55px;
+    margin-left: 750px;
     bottom: 30px;
     border-radius: 12px;
     z-index: 100;

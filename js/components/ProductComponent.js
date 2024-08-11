@@ -12,18 +12,20 @@ const template = (data)=>{
                         
             </div>
             <div id="texto-1">
-                <p  style=" color: #004FF7; font-family:verdana ; font-size: 3em;">${data.title}</p><br>
-                <h2 style=" color: #F70022; font-family:'Courier New', Courier, monospace;">Descripción</h2>
-                <h3 style=" color: #000; font-family: Arial;">${data.description}</h3><br>
-                <h2 style=" color: #F70022; font-family: 'Courier New', Courier, monospace;">Presentación</h2><br>
-                <h3 style=" color: #000; font-family: arial;">Presentación: ${data.presentation}</h3>
+                <p  style=" color: #004FF7; font-family:JOckey one ; font-size: 3em;">${data.title}</p><br>
+                <h2 style=" color: #F70022; font-family:JOckey one;">Descripción</h2>
+                <h3 style=" color: #000; font-family: proxima nova;">${data.description}</h3><br>
+                <h2 style=" color: #F70022; font-family: JOckey one;">Presentación</h2><br>
+                <h3 style=" color: #000; font-family: proxima nova;">Presentación: ${data.presentation}</h3>
             </div>
-        </div>
-        <div id="redes">
+
+            <div id="redes-1">
             <a href="https://www.facebook.com/Papa-a-la-lata-111384327119353/" target="_blank"><img  class="imagen" src="img/facebook.png"  alt=""></a>
             <a href="https://www.instagram.com/papaalalata?igsh=ZHdieDJkbDhpeTJv" target="_blank"><img class="imagen" src="img/instagram.png" alt=""></a>
             <a href="https://wa.link/t2idq5" target="_blank"><img class="imagen" src="img/WhathsApp.png" alt=""></a>
         </div>
+        </div>
+
     </div>`);
 }
 class ProductComponent extends HTMLElement {

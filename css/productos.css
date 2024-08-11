@@ -402,7 +402,7 @@ border-radius: 50%;
 .imagen-16{
     width: 99%;
     height: 9%;
-    margin-top: 40%;
+    margin-top: 30%;
     position: relative;
     animation-name: imagen-10;
     animation-duration: 14s;
@@ -419,7 +419,7 @@ border-radius: 50%;
     width: 160%;
     height: 79px;
     margin-left: 24%;
-    margin-top: 5%;
+    margin-top: 10%;
     font-size: 2.9em;
     position: relative;
 
@@ -435,7 +435,7 @@ border-radius: 50%;
     width: 148%;
     height: 13%;
     margin-left: -60%;
-    margin-top: 65%;    
+    margin-top: 69%;    
     position: relative;
     animation-name: imagen-11;
     animation-duration: 5s;
@@ -447,7 +447,7 @@ border-radius: 50%;
 }
 
 .imagen-18{
-    width: 148%;
+    width: 168%;
     height: 13%;
     margin-top: 86%;
     position: relative;
@@ -462,7 +462,7 @@ border-radius: 50%;
 
 
 .imagen-19{
-    width: 148%;
+    width: 158%;
     height: 12%;
     margin-top: 74%;
     margin-left: -70%;
@@ -648,9 +648,10 @@ border-radius: 50%;
 
 .btn-wsp{
     position: fixed;
-    width: 190px;
-    height: 90px;
+    width: 300px;
+    height: 150px;
     line-height: 55px;
+    margin-left: 1050px;
     bottom: 30px;
     border-radius: 12px;
     z-index: 100;
