@@ -15,26 +15,26 @@ const template = html`
                 <li style="list-style: none;" >
                     <a class="inicio-1" style=" text-align: center; text-decoration: none; " >Cabello de angel</a>
                         <ul class="sub-menu-1">
-                            <li style="width: 100%; height: 25px;" ><a   class="inicio-sub-1" href="#">cabello de ángel 1.000gr</a></li>
-                            <li style="width: 100%; height: 25px;" ><a  class="inicio-sub-1" href="#">cabello de ángel 500gr  </a></li>
-                            <li style="width: 100%; height: 25px;" ><a  class="inicio-sub-1" href="#">cabello de ángel 150gr</a></li>
+                            <li style="width: 100%; height: 25px;" ><a   class="inicio-sub-1" href="Cabellodeangel.html">cabello de ángel 1.000gr</a></li>
+                            <li style="width: 100%; height: 25px;" ><a  class="inicio-sub-1" href="Cabellodeangel500g.html">cabello de ángel 500gr  </a></li>
+                            <li style="width: 100%; height: 25px;" ><a  class="inicio-sub-1" href="Cabellodeangel150g.html">cabello de ángel 150gr</a></li>
                         </ul>
                 </li>
                 <li style="list-style: none;"  >
                     <a class="inicio-1" style=" text-align: center; text-decoration: none;" >Hojuelas</a>
                         <ul class="sub-menu-2" style="margin-top:-5%;" >
-                            <li style="width: 100%; height: 25px;" ><a   class="inicio-sub-2" href="#">Hojuela 450gr</a></li>
-                            <li style="width: 100%; height: 25px;" ><a  class="inicio-sub-2" href="#">Hojuela 225gr</a></li>
+                            <li style="width: 100%; height: 25px;" ><a   class="inicio-sub-2" href="hojuelas450.html">Hojuela 450gr</a></li>
+                            <li style="width: 100%; height: 25px;" ><a  class="inicio-sub-2" href="Hojuelas.html">Hojuela 225gr</a></li>
                         </ul>
                 </li>
                 <li style="list-style: none;" >
-                    <a class="inicio-1" href="Snacks.html" style=" text-align: center; text-decoration: none;" >Snacks</a>
+                    <a class="inicio-1" style=" text-align: center; text-decoration: none;" >Snacks</a>
                     <ul class="sub-menu-3" style="margin-top:10%;">
                         <li style="width: 100%; height: 15%; margin-top:-5px;" ><a   class="inicio-sub-3" href="chipsnaturales8g.html">Papa chips 8gr</a></li>
-                        <li style="width: 100%; height: 25%; margin-top:10px;" ><a  class="inicio-sub-3" href="chipsbbq.html">Papa chips 22gr</a></li>
-                        <li style="width: 100%; height: 25%;" ><a  class="inicio-sub-3" href="chipsdelimon.html">Papa chips 32gr</a></li>
-                        <li style="width: 100%; height: 25%;" ><a   class="inicio-sub-3" href="trocillos_pollo.html">Pike todo Natural</a></li>
-                        <li style="width: 100%; height: 25%;" ><a   class="inicio-sub-3" href="trocillos_pollo.html">Pike todo Bbq</a></li>
+                        <li style="width: 100%; height: 25%; margin-top:10px;" ><a  class="inicio-sub-3" href="chipsdelimon.html">Papa chips 22gr</a></li>
+                        <li style="width: 100%; height: 25%;" ><a  class="inicio-sub-3" href="#">Papa chips 32gr</a></li>
+                        <li style="width: 100%; height: 25%;" ><a   class="inicio-sub-3" href="#">Pike todo Natural</a></li>
+                        <li style="width: 100%; height: 25%;" ><a   class="inicio-sub-3" href="#">Pike todo Bbq</a></li>
                         <li style="width: 100%; height: 25%;" ><a   class="inicio-sub-3" href="trocillos_pollo.html">Trocillos</a></li>
                     </ul>
                 </li>
