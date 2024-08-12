@@ -35,52 +35,115 @@ position: relative;
 }
 
 .menu {
-width: 100%;
-height: 100%;
-display: flex;
-padding: 40px;
-margin-left: 4%; 
-font-family: "Bebas Neue", sans-serif;
-font-weight: 400;
-font-style: normal; 
-font-size: 31px;
-position: relative;
-color: #000;
-}
-
-li ul{
-display: none;
-}
-
-li:hover ul{
-display: block;
-}
-
-.inicio{
-color: #000;
-}
-.inicio:hover{
-color: #FF4A23;
-}
-
-.sub-menu{
-    width: 120px;
-    height: 98px;
-    margin-left: -50px;
-}
-
-.inicio-sub{
+    width: 89%;
+    height: 9%;
+    display: flex;
+    padding: 50px;
+    margin-left: 4%; 
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400; 
+    font-size: 31px;
     color: #000;
-    border-style: 2px;
+    position: relative;
+}
+    
+li ul{
+    display: none;
+    margin-top: 0px;
+    position: absolute;
+}
+    
+li:hover ul{
+    margin-left: 45px;
+    display: block;
+    
+}
+    
+.inicio{
+    color: #000;
     margin-top: none;
-    font-size: 25px; 
-
+}
+    
+.inicio:hover{
+        color: #FF4A23;
+        margin: none;
+}
+    
+.inicio-1{
+        color: #000;
+        font-size: 30px;
+}
+    
+    
+.inicio:hover{
+    color: #FF4A23;
+    margin: none;
+}
+    
+.sub-menu-1{
+        width: 168px;
+        height: 80px;
+        padding-top: 40px;
+        margin-right: -119px;
 }
 
-.inicio-sub:hover{
-    color: #FF4A23;
-    background-color: #fff;
-    margin: none;
+.inicio-sub-1{
+        color: #017ffd;
+        border-style: 2px;
+        font-size: 20px; 
+} 
+
+.inicio-sub-1:hover{
+        color: #FF4A23;
+        margin: none;
+        border-radius: 12px;
+        background-color: #fff;
+}
+    
+.sub-menu-2{
+        width: 95px;
+        height:60px;
+        margin-right: 25px;
+}
+    
+.inicio-sub-2{
+        color: #017ffd;
+        border-style: 2px;
+        margin-top: none;
+        font-size: 19px; 
+}
+    
+.inicio-sub-2:hover{
+        color: #FF4A23;
+        margin: none;
+        border-radius: 12px;
+        background-color: #fff;
+}
+    
+    
+.sub-menu-3{
+        width: 140px;
+        height: 80px;
+        margin-right: -10px;
+}
+
+.inicio-sub-3:hover{
+        color: #FF4A23;
+        margin: none;
+        background-color: #fff;
+}
+    
+.inicio-sub-3{
+        color: #017ffd;
+        border-style: 2px;
+        font-size: 20px; 
+    
+}
+    
+.inicio-sub-3:hover{
+        color: #FF4A23;
+        margin: none;
+        background-color: #fff;
 }
 
 .menu li ul li{
