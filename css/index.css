@@ -75,30 +75,85 @@ color: #000;
 margin-top: none;
 }
 
+.inicio:hover{
+    color: #FF4A23;
+    margin: none;
+}
+
+.inicio-1{
+    color: #000;
+    margin-top: none;
+    font-size: 30px;
+}
+
 
 .inicio:hover{
 color: #FF4A23;
 margin: none;
 }
 
-.sub-menu{
-    width: 120px;
-    height: 90px;
-    margin-left: -50px;
+.sub-menu-1{
+    width: 168px;
+    height: 80px;
+    margin-right: -119px;
 }
-
-.inicio-sub{
+.inicio-sub-1{
     color: #017ffd;
     border-style: 2px;
     margin-top: none;
-    font-size: 25px; 
-
-}
-
-.inicio-sub:hover{
+    font-size: 20px; 
+} 
+.inicio-sub-1:hover{
     color: #FF4A23;
     margin: none;
+    border-radius: 12px;
+    background-color: #fff;
 }
+
+.sub-menu-2{
+    width: 95px;
+    height:60px;
+    margin-right: 25px;
+}
+.inicio-sub-2{
+    color: #017ffd;
+    border-style: 2px;
+    margin-top: none;
+    font-size: 19px; 
+}
+
+.inicio-sub-2:hover{
+    color: #FF4A23;
+    margin: none;
+    border-radius: 12px;
+    background-color: #fff;
+}
+
+
+.sub-menu-3{
+    width: 140px;
+    height: 80px;
+    margin-right: -10px;
+}
+.inicio-sub-3:hover{
+    color: #FF4A23;
+    margin: none;
+    background-color: #fff;
+}
+
+.inicio-sub-3{
+    color: #017ffd;
+    border-style: 2px;
+    font-size: 20px; 
+
+}
+
+.inicio-sub-3:hover{
+    color: #FF4A23;
+    margin: none;
+    background-color: #fff;
+}
+
 
 .menu li ul li{
     position: relative;    
@@ -170,15 +225,13 @@ div#main{
 }
 
 div#texto-1{    
-    padding-left: 50px;
     background: radial-gradient(#AA2103,#FF4A23 );
     position: relative;
-    margin-top: -560px;
-    margin-left: 15px;
+    margin-top: -650px;
+    margin-left: 25px;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
-    font-style: normal; 
-    font-size: 100EM; 
+    font-style: normal;  
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     font-size: 50px;
@@ -206,8 +259,8 @@ div#texto-1{
 
 
 div#imagen-1{
-    margin-top: -445px;
-    margin-left: 760px;
+    margin-top: -350px;
+    margin-left: 800px;
     position: relative;
     transform: rotate(15deg);
     animation-name: movimiento;

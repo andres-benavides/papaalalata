@@ -12,19 +12,34 @@ const template = html`
     <li  style="list-style: none;" >
         <a class="inicio" href="productos.html" style="text-decoration: none; margin: 45px;">PRODUCTOS</a>
             <ul>
-                <li style="list-style: none;" ><a class="inicio" href="Cabellodeangel.html" style=" text-align: center; text-decoration: none; " >Cabello de angel</a></li>
-                <li style="list-style: none;"  ><a class="inicio" href="Hojuelas.html" style=" text-align: center; text-decoration: none;" >Hojuelas</a></li>
                 <li style="list-style: none;" >
-                    <a class="inicio" href="Snacks.html" style=" text-align: center; text-decoration: none;" >Snacks</a>
-                    <ul class="sub-menu">
-                        <li style="width: 100%; height: 25%;" ><a   class="inicio-sub" href="chipsnaturales8g.html">Papa chips 8g</a></li>
-                        <li style="width: 100%; height: 25%;" ><a  class="inicio-sub" href="chipsbbq.html">Papa chips 16g</a></li>
-                        <li style="width: 100%; height: 25%;" ><a  class="inicio-sub" href="chipsdelimon.html">Papa chips 22g</a></li>
-                        <li style="width: 100%; height: 25%;" ><a   class="inicio-sub" href="trocillos_pollo.html">Trocillos</a></li>
+                    <a class="inicio-1" style=" text-align: center; text-decoration: none; " >Cabello de angel</a>
+                        <ul class="sub-menu-1">
+                            <li style="width: 100%; height: 25px;" ><a   class="inicio-sub-1" href="#">cabello de ángel 1.000gr</a></li>
+                            <li style="width: 100%; height: 25px;" ><a  class="inicio-sub-1" href="#">cabello de ángel 500gr  </a></li>
+                            <li style="width: 100%; height: 25px;" ><a  class="inicio-sub-1" href="#">cabello de ángel 150gr</a></li>
+                        </ul>
+                </li>
+                <li style="list-style: none;"  >
+                    <a class="inicio-1" style=" text-align: center; text-decoration: none;" >Hojuelas</a>
+                        <ul class="sub-menu-2" style="margin-top:-5%;" >
+                            <li style="width: 100%; height: 25px;" ><a   class="inicio-sub-2" href="#">Hojuela 450gr</a></li>
+                            <li style="width: 100%; height: 25px;" ><a  class="inicio-sub-2" href="#">Hojuela 225gr</a></li>
+                        </ul>
+                </li>
+                <li style="list-style: none;" >
+                    <a class="inicio-1" href="Snacks.html" style=" text-align: center; text-decoration: none;" >Snacks</a>
+                    <ul class="sub-menu-3" style="margin-top:10%;">
+                        <li style="width: 100%; height: 15%; margin-top:-5px;" ><a   class="inicio-sub-3" href="chipsnaturales8g.html">Papa chips 8gr</a></li>
+                        <li style="width: 100%; height: 25%; margin-top:10px;" ><a  class="inicio-sub-3" href="chipsbbq.html">Papa chips 22gr</a></li>
+                        <li style="width: 100%; height: 25%;" ><a  class="inicio-sub-3" href="chipsdelimon.html">Papa chips 32gr</a></li>
+                        <li style="width: 100%; height: 25%;" ><a   class="inicio-sub-3" href="trocillos_pollo.html">Pike todo Natural</a></li>
+                        <li style="width: 100%; height: 25%;" ><a   class="inicio-sub-3" href="trocillos_pollo.html">Pike todo Bbq</a></li>
+                        <li style="width: 100%; height: 25%;" ><a   class="inicio-sub-3" href="trocillos_pollo.html">Trocillos</a></li>
                     </ul>
                 </li>
             </ul>
-    <li style="list-style: none;"><a class="inicio" href="conocenos.html" style="text-decoration: none;  text-decoration: none; margin: 45px;">QUIENES SOMOS COMPO</a></li>
+    <li style="list-style: none;"><a class="inicio" href="conocenos.html" style="text-decoration: none;  text-decoration: none; margin: 45px;">QUIENES SOMOS</a></li>
     <li style="list-style: none;"><a class="inicio" href="contactanos.php" style="text-decoration: none;  text-decoration: none; margin: 45px; ">CONTÁCTENOS</a></li>  
 </li>
 </ul>
