@@ -32,9 +32,9 @@ const template = html`
                                     <ul class="sub-menu-3" style="margin-top:10%;">
                                         <li style="width: 100%; height: 15%; margin-top:-5px;" ><a   class="inicio-sub-3" href="chipsnaturales8g.html">Papa chips 8gr</a></li>
                                         <li style="width: 100%; height: 25%; margin-top:10px;" ><a  class="inicio-sub-3" href="chipsdelimon.html">Papa chips 22gr</a></li>
-                                        <li style="width: 100%; height: 25%;" ><a  class="inicio-sub-3" href="#">Papa chips 32gr</a></li>
-                                        <li style="width: 100%; height: 25%;" ><a   class="inicio-sub-3" href="#">Pike todo Natural</a></li>
-                                        <li style="width: 100%; height: 25%;" ><a   class="inicio-sub-3" href="#">Pike todo Bbq</a></li>
+                                        <li style="width: 100%; height: 25%;" ><a  class="inicio-sub-3" href="papasnatural.html">Papa chips 32gr</a></li>
+                                        <li style="width: 100%; height: 25%;" ><a   class="inicio-sub-3" href="pikenatural.html">Pike todo Natural</a></li>
+                                        <li style="width: 100%; height: 25%;" ><a   class="inicio-sub-3" href="pikebbq.html">Pike todo Bbq</a></li>
                                         <li style="width: 100%; height: 25%;" ><a   class="inicio-sub-3" href="trocillos_pollo.html">Trocillos</a></li>
                                     </ul>
                                 </li>
