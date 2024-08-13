@@ -209,14 +209,9 @@ div#seccion-1{
     height: 92%;
     margin-top: 2%;
     margin-left: 15%;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
-.imagen-1 ul{
-    list-style: none;
-    display: flex;
-    animation: traslader 16s infinite alternate ;
-}
 
 @keyframes traslader {
     0%{margin-left: 0%}

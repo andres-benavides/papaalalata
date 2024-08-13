@@ -8,9 +8,17 @@ const template = (data)=>{
     <div>
         <div id="seccion-1">
             <div class="imagen-1">
-              <ul>
-              ${data.images.map((image) => html`<li><img src="${image}" alt=""></li>`)}
-              </ul>    
+            <div class="jcarousel-wrapper">
+                <div class="jcarousel">
+                  <ul>
+                  ${data.images.map((image) => html`<li><img src="${image}" alt="" width="95%" height="95%" ></li>`)}
+                  </ul>   
+                </div>
+                <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+                <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+                
+                <p class="jcarousel-pagination">
+              </div> 
             </div>
             <div id="texto-1">
                 <p  style=" color: #004FF7; font-family:JOckey one ; font-size: 3em;">${data.title}</p><br>
@@ -33,7 +41,9 @@ class ProductComponent extends HTMLElement {
 
   constructor() {
     super();
-   
+    
+    
+
     const productName = this.getAttribute("product");
     fetch('./data/products.json')
       .then(response => response.json())
@@ -42,8 +52,11 @@ class ProductComponent extends HTMLElement {
         const productData = data[productName];
 
         if (productData) {
-          // Renderizar la información del producto
-          render(template(productData), this);
+          const thisTemplate = template(productData)
+          
+          render(thisTemplate, this);
+          $('.jcarousel').jcarousel();
+          this.addEventListeners();
         } else {
           console.error(`Producto con el nombre ${productName} no encontrado`);
         }
@@ -51,6 +64,23 @@ class ProductComponent extends HTMLElement {
       .catch(error => console.error('Error al cargar el archivo JSON:', error));
 
     // render(template(data), this);
+  }
+  addEventListeners() {
+    // Obtener el botón después de que el contenido ha sido renderizado
+    const buttonNext = this.querySelector(".jcarousel-control-next");
+    const buttonPrev = this.querySelector(".jcarousel-control-prev");
+    
+    if (buttonNext) {
+      buttonNext.addEventListener("click", (event) => {
+        $('.jcarousel').jcarousel('scroll', '+=1');
+      });
+    }
+
+    if (buttonPrev) {
+      buttonPrev.addEventListener("click", (event) => {
+        $('.jcarousel').jcarousel('scroll', '-=1');
+        });
+    }
   }
 
 }
