@@ -8,17 +8,26 @@ const template = (data)=>{
     <div>
         <div id="seccion-1">
             <div class="imagen-1">
-            <div class="jcarousel-wrapper">
-                <div class="jcarousel">
-                  <ul>
-                  ${data.images.map((image) => html`<li><img src="${image}" alt="" width="95%" height="95%" ></li>`)}
-                  </ul>   
-                </div>
-                <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
-                <a href="#" class="jcarousel-control-next">&rsaquo;</a>
-                
-                <p class="jcarousel-pagination">
-              </div> 
+            ${data.images.length > 1
+              ? html`
+                <div class="jcarousel-wrapper">
+                  <div class="jcarousel">
+                    <ul>
+                      ${data.images.map(
+                        (image) => html`
+                          <li>
+                            <img src="${image}" alt="" width="95%" height="95%" />
+                          </li>`
+                      )}
+                    </ul>
+                  </div>
+                  <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+                  <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+                  <p class="jcarousel-pagination"></p>
+                </div>`
+              : html`
+                <img src="${data.images[0]}" alt="" width="95%" height="95%" />`}
+   
             </div>
             <div id="texto-1">
                 <p  style=" color: #004FF7; font-family:JOckey one ; font-size: 3em;">${data.title}</p><br>
