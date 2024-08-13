@@ -8,8 +8,9 @@ const template = (data)=>{
     <div>
         <div id="seccion-1">
             <div class="imagen-1">
-              ${data.images.map((image) => html`<img src="${image}"  style="width: 120%; height: 100%;" alt="" >`)}
-                        
+              <ul>
+              ${data.images.map((image) => html`<li><img src="${image}" alt=""></li>`)}
+              </ul>    
             </div>
             <div id="texto-1">
                 <p  style=" color: #004FF7; font-family:JOckey one ; font-size: 3em;">${data.title}</p><br>
