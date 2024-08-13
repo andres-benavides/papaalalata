@@ -8,12 +8,18 @@
     "description":"Disfruta el sabro natural de la papa como solo papa a la lata sabe hacerlo.Elaborada con papa seleccionada, aceite vegetal y savorizante. Ideal para la lonchera o como pasabocas.",
     "presentation": "8 Grs  Paquete de 30 unds (Treinta), en caja de 11 trentenas."
   },
-  "papasdelimon":{
+  "chipsdelimon":{
     "images":[
-      "img/Natural 8gr.png"
+      "img/Papa chips Limón 22gr.png",
+      "img/24 chips Limon 22gr.png"
     ],
-    "title":"PAPAS SABOR LIMON",
-    "description":"Disfruta el sabro natural de la papa como solo papa a la<br> lata sabe hacerlo. <br>Elaborada con papa seleccionada, aceite vegetal y<br>savorizante. Ideal para la lonchera o como pasabocas.",
-    "presentation": "8 Grs  Paquete de 30 unds (Treinta), en caja de 11 trentenas."
+    "title":"Papa sabor a Limón",
+    "description":"Hojuelas crocanticas con el espectacular sabot a limón,elaborada con la mejor cosecha de papa, aceite vegetal y saborizante",
+    "presentation": "Presentación: 22 Grs. Paquete de 24 unidades, en caja de 6 paquetes."
   }
+
+  
+
 }
+
+
