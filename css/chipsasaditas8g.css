@@ -29,16 +29,6 @@ div#seccion-1{
     overflow: hidden;
 }
 
-.imagen-1 ul{
-    list-style: none;
-    display: flex;
-    animation: traslader 16s infinite alternate ;
-}
-
-@keyframes traslader {
-    0%{margin-left: 0%}
-    100%{margin-left: -100%}
-}
 
 div#texto-1{
     width: 35%;

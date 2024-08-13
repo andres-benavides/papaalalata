@@ -21,23 +21,12 @@ div#seccion-1{
     background-color: #fff;
 }
 
+
 .imagen-1{
-    width: 35%;
+    width: 28%;
     height: 92%;
     margin-top: 2%;
-    margin-left: 15%;
-    overflow: hidden;
-}
-
-.imagen-1 ul{
-    list-style: none;
-    display: flex;
-    animation: traslader 16s infinite alternate ;
-}
-
-@keyframes traslader {
-    0%{margin-left: 0%}
-    100%{margin-left: -100%}
+    margin-left: 20%;
 }
 
 div#texto-1{

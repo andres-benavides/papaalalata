@@ -14,12 +14,12 @@ margin-top: -35px;
 background-color: #fff;
 }
 
-div#imagen-1{
-width: 27%;
-height: 90%;
-padding-top: 3%;
-margin-top: 1%;
-margin-left: 20%;
+.imagen-1{
+    width: 35%;
+    height: 92%;
+    padding: 12px;
+    margin-left: 15%;
+
 
 }
 
@@ -32,12 +32,12 @@ margin-left: 55%;
 }
 
 div#redes-1{
-width: 10%;
-height: 8%;
-margin-top: 7%;
-margin-left: 60%;
-display: flex;
-}
+    width: 10%;
+    height: 3%;
+    margin-top: 5%;
+    margin-left: 60%;
+    display: flex;
+    }
 
 .imagen{
 position: relative;

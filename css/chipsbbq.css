@@ -22,23 +22,12 @@ div#seccion-1{
 }
 
 .imagen-1{
-    width: 35%;
+    width: 28%;
     height: 92%;
     margin-top: 2%;
-    margin-left: 15%;
-    overflow: hidden;
+    margin-left: 20%;
 }
 
-.imagen-1 ul{
-    list-style: none;
-    display: flex;
-    animation: traslader 16s infinite alternate ;
-}
-
-@keyframes traslader {
-    0%{margin-left: 0%}
-    100%{margin-left: -100%}
-}
 
 div#texto-1{
     width: 35%;

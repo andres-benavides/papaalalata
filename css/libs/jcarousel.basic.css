@@ -1,9 +1,10 @@
 .jcarousel-wrapper {
   margin: 20px auto;
   position: relative;
+  margin-left: -160px;
   border: 10px solid #fff;
-  width: 96%;
-  height: 100%;
+  width: 402px;
+  height: 90%;
   -webkit-border-radius: 5px;
      -moz-border-radius: 5px;
           border-radius: 5px;

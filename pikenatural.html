@@ -6,8 +6,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/pikenatural.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/libs/jcarousel.basic.css">
     <title>Papas sabor a pollo</title>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="js/libs/jcarousel.min.js"></script>
     <script src="js/index.js"></script>
     <script type="module" src="js/indexComponent.js"></script>
 </head>
@@ -26,32 +28,7 @@
             </a>
             <!--Fin de boton-->
 
-            <div id="seccion-1">
-                <div class="imagen-1">
-                    <ul>
-                        <li><img src="img/Pike todo natural.png" alt=""></li>
-                        <li><img src="img/Docena Pike todo Natural 50 gr.png" style="height: 100%; margin-left: 25px;"></li>
-                    </ul>
-                </div>
-                <div id="texto-1">
-                    <p  style=" color: #004FF7; font-family:JOckey one ; font-size: 3em;">Pike todo Natural</p><br>
-                    <h2 style=" color: #F70022; font-family:JOckey one;">Descripción</h2><br>
-                    <h3 style=" color: #000; font-family: proxima nova; font-size: 1em;">Elaborado con deliciosas hojuelas de papas chips,<br>
-                    delicioso chicharrón crujiente y las mas ricas tajadas de plátano,<br>
-                    Ideales para cualquier ocasión <br><br>
-                    <h2 style=" color: #F70022; font-family: JOckey one;">Presentación</h2><br>
-                    <h3 style=" color: #000; font-family: proxima nova;">Docena, Caja 6 docenas,<br>
-                    Sexta Caja 12 sextas.</h3>
-                </div>
-
-                <div id="redes-1">
-                    <a href="https://www.facebook.com/Papa-a-la-lata-111384327119353/" target="_blank"><img  class="imagen" src="img/facebook.png"  alt=""></a>
-                    <a href="https://www.instagram.com/papaalalata?igsh=ZHdieDJkbDhpeTJv" target="_blank"><img class="imagen" src="img/instagram.png" alt=""></a>
-                    <a href="https://wa.link/t2idq5" target="_blank"><img class="imagen" src="img/WhathsApp.png" alt=""></a>
-                </div>
-
-            </div>
-
+            <product-component product="pikenatural"></product-component>
 <!--fin-seccion-1-->
 
 <!---Seccion-2-->
