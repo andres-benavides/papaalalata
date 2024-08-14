@@ -26,7 +26,7 @@ const template = (data)=>{
                   <p class="jcarousel-pagination"></p>
                 </div>`
               : html`
-                <img src="${data.images[0]}" alt="" width="95%" height="95%" />`}
+                <img src="${data.images[0]}" alt="" />`}
    
             </div>
             <div id="texto-1">
