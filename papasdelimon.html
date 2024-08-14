@@ -3,88 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css " href="css/papasdelimon.css">
+    <link rel="stylesheet" href="css/Styles-products.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+    <script type="module" src="js/indexComponent.js"></script>
     <title>Papas de limon</title>
+    <script src="js/libs/jcarousel.min.js"></script>
+    <link rel="stylesheet" href="css/libs/jcarousel.basic.css">
 </head>
 <body>   
      <div class="general">
-        <header>
-            <img src="img/31cf39_0a52ef63125b4bdeb6b244610d783645~mv2.png"  style="width: 100%; height: 100%;" alt="">
-            <section id="logo">
-                <img src="img/LOGO PNGMesa de trabajo 3_1.png" style=" padding-top: 3%; margin-left: -8%;" alt="">
-            </section>
-      <!--NAV-------->
-      <section id="nav">
-        <ul class="menu">
-            <li  style="list-style: none;"><a class="inicio" href="index.html" style="  text-decoration: none;  text-decoration: none; margin: 45px;">INICIO</a></li>
-                <li  style="list-style: none;" >
-                    <a class="inicio" href="productos.html" style="text-decoration: none; margin: 45px;">PRODUCTOS</a>
-                        <ul>
-                            <li style="list-style: none;" ><a class="inicio" href="Cabellodeangel.html" style=" text-align: center; text-decoration: none; " >Cabello de angel</a></li>
-                            <li style="list-style: none;"  ><a class="inicio" href="Hojuelas.html" style=" text-align: center; text-decoration: none;" >Hojuelas</a></li>
-                            <li style="list-style: none;" >
-                                <a class="inicio" href="Snacks.html" style=" text-align: center; text-decoration: none;" >Snacks</a>
-                                <ul class="sub-menu">
-                                    <li style="width: 100%; height: 25%;" ><a   class="inicio-sub" href="chipsnaturales8g.html">Papa chips 8g</a></li>
-                                    <li style="width: 100%; height: 25%;" ><a  class="inicio-sub" href="chipsbbq.html">Papa chips 16g</a></li>
-                                    <li style="width: 100%; height: 25%;" ><a  class="inicio-sub" href="chipsdelimon.html">Papa chips 22g</a></li>
-                                    <li style="width: 100%; height: 25%;" ><a   class="inicio-sub" href="trocillos_pollo.html">Trocillos</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                <li style="list-style: none;"><a class="inicio" href="conocenos.html" style="text-decoration: none;  text-decoration: none; margin: 45px;">QUIENES SOMOS</a></li>
-                <li style="list-style: none;"><a class="inicio" href="contactanos.php" style="text-decoration: none;  text-decoration: none; margin: 45px; ">CONTÁCTENOS</a></li>  
-            </li>
-        </ul>
-    </section>
-    <!---fIN DE NAV-->
-    
-            <section id="redes">
-                    <a href="https://www.facebook.com/Papa-a-la-lata-111384327119353/" target="_blank"><img  class="imagen" src="img/facebook.png"  alt=""></a>
-                    <a href="https://www.instagram.com/papaalalata?igsh=ZHdieDJkbDhpeTJv" target="_blank"><img class="imagen" src="img/instagram.png" alt=""></a>
-                    <a href="https://wa.link/t2idq5" target="_blank"><img class="imagen" src="img/WhathsApp.png" alt=""></a>
-            </section>
-        </header>
+        <header-component></header-component>
 
         <!--Seccion-1-->
-        <div id="seccion-1">
+        
 
             <!---boton de whathsapp-->
             <a href="https://api.whatsapp.com/send?phone=573133800415" class="btn-wsp" target="_blank">
-                <img src="img/BOTON WHATSAPPArtboard 1.png" style="width: 100%; height: 100%; margin-left: 600%; " alt="">
+                <img src="img/BOTON WHATSAPPArtboard 1.png" style="width: 100%; height: 100%;" alt="">
             </a>
             <!--Fin de boton-->
-
-            <div id="imagen-1">
-                <img src="img/CHIPS SABORES LIMON sin sello.png" style=" width: 100%; height: 100%;" alt="">
-            </div>
-            <div id="texto-1">
-                <p  style=" color: #004FF7; font-family:verdana ; font-size: 3em;">PAPAS SABOR LIMON</p><br>
-                <h2 style=" color: #F70022; font-family:'Courier New', Courier, monospace;">Descripción</h2>
-                <h3 style=" color: #000; font-family: Arial;">Delicioso sabor que te hará vibrar.<br>
-                <br>
-                Ideal para la lonchera o como pasabocas.</h3><br>
-                <h2 style=" color: #F70022; font-family: 'Courier New', Courier, monospace;">Presentación</h2><br>
-                <h3 style=" color: #000; font-family: arial;">Presentación: 32 grs.<br>
-                Paquete por 12 unds sabores surtidos.<br>
-                Caja de 5 docenas.<br>
-                NOTA: Nueva presentación próximamente</h3>
-            </div>
-        </div>
-        <div id="redes">
-            <a href="https://www.facebook.com/Papa-a-la-lata-111384327119353/" target="_blank"><img  class="imagen" src="img/facebook.png"  alt=""></a>
-            <a href="https://www.instagram.com/papaalalata?igsh=ZHdieDJkbDhpeTJv" target="_blank"><img class="imagen" src="img/instagram.png" alt=""></a>
-            <a href="https://wa.link/t2idq5" target="_blank"><img class="imagen" src="img/WhathsApp.png" alt=""></a>
-        </div>
+            <product-component product="papasdelimon"></product-component>
+     
         <!--Fin seccion-1-->
         <!--Seccion-2---->
         <div id="seccion-2">
             <img src="img/azul fondo Mesa de trabajo 1.png" width="100%" height="100%" alt="">
-            <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 3em;  width: 60%; height: 10%; margin-top: -41%; margin-left: 28%; color: #fff;margin-bottom: 2%;" >PRODUCTOS RELACIONADOS</h1>
-            <img src="img/CHIPS SABORES BBQ sin sello.png" style=" width:22% ; height:70% ; margin-left: 11%;" alt="">
-            <img src="img/CHIPS SABORES POLLO sin sello.png" style=" width:22% ; height:70% ;  margin-left: 5%;" alt="">
-            <img src="img/CHIPS SABORES NATURAL sin sello.png" style=" width:22% ; height:70% ; margin-left: 5%;" alt="">
+            <h1 style="font-family:JOckey one; font-size: 3em;  width: 60%; height: 10%; margin-top: -41%; margin-left: 25%; color: #fff;margin-bottom: 2%;" >PRODUCTOS RELACIONADOS</h1>
+            <img src="img/CHIPS SABORES BBQ sin sello.png" style=" width:30% ; height:70% ; margin-left: 8%;" alt="">
+            <img src="img/CHIPS SABORES POLLO sin sello.png" style=" width:30% ; height:70% ;  margin-left: -1%;" alt="">
+            <img src="img/CHIPS SABORES NATURAL sin sello.png" style=" width:30% ; height:70% ; margin-left: -3%;" alt="">
             <a style="margin-left: 14%;"  class="btn" href="papasbbq.html" >Ver Más</a>
             <a style="margin-left: 7%;" class="btn" href="papasdepollo.html">Ver Más</a>
             <a style="margin-left: 6%;" class="btn" href="papasnatural.html">Ver Más</a>

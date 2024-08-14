@@ -1,139 +1,15 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-body{
-    background: #c0c0c0;
-}
-
 .general{
     width: 1349px;
-    height: 3652px;
+    height: 3440px;
     overflow: hidden;
     margin: auto;
     background-position: center;
     position: relative;
 }
 
-
-header {
-    width: 100%;
-    height: 115px;
-}
-
-#logo{
-width: 21%;
-height: 100%;
-position: relative;
-margin-top: -9%;
-}
-
-#nav{
-width: 67%;
-height: 100%;
-margin-top: -120px;
-padding-top: 1%;
-margin-left: 19%;
-position: relative;
-}
-
-.menu {
-width: 100%;
-height: 20%;
-display: flex;
-padding: 40px;
-margin-left: 4%; 
-font-family: "Bebas Neue", sans-serif;
-font-weight: 400;
-font-style: normal; 
-font-size: 31px;
-position: relative;
-color: #000;
-}
-
-li ul{
-display: none;
-}
-
-li:hover ul{
-display: block;
-}
-
-.inicio{
-color: #000;
-}
-.inicio:hover{
-color: #FF4A23;
-}
-
-.sub-menu{
-    width: 120px;
-    height: 98px;
-    margin-left: -50px;
-}
-
-.inicio-sub{
-    color: #000;
-    border-style: 2px;
-    margin-top: none;
-    font-size: 25px; 
-
-}
-
-.inicio-sub:hover{
-    color: #FF4A23;
-    background-color: #fff;
-    margin: none;
-}
-
-.menu li ul li{
-    position: relative;    
- }
-
-
-.menu li ul li ul{
-    margin-left: 80px;
-    margin-top: -45px;
-    right: -50px;
-    top:  0px; 
-}
-
-
-.menu li ul li ul a{
-    list-style: none;
-    text-decoration: none;   
-}
-
-.menu li ul li ul li {
-    display: none;
-}
-
-.menu li ul li:hover ul li {
-    display: block;
-}
-
-
-#redes{
-display: flex;
-width: 10%;
-height: 40%;
-float: right;
-margin-top: -6%;
-margin-right: 3%;
-position: relative;
-}
-
-.imagen{
-position: relative;
-width: 40px;
-margin: 0 3px;
-border-radius: 50%;
-}
-
 .main{
-    width: 1000px;
-    height: 3340px;
+    width: 1348px;
+    height: 3142px;
     background-color: grey;
 }
 
@@ -146,7 +22,8 @@ border-radius: 50%;
 #contenedor{
     display: flex;
     width: 100%;
-    animation: mover 7s infinite alternate ease-in-out; 
+    height:500px;
+    animation: mover 12s infinite alternate ease-in-out; 
 }
 
 #imagen-1{
@@ -182,22 +59,23 @@ h1{
 
 
 .linea-temporal{
-    width: 135%;
+    width: 100%;
     height: 2000px;
-    margin-top: -1%;
+    margin-top: -4px;
     background-color: #ffff;
 }
 
 
 .logotipo{
-    width: 135%;
+    width: 100%;
     height: 400px;
     background-color: #ffff;
 }
 
 .text{
-    width: 135%;
-    height: 300px;
+    width: 1329px;
+    height: 80px;
+    padding: 10px;
     background-color: #ffff;
 }
 #slider-2{
@@ -210,107 +88,107 @@ h1{
     display: flex;
     width: 300%;
     height: 100%;
-    animation: logos 25s infinite alternate ease-in-out; 
+    animation: logos 50s infinite alternate ease-in-out; 
 }
 #logo-1{
-    width: 15%;
-    height: 100%;
-    background-size: 70%;
+    width: 550px;
+    height: 145px;
+    background-size: 55%;
     background-repeat: no-repeat;
     background-position: center;
     background-image: url(../img/Cine\ Colombia.png);
 }
 
 #logo-2{
-    width: 15%;
-    height: 95%;
+    width: 550px;
+    height: 145px;
     background-size: 50%;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url(../img/Cineland.png);
 }
 #logo-3{
-    width: 15%;
-    height: 95%;
-    background-size: 100%;
+    width: 550px;
+    height: 145px;
+    background-size: 65%;
+    background-position: center;
     background-repeat: no-repeat;
     background-image: url(../img/Cocheros.png);
 }
 #logo-4{
-    width: 17%;
-    height: 95%;
+    width: 650px;
+    height: 145px;
     background-size: 100%;
-    margin-right: 12px;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url(../img/Colsubsidio.png);
 }
 #logo-5{
-    width: 17%;
-    height: 95%;
-    background-size: 75%;
+    width: 550px;
+    height: 145px;
+    background-size: 50%;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url(../img/Grupo\ exito.png);
 }
 #logo-6{
-    width: 17%;
-    height: 95%;
-    background-size: 95%;
+    width: 550px;
+    height: 145px;
+    background-size: 90%;
     background-repeat: no-repeat;
     background-image: url(../img/Jeronimo\ Martins.png);
 }
 #logo-7{
-    width: 17%;
-    height: 95%;
-    background-size: 49%;
+    width: 500px;
+    height: 145px;
+    background-size: 40%;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url(../img/Jumbo.png);
 }
 #logo-8{
-    width: 10%;
-    height: 95%;
-    margin-top: 5px;
-    background-size: 70%;
+    width: 500px;
+    height: 145px;
+    background-size: 50%;
+    background-position: center;
     background-repeat: no-repeat;
     background-image: url(../img/kokoriko.png);
 }
 #logo-9{
-    width: 17%;
-    height: 95%;
-    background-size: 87%;
+    width: 400px;
+    height: 145px;
+    background-size: 90%;
+    background-position: center;
     background-repeat: no-repeat;
     background-image: url(../img/Metro.png);
 }
 #logo-10{
-    width: 13%;
-    height: 95%;
-    background-size: 55%;
-    margin-left: -2%;
+    width: 350px;
+    height: 145px;
+    background-size: 50%;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url(../img/Olimpica.png);
 }
 #logo-11{
-    width: 17%;
-    height: 95%;
+    width: 500px;
+    height: 145px;
     background-size: 80%;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url(../img/OXXO.png);
 }
 #logo-12{
-    width: 17%;
-    height: 95%;
+    width: 500px;
+    height: 145px;
     background-size: 80%;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url(../img/Quality\ Foods\ Panama.png);
 }
 #logo-13{
-    width: 17%;
-    height: 95%;
+    width: 500px;
+    height: 145px;
     background-size: 80%;
     background-position: center;
     background-repeat: no-repeat;
@@ -319,22 +197,12 @@ h1{
     
 @keyframes logos {
     0%{margin-left: 0%}
-    100%{margin-left: -200%;}
+    100%{margin-left: -222%;}
 }
 
 
 .footer{
     width: 100%;
     height: 5.6%;
-}
-
-
-.btn-wsp{
-    position: fixed;
-    width: 190px;
-    height: 90px;
-    line-height: 55px;
-    bottom: 30px;
-    border-radius: 12px;
-    z-index: 100;
+    margin-top:1.5px;
 }

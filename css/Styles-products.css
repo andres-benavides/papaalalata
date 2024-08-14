@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'JOckey one'; /* Nombre que quieres darle a la fuente */
+    src: url('fonts/JockeyOne-Regular.ttf') format('truetype'); /* Ruta y formato de la fuente */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'proxima nova'; /* Nombre que quieres darle a la fuente */
+    src: url('fonts/Fontspring-DEMO-proximanovaexcn-regular.otf') format('opentype'); /* Ruta y formato de la fuente */
+    font-weight: normal;
+    font-style: normal;
+}
+.general{
+    width: 1348.9px;
+    height: 1478px;
+    margin: auto;
+    overflow: hidden;
+    
+}
+.main{
+    width: 100%;
+    height: 1150px;
+    background-color: aqua;
+}
+div#seccion-1{
+    width: 1348.9px;
+    height: 550px;
+    margin-top: -35px;
+    background-color: #fff;
+    }
+.imagen-1{
+    width: 28%;
+    height: 92%;
+    padding-top: 35px;
+    margin-left: 20%;
+}
+
+    
+div#texto-1{
+    width: 35%;
+    height: 48%;
+    position: relative;
+    margin-top: -30%;
+    margin-left: 55%;
+}
+
+.texto-11{
+    width: 28%;
+    height: 92%;
+    margin-top: -34%;
+    margin-left: 55%;
+}
+  
+div#redes-0{
+    width: 10%;
+    height: 3%;
+    margin-top: -130px;
+    margin-left: 60%;
+    display: flex;
+}
+
+div#redes-00{
+    width: 10%;
+    height: 3%;
+    margin-top: -80px;
+    margin-left: 60%;
+    display: flex;
+}
+
+
+div#redes-1{
+    width: 10%;
+    height: 3%;
+    margin-top: 7%;
+    margin-left: 60%;
+    display: flex;
+}
+
+div#seccion-2{
+    width: 1348.9px;
+    height: 600px;
+    position:relative;
+    }
+
+.btn{
+    margin-top: -50%;
+    background-color: #fff;
+    border: none;
+    color: #FF4A23;
+    padding: 10px 72px;
+    margin: 75px;
+    text-decoration: none;
+    font-size: 1,4rem;
+    border-radius: 17px;
+    font-family: sans-serif;
+}
+
+.btn:hover{
+    color: #fff;
+    background-color: #029BDE;
+    
+}
+    
+.seccion-3{
+        width: 100%; 
+        height: 50%;
+}
+
