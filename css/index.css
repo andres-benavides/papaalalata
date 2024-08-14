@@ -52,7 +52,7 @@ div#texto-1{
 
 
 div#imagen-1{
-    margin-top: -350px;
+    margin-top: -365px;
     margin-left: 800px;
     position: relative;
     transform: rotate(15deg);
@@ -82,7 +82,7 @@ div#imagen-2{
     transform: rotate(40deg);
     margin-top: -515px;
     margin-left: -50px;
-    width: 25%;
+    width: 35%;
     height: 67%;
     position: relative;
 }
@@ -91,7 +91,7 @@ div#imagen-3{
     transform: rotate(40deg);
     margin-top: -415px;
     margin-left: 260px;
-    width: 25%;
+    width: 35%;
     height: 67%;
     position: relative; 
 }
@@ -100,7 +100,7 @@ div#imagen-4{
     transform: rotate(29deg);
     margin-top: -405px;
     margin-left: 560px;
-    width: 25%;
+    width: 35%;
     height: 67%;
     position: relative; 
 }
