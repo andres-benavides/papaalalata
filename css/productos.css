@@ -47,7 +47,7 @@
 .text-1{ 
     width: 100%;
     margin-top: 30%;
-    font-size: 4.7em;
+    font-size: 6em;
     font-family:JOckey one;
     color: #1A9FEC;
     position: relative;
@@ -64,7 +64,7 @@
 .text-2{
     width: 100%;
     margin-left: 48%;
-    font-size: 4.1em;
+    font-size: 6em;
     margin-top: 10px;
     font-family: JOckey one;
     color: #F9F493;
@@ -207,15 +207,15 @@
 .imagen-9{
     width: 55%;
     height: 8%;
-    margin-top: 21%;
-    margin-left: 45%;
+    margin-top: 15%;
+    margin-left: 48%;
     position: relative;
 }
 
 .imagen-10{
     width: 100%;
     height: 8.5%;
-    margin-top: -73%;
+    margin-top: -69%;
     position: relative;
     animation-name: imagen-7;
     animation-duration: 12s;
@@ -230,7 +230,7 @@
     width: 45%;
     height: 8.3%;
     margin-left: 52%;
-    margin-top: 26%;
+    margin-top: 20%;
     position: relative;
 }
 
@@ -238,7 +238,7 @@
 .imagen-12{
     width: 98%;
     height: 8.5%;
-    margin-top: -76%;
+    margin-top: -78%;
     margin-left: -4%;
     position: relative;
     animation-name: imagen-8;
@@ -254,14 +254,14 @@
     width: 45%;
     height: 8.3%;
     margin-left: 1.6%;
-    margin-top: 19%;
+    margin-top: 30%;
     position: relative;
 }
 
 .imagen-14{
-    width: 98%;
-    height: 8.5%;
-    margin-top: -73%;
+    width: 100%;
+    height: 8%;
+    margin-top: -75%;
     margin-left: 6%;
     position: relative;
     animation-name: imagen-8;
@@ -276,7 +276,7 @@
 .imagen-15{
     width: 99%;
     height: 9%;
-    margin-top: 40%;
+    margin-top: 80%;
     position: relative;
     animation-name: imagen-9;
     animation-duration: 14s;
@@ -290,7 +290,7 @@
 .imagen-16{
     width: 99%;
     height: 9%;
-    margin-top: 30%;
+    margin-top: 15%;
     position: relative;
     animation-name: imagen-10;
     animation-duration: 14s;
@@ -321,9 +321,9 @@
 
 .imagen-17{
     width: 148%;
-    height: 13%;
+    height: 12%;
     margin-left: -60%;
-    margin-top: 75%;    
+    margin-top: 85%;    
     position: relative;
     animation-name: imagen-11;
     animation-duration: 5s;
@@ -336,8 +336,8 @@
 
 .imagen-18{
     width: 168%;
-    height: 13%;
-    margin-top: 86%;
+    height: 11.5%;
+    margin-top: 56%;
     position: relative;
     animation-name: imagen-12;
     animation-duration: 5s;
@@ -350,9 +350,9 @@
 
 
 .imagen-19{
-    width: 158%;
-    height: 12%;
-    margin-top: 74%;
+    width: 148%;
+    height: 11%;
+    margin-top: 48%;
     margin-left: -70%;
     position: relative;
     animation-name: imagen-13;
