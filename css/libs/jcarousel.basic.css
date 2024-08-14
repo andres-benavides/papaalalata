@@ -5,6 +5,7 @@
   border: 10px solid #fff;
   width: 485px;
   height: 90%;
+  
   -webkit-border-radius: 5px;
      -moz-border-radius: 5px;
           border-radius: 5px;
@@ -19,6 +20,7 @@
 .jcarousel {
   position: relative;
   overflow: hidden;
+  
 }
 
 .jcarousel ul {
@@ -27,10 +29,12 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  
 }
 
 .jcarousel li {
   float: left;
+  
 }
 
 /** Carousel Controls **/
