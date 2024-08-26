@@ -1,0 +1,29 @@
+.related-product {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content-related-product{
+  background-image: url('../img/azul fondo Mesa de trabajo 1.png');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px;
+}
+.related-title .row{
+  margin-top: 3%;
+}
+.related-products{
+  margin-top: 5%;
+}
+.btn-related{
+  margin-top: 3%;
+  padding: 10px 72px;
+  font-family: sans-serif;
+}
+.btn-related:hover{
+  color: #ED0E0E;
+  background-color: #25318D;
+}
