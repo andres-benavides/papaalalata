@@ -20,7 +20,7 @@ const template = html`
             </p>
         </div>
         <div class="col">
-            <h3 style="font-family: cambria bold; color: #FFFF;" >Productos</h3>
+            <h3 style=" color: #FFFF;" >Productos</h3>
             <ul>
             <li><a href="Cabellodeangel.html" style="position: relative; color: #FFFF; font-family: cambria bold; font-size: 20px;">Cabello de angel</a></li>
             <li><a href="Hojuelas.html" style="position: relative; color: #FFFF; font-family: cambria bold; font-size: 20px;">Hojuelas</a></li>
@@ -28,7 +28,7 @@ const template = html`
             </ul>
         </div>
         <div class="col">
-            <h3 style="font-family: cambria bold; color: #FFFF;">Redes sociales</h3>
+            <h3 style="color: #FFFF;">Redes sociales</h3>
             <ul>
             <li><a href="https://www.facebook.com/Papa-a-la-lata-111384327119353/" target="_blank" style=" position: relative;color: #FFFF; font-family: cambria bold; font-size: 20px;">Facebook</a></li>
             <li><a href="https://www.instagram.com/papaalalata?igsh=ZHdieDJkbDhpeTJv" target="_blank" style="position: relative; color: #FFFF; font-family: cambria bold; font-size: 20px;">Instagram</a></li>

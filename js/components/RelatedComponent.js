@@ -9,7 +9,7 @@ const template = (data)=>{
     <div class="content-related-product">
         <div class="row justify-content-center related-title">
             <div class="col text-center">
-                <h1 style="font-family: JOckey one; color: #fff;" >PRODUCTOS RELACIONADOS</h1>
+                <h1 style="color: #fff;" >PRODUCTOS RELACIONADOS</h1>
             </div>
         </div>   
         <div class="row related-products">

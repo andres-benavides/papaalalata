@@ -3,8 +3,10 @@
   position: relative;
   margin-left: -85px;
   border: 10px solid #fff;
-  width: 450px;
+  width: 100px;
   height: 90%;
+ 
+
   
   -webkit-border-radius: 5px;
      -moz-border-radius: 5px;
@@ -21,6 +23,7 @@
   position: relative;
   overflow: hidden;
   
+  
 }
 
 .jcarousel ul {
@@ -29,6 +32,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  
   
 }
 
