@@ -42,3 +42,7 @@ left: 100%;
 margin-left: .1rem;
 margin-right: .1rem;
 }
+
+.imagen{
+  border-radius: 50px;
+}

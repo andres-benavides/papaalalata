@@ -35,11 +35,11 @@ const template = (data) => {
           <div class="row">
             <div class="col">
               <div id="texto-1">
-                <p style="color: #004FF7; font-family: JOckey one; font-size: 3em;">${data.title}</p><br>
-                <h2 style="color: #F70022; font-family: JOckey one;">Descripción</h2>
-                <h3 style="color: #000; font-family: proxima nova;">${data.description}</h3><br>
-                <h2 style="color: #F70022; font-family: JOckey one;">Presentación</h2><br>
-                <h3 style="color: #000; font-family: proxima nova;">Presentación: ${data.presentation}</h3>
+                <p style="color: #004FF7; font-size: 3em;">${data.title}</p><br>
+                <h2 style="color: #F70022;">Descripción</h2>
+                <h3 style="color: #000;">${data.description}</h3><br>
+                <h2 style="color: #F70022;">Presentación</h2><br>
+                <h3 style="color: #000;">Presentación: ${data.presentation}</h3>
               </div>
             </div>
           </div>

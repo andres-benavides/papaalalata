@@ -4,7 +4,7 @@ const template = html`
 <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
                 <img src="img/LOGO PNGMesa de trabajo 3_1.png" alt="logo" width="100%" height="100%">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -13,13 +13,11 @@ const template = html`
             <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto gap-4">
                 <li class="nav-item">
-                    <a class="nav-link" href="productos.html" aria-current="page">INICIO</a>
+                    <a class="nav-link" href="index.html" aria-current="page">INICIO</a>
                 </li>
                 <!-- MENU DE PRODUCTOS -->
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    PRODUCTOS
-                    </a>
+                    <a class="nav-link dropdown-toggle" href="productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">PRODUCTOS</a>
                     <ul class="dropdown-menu">
                     <li class="dropdown-submenu">
                         <a class="dropdown-item dropdown-toggle" href="#">Cabello de ángel</a>
