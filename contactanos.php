@@ -32,27 +32,25 @@
 
 
         <!----Seccion-1--> 
-                    <div class="row"> 
-                        <div class="col">
-                            <div class="row">
-                                <div class="col" id="slider">
-                                    <div id="contenedor">
-                                        <div id="imagen-1">
-                                             <h1>CONTACTANOS</h1>
-                                        </div>
-                                        <div id="imagen-2"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>       
+<!---Seccion-1--->
+
+
+<div class="row">
+        <div class=" container" >
+            <div class="col">
+            <div class="slide" >
+                <ul>
+                    <li><img src="img/1.PNG" ></li>
+                    <li><img src="img/2.PNG" ></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+</div>     
                     <!----Fin de seccion 1-->
 
 
                     <!---Seccion-2-->
-
-
-
 
                     <div class="row">
                         <div class="col" id="seccion-2">

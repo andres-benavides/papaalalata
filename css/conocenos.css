@@ -31,7 +31,6 @@ border-radius: 10px;
     width: 190%;
     list-style: none;
     animation: mover 8s infinite alternate ease-in-out;
-    objet-fit:fill;
 }
 
 
@@ -41,13 +40,6 @@ border-radius: 10px;
 
 
 }
-
-
-
-
-
-
-
 
 
 h1{

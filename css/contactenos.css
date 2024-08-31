@@ -2,11 +2,39 @@
     overflow: hidden;
 }
 
+.container{
+    width: 100vw;
+    max-height: 720px;
+    display: flex;
+    
+    }
+    
+    .slide{
+    width: 100vw;
+    overflow: hidden;
 
+    }
+    
+    .slide ul{
+        padding: 0;
+        width: 100%;
+        height: auto;
+        display: flex;
+        list-style: none;
+        animation: mover 15s infinite alternate ease-in-out;
+    }
+    
+    
+    @keyframes mover {
+        0%{margin-left: 0%}
+        100%{margin-left: -95%}
+    
+    
+    }
+    
+    
 
 /*Seccion-2*/
-
-
 
 #seccion-2{
 
