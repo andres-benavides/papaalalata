@@ -1,45 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
 .general{
-    width: 1349px;
-    height: 3440px;
-    overflow: hidden;
-    margin: auto;
-    background-position: center;
-    position: relative;
-}
-
-.main{
-    width: 1348px;
-    height: 3142px;
-    background-color: grey;
-}
-
-#slider{
-    width: 3000px;
-    height: 500px;
     overflow: hidden;
 }
 
-#contenedor{
+.container{
+height: auto;
+width: 100%;
+display: grid;
+place-content: center;
+}
+
+.slide{
+width: 100vw;
+max-width: 100%;
+max-height: 420%;
+height: 720%;
+overflow: hidden;
+border-radius: 10px;
+}
+
+
+.slide ul{
     display: flex;
-    width: 100%;
-    height:500px;
-    animation: mover 12s infinite alternate ease-in-out; 
+    padding: 0;
+    width: 190%;
+    list-style: none;
+    animation: mover 8s infinite alternate ease-in-out;
+    objet-fit:fill;
 }
 
-#imagen-1{
-    width: 104%;
-    height: 500px;
-    background-repeat: no-repeat;
-    background-image: url(../img/2.webp);
+
+@keyframes mover {
+    0%{margin-left: 0%}
+    100%{margin-left: -97%}
+
+
 }
 
-#imagen-2{
-    width: 112%;
-    height: 500px;
-    margin-left: -6%;
-    background-repeat: no-repeat;
-    background-image: url(../img/1.webp);
-}
+
+
+
+
+
+
 
 
 h1{
@@ -50,34 +58,48 @@ h1{
     margin-left: 1%;
 }
 
-@keyframes mover {
-    0%{margin-left: 0%}
-    25%{margin-left: 0%;}
-    75%{margin-left: -45%;}
-    100%{margin-left: -45%}
-}
 
+
+
+/*Seccion 2*/
 
 .linea-temporal{
     width: 100%;
-    height: 2000px;
-    margin-top: -4px;
-    background-color: #ffff;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
+/*Fin de seccion 2*/
+
+/*Seccion 3*/
 
 .logotipo{
     width: 100%;
-    height: 400px;
-    background-color: #ffff;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+
+/*Fin de seccion 3*/
+
+/*Seccion 4*/
 .text{
-    width: 1329px;
-    height: 80px;
+    width: 50%;
+    height: auto;
     padding: 10px;
-    background-color: #ffff;
+    background-color:#FEB902;
+    border-radius: 12px; 
+    font-size: 3em; 
+    text-align: center;
+    color: red;
+    margin-left: 25%;
 }
+
+/*fin de seccion 4*/
+
+/*Seccion-5*/
 #slider-2{
     width: 135%;
     height: 150px;
@@ -199,10 +221,4 @@ h1{
     0%{margin-left: 0%}
     100%{margin-left: -222%;}
 }
-
-
-.footer{
-    width: 100%;
-    height: 5.6%;
-    margin-top:1.5px;
-}
+/*fin de seccion 5*/
