@@ -6,17 +6,18 @@
 
 
 div#container-fluid{
+  height: auto;
+  width: auto;
   overflow: hidden;
+  
 }
 
 .btn-wsp{
   position: fixed;
-  width: 300px;
   height: 150px;
   line-height: 70px;
-  margin-left: 1050px;
   bottom: 30px;
-  right: -1%;
+  right: 1%;
   border-radius: 12px;
   z-index: 999;
 }
@@ -33,7 +34,7 @@ div#seccion-0{
 
 div#texto-1{
   height: auto;
-  margin-left: 15%;
+  margin-left: 5%;
   margin-top: 5% ;
   position: relative;
   animation-name: mtexto;
@@ -82,7 +83,7 @@ div#imagen-1{
 
 
 .img-papas{
-  max-width: 100%;
+  max-width: 99%;
   height: auto;
   position: absolute;
   height: auto;
@@ -90,6 +91,7 @@ div#imagen-1{
   display: flex;
   margin-left: auto;
   margin-right: auto;
+  
   
 }
 
@@ -100,6 +102,7 @@ div#imagen-1{
 div#seccion-1{
   background-image: url(../img/fondo.png);
   background-size: cover;
+  
 }
 
 
@@ -111,6 +114,7 @@ div#seccion-1{
   margin-left: auto;
   margin-right: auto;
   transform: rotate(29deg);
+  
 }
 
 
@@ -123,17 +127,20 @@ div#seccion-1{
   display: block;
   margin-top: 1%;
   padding: 0px 30px 0px;
+  
 }
 
 .papas-pollo{
   position: relative;
   z-index: 888;
+  
 }
 
 
 .imagen-p{
   margin-top: -30%;
   position: relative;
+  
 }
 
 
@@ -141,10 +148,10 @@ div#seccion-1{
 
 .seccion-2{
   max-width: 101.8%;
-  height: auto;
   margin-left: -1%;
   background-size: cover;
   position: relative;
+  
 }
 
 
@@ -153,6 +160,7 @@ div#seccion-1{
   height: auto;
   background-image: url('../img/31cf39_0a52ef63125b4bdeb6b244610d783645~mv2\(1\).png') ;
   background-size: cover;
+  
 }
 
 
