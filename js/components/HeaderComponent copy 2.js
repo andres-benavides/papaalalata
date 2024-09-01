@@ -13,11 +13,11 @@ const template = html`
             <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto gap-4">
                 <li class="nav-item">
-                    <a class="nav-link" href="productos.html" aria-current="page">INICIO</a>
+                    <a class="nav-link" href="index.html" aria-current="page">INICIO</a>
                 </li>
                 <!-- MENU DE PRODUCTOS -->
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     PRODUCTOS
                     </a>
                     <ul class="dropdown-menu">

@@ -27,3 +27,15 @@
   color: #ED0E0E;
   background-color: #25318D;
 }
+
+.btn-wsp{
+  position: fixed;
+  width: 300px;
+  height: 150px;
+  line-height: 55px;
+  margin-left: 1050px;
+  bottom: 30px;
+  border-radius: 12px;
+  z-index: 999;
+  right: -1%;
+}

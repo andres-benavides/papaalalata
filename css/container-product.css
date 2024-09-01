@@ -22,3 +22,14 @@
   margin: 0 auto; /* Centra la imagen */
   object-fit: contain;
 }
+
+.btn-wsp{
+  position: fixed;
+  width: 300px;
+  height: 150px;
+  line-height: 55px;
+  margin-left: 1050px;
+  bottom: 30px;
+  border-radius: 12px;
+  z-index: 999;
+}

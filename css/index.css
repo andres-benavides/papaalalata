@@ -9,7 +9,17 @@ div#container-fluid{
   overflow: hidden;
 }
 
-
+.btn-wsp{
+  position: fixed;
+  width: 300px;
+  height: 150px;
+  line-height: 70px;
+  margin-left: 1050px;
+  bottom: 30px;
+  right: -1%;
+  border-radius: 12px;
+  z-index: 999;
+}
 
 /*seccion 0*/
 
@@ -117,7 +127,7 @@ div#seccion-1{
 
 .papas-pollo{
   position: relative;
-  z-index: 999;
+  z-index: 888;
 }
 
 
@@ -164,6 +174,8 @@ div#seccion-1{
     color: white;
     background-color: #FF4A23;
 }
+
+
 
 
 
