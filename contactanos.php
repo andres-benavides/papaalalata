@@ -50,63 +50,88 @@
 
                     <!---Seccion-2-->
 
-                    <div class="row">
-                        <div class="col" id="seccion-2">
-                                <div class="row">
+                    <div class="row" id="seccion-2">
+                        <div class="col" >
+                                <div class="row" >
                                     <div class="col">
-                                        <div class="form-parent">
+                                        <div class=" row form-parent" id="contendor-blanco">
+                                            <div class="col">
                                                 <form class="form" autocomplete="off" id="contact-form">
-                                                        <h1 style="font-size: 3em; width: 3%; height: 2%; text-align: center; color: gray; opacity: 40%;">Cotizar</h1>
-                                                        <input type="text" name="name" placeholder="Nombre" class="campo" />
-                                                        <input type="text" name="lastname" placeholder="Apellido" class="campo" />
-                                                        <input type="email" name="email" placeholder="Correo" class="campos" id="email"/>
-                                                        <input type="text" name="phone" placeholder="Telefono" class="campos" />
-                                                    <div class="desplegable">
-                                                        <select class="links" name="product">                
-                                                            <option value="Papa Cabello de angel 1000 gramos">Papa Cabello de angel 1000 gramos</option>
-                                                            <option value="Papa Cabello de angel 500 gramos">Papa Cabello de angel 500 gramos</option>
-                                                            <option value="Papa Cabello de angel 150 gramos">Papa Cabello de angel 150 gramos</option>
-                                                            <option value="Cabello de ángel tipo B">Cabello de ángel tipo B</option>
-                                                            <option value="Cabello de ángel tipo A">Cabello de ángel tipo A</option>
-                                                            <option value="Papa Hojuela 225 gramos">Papa Hojuela 225 gramos</option>
-                                                            <option value="Papa Hojuela 450 gramos">Papa Hojuela 450 gramos</option>
-                                                            <option value="Pike todo natural">Pike todo natural</option>
-                                                            <option value="Pike todo Bbq">Pike todo Bbq</option>
-                                                            <option value="Papa chips 32 gramos">Papa chips 32 gramos</option>
-                                                            <option value="Papa chips 22 gramos">Papa chips 22 gramos</option>
-                                                            <option value="Papa chips 8 gramos">Papa chips 8 gramos</option>
-                                                            <option value="Trocillo de limon">Trocillo de limon</option>
-                                                            <option value="Trocillo de Queso">Trocillo de Queso</option>
-                                                            <option value="Trocillo de Pollo">Trocillo de Pollo</option>
-                                                        </select>
-                                                    </div>   
-
-                                                    <textarea class="comentarios" name="message" placeholder="Comentarios"></textarea>
-                                                        <div id="captcha-content">
-                                                                <canvas id="canvas"></canvas>
-                                                                <label for="code">Ingresa el código</label>
-                                                                <input name="code" id="code" />
+                                                    <div class="row">
+                                                        <div class="row">
+                                                            <h1 style="font-size: 3em; width: 3%; height: 2%; text-align: center; color: gray; opacity: 40%;">Cotizar</h1>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col">
+                                                                <input type="text" name="name" placeholder="Nombre" class="campo" />
+                                                            </div>
+                                                            <div class="col">    
+                                                                <input type="text" name="lastname" placeholder="Apellido" class="campo" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col">
+                                                                <input type="email" name="email" placeholder="Correo" class="campos" id="email"/>
+                                                            </div>
+                                                            <div class="col">
+                                                                <input type="text" name="phone" placeholder="Telefono" class="campos" />
+                                                            </div>
                                                         </div>
 
-                                                        <div class="enviar" id="btn-form">
-                                                            Solicitud de presupuesto
+
+                                                            <div class="row desplegable mt-3" id="desplegable-2">
+                                                                <select class="links" name="product">                
+                                                                    <option value="Papa Cabello de angel 1000 gramos">Papa Cabello de angel 1000 gramos</option>
+                                                                    <option value="Papa Cabello de angel 500 gramos">Papa Cabello de angel 500 gramos</option>
+                                                                    <option value="Papa Cabello de angel 150 gramos">Papa Cabello de angel 150 gramos</option>
+                                                                    <option value="Cabello de ángel tipo B">Cabello de ángel tipo B</option>
+                                                                    <option value="Cabello de ángel tipo A">Cabello de ángel tipo A</option>
+                                                                    <option value="Papa Hojuela 225 gramos">Papa Hojuela 225 gramos</option>
+                                                                    <option value="Papa Hojuela 450 gramos">Papa Hojuela 450 gramos</option>
+                                                                    <option value="Pike todo natural">Pike todo natural</option>
+                                                                    <option value="Pike todo Bbq">Pike todo Bbq</option>
+                                                                    <option value="Papa chips 32 gramos">Papa chips 32 gramos</option>
+                                                                    <option value="Papa chips 22 gramos">Papa chips 22 gramos</option>
+                                                                    <option value="Papa chips 8 gramos">Papa chips 8 gramos</option>
+                                                                    <option value="Trocillo de limon">Trocillo de limon</option>
+                                                                    <option value="Trocillo de Queso">Trocillo de Queso</option>
+                                                                    <option value="Trocillo de Pollo">Trocillo de Pollo</option>
+                                                                </select>
+                                                            </div>                                                         
+                                                        <div class="row">
+                                                            <textarea class="mt-3 comentarios" name="message" placeholder="Comentarios"></textarea>
+                                                        </div>
+                                                        <div class="row mt-3">
+                                                            <div id="captcha-content">
+                                                                    <canvas id="canvas"></canvas>
+                                                                    <label for="code">Ingresa el código</label>
+                                                                    <input name="code" id="code" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="enviar" id="btn-form">
+                                                                Solicitud de presupuesto
+                                                            </div>
                                                         </div>
 
-                                                        <div id="messages">
-                                                            <h3 id="save-message">Gracias por comunicarte. pronto nos pondremos en contacto</h3>
-                                                            <h3 id="error-message"></h3>
-                                                        </div>
+                                                            <div id="messages">
+                                                                <h3 id="save-message">Gracias por comunicarte. pronto nos pondremos en contacto</h3>
+                                                                <h3 id="error-message"></h3>
+                                                            </div>
                                                 </form>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                        </div>                   
+                                </div>               
+                        </div>   
                     </div>
 <!---Fin de seccion 2-->
 
 <!---Seccion-3-->      
             <div class="row">
-                <iframe class="maps"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.5779342418036!2d-74.15140972628019!3d4.669082741933472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9cf55c00448d%3A0x53e8aa9f6b489b1c!2zQ2wuIDE2YyBCaXMsIEZvbnRpYsOzbiwgQm9nb3TDoQ!5e0!3m2!1ses-419!2sco!4v1722041885359!5m2!1ses-419!2sco" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="col">
+                    <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.5779342418036!2d-74.15140972628019!3d4.669082741933472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9cf55c00448d%3A0x53e8aa9f6b489b1c!2zQ2wuIDE2YyBCaXMsIEZvbnRpYsOzbiwgQm9nb3TDoQ!5e0!3m2!1ses-419!2sco!4v1722041885359!5m2!1ses-419!2sco" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
 <!---fin de seccion-3-->  
 
