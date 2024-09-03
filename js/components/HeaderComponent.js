@@ -17,8 +17,9 @@ const template = html`
                 </li>
                 <!-- MENU DE PRODUCTOS -->
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">PRODUCTOS</a>
+                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">PRODUCTOS</a>
                     <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="productos.html">Productos</a></li>
                     <li class="dropdown-submenu">
                         <a class="dropdown-item dropdown-toggle" href="#">Cabello de ángel</a>
                         <ul class="dropdown-menu">

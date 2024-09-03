@@ -211,5 +211,13 @@ li:hover ul{
         margin-top: 12px;
     }
 
-    
+    @media only screen and (max-width: 478px) {
+        .btn-wsp img {
+          width: 65%;
+          height: 65%;
+        }
+        .btn-wsp {
+         right: -25%;
+        }
+      }
     

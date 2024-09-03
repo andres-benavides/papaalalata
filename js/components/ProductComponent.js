@@ -35,7 +35,7 @@ const template = (data) => {
           <div class="row">
             <div class="col">
               <div id="texto-1">
-                <p style="color: #004FF7; font-size: 3em;">${data.title}</p><br>
+                <p style="color: #004FF7; font-size: 3em;" class="title-product">${data.title}</p><br>
                 <h2 style="color: #F70022;">Descripción</h2>
                 <h3 style="color: #000;">${data.description}</h3><br>
                 <h2 style="color: #F70022;">Presentación</h2><br>

@@ -16,6 +16,7 @@ div#container-fluid{
   bottom: 30px;
   border-radius: 12px;
   z-index: 999;
+  right: -1%;
 }
 
 /*seccion 0*/
@@ -289,4 +290,21 @@ div#fromulario{
   background-position: center;
   background-size: cover;
 
+}
+@media only screen and (max-width: 478px) {
+  .btn-wsp img {
+    width: 65%;
+    height: 65%;
+  }
+  .btn-wsp {
+   right: -25%;
+  }
+  .imagen-1{
+    height: auto;
+    margin-top: 0;
+    margin-left: 0;
+    position: static;
+    transform: none;
+    animation: none;
+  }
 }

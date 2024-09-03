@@ -176,3 +176,12 @@ div#contendor-blanco{
     cursor: not-allowed;  /* Cambia el cursor al pasar por encima del botón */
 }
 
+@media only screen and (max-width: 478px) {
+    .btn-wsp img {
+      width: 65%;
+      height: 65%;
+    }
+    .btn-wsp {
+     right: -25%;
+    }
+  }
