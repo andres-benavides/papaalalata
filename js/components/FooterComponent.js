@@ -3,11 +3,11 @@ const template = html`
 <link rel="stylesheet" href="./css/footer.css">
 <div class="footer">
     <div class="row">
-        <div class="col">
+        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
             <img src="img/letras blancas Mesa de trabajo 7.png" class="img-footer">
         </div>
 
-        <div class="col">
+        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
             <p>
                 "Celebrando 25 años en el mercado, nos
                 dedicamos a ofrecer productos de papa
@@ -19,7 +19,7 @@ const template = html`
                 los hogares colombianos".
             </p>
         </div>
-        <div class="col">
+        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
             <h3 style=" color: #FFFF;" >Productos</h3>
             <ul>
             <li><a href="Cabellodeangel.html" style="position: relative; color: #FFFF; font-family: cambria bold; font-size: 20px;">Cabello de angel</a></li>
@@ -27,7 +27,7 @@ const template = html`
             <li><a href="Snacks.html" style="position: relative; color: #FFFF; font-family: cambria bold; font-size: 20px;">Snacks</a></li>
             </ul>
         </div>
-        <div class="col">
+        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
             <h3 style="color: #FFFF;">Redes sociales</h3>
             <ul>
             <li><a href="https://www.facebook.com/Papa-a-la-lata-111384327119353/" target="_blank" style=" position: relative;color: #FFFF; font-family: cambria bold; font-size: 20px;">Facebook</a></li>
@@ -35,7 +35,7 @@ const template = html`
             <li><a href="https://wa.link/t2idq5" target="_blank" style="position: relative; color: #FFFF; font-family: cambria bold; font-size: 20px;">WhatsApp</a></li>
             </ul>
         </div>
-        <div class="col">
+        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
             <h3>Dirección</h3>
             Calle 16c Bis# 79D-33 Barrio Visión<br>
             Colombia Semindustrial, Bogotá<br>
