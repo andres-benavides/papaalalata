@@ -377,6 +377,10 @@ div#contenedor-7{
     z-index: 999;
     right: -1%;
 }
+.btn-wsp img {
+    width: 100%;
+    height: 100%;
+  }
 @media only screen and (max-width: 478px) {
     .btn-wsp img {
       width: 65%;

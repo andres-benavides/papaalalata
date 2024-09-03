@@ -277,13 +277,17 @@ div#fromulario{
   object-fit: cover;
 
 }
+.btn-wsp img {
+  width: 100%;
+  height: 100%;
+}
 @media only screen and (max-width: 478px) {
   .btn-wsp img {
-    width: 65%;
-    height: 65%;
+    width: 75% !important;
+    height: 60% !important;
   }
   .btn-wsp {
-   right: 25px;
+   right: 55%  !important;
   }
   .imagen-1{
     height: auto;
