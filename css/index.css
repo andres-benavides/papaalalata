@@ -16,13 +16,13 @@ div#container-fluid{
   bottom: 30px;
   border-radius: 12px;
   z-index: 999;
-  right: -1%;
 }
 
 /*seccion 0*/
 
 
 div#seccion-0{
+  padding: 15px;
   height: auto;
   background-image: url(../img/31cf39_0a52ef63125b4bdeb6b244610d783645~mv2\(1\).png);
   background-size: cover;
@@ -30,6 +30,7 @@ div#seccion-0{
 }
 
 div#texto-1{
+  max-width: 720px;
   height: auto;
   margin-left: 5%;
   margin-top: 5% ;
@@ -51,6 +52,7 @@ div#texto-1{
     border-radius: 12px;
     text-decoration: none;
     border: 2px solid #AA2103;
+    object-fit: cover;
 }
 
 .buton-1:hover{
@@ -65,19 +67,12 @@ div#texto-1{
   margin-top: 15%;
   margin-left: 15%;
   position: relative;
-  transform: rotate(15deg);
-  animation-name: movimiento;
-  animation-duration: 2s;
-
-}
-
-@keyframes movimiento {
-  0% { opacity: 0%; left: 90px;}
-  100% { opacity: 100%; left: 0px;}
-
 }
 
 
+.asaditas{
+  object-fit: cover;
+}
 
 .img-papas{
   max-width: 99%;
@@ -88,8 +83,6 @@ div#texto-1{
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  
-  
 }
 
 
@@ -104,13 +97,10 @@ div#seccion-1{
 
 
 .product-home{
-  width: 100%;
+  width: 80%;
   height: auto;
-  margin-top: 35%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  transform: rotate(29deg);
+  margin-left: 10%;
   
 }
 
@@ -127,19 +117,17 @@ div#seccion-1{
   
 }
 
-.papas-pollo{
-  position: relative;
-  z-index: 888;
-  
+.contenedor-unificacion{
+  margin-left: -15%;
 }
 
+.unificacion{
+  width: 100%;
+  border-style: solid;
+  object-fit: cover;
+  z-index: 999;
 
-.imagen-p{
-  margin-top: -30%;
-  position: relative;
-  
 }
-
 
 /*Seccion-2*/
 
@@ -219,11 +207,12 @@ div#seccion-5{
 
 /*Seccion-6*/
 div#seccion-6{
-  height: 30em;
+  height: 520px;
   background-image: url(../img/novedadesMesa\ de\ trabajo\ 1.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 110%;
+  overflow: hidden;
 }
 
 
@@ -231,29 +220,26 @@ div#seccion-6{
   font-size: 7EM; 
   font-family: arial black; 
   color: #FFFF; 
-  margin-left: 35%;
   padding-top: 150px;
+  position: center;
 }
 
 
 /*Seccion-7*/
 
 div#seccion-7{
-  width: 100%;
-  height: 720px;
+  height: auto;
   background-image: url('../img/Imagen2.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  overflow: hidden;
 }
 
 div#container-7{
-  width: 30%;
-  height: 20%;
   padding: 25px;
   margin: 12% 35% 15%  ;
   background: #ffff;
-
 }
 
 
@@ -266,6 +252,7 @@ div#container-7{
 div#fromulario{ 
   width: 51%;
   margin-left: 25%;
+  object-fit: cover;
 }
 
 .seccion{
@@ -275,6 +262,7 @@ div#fromulario{
   padding: 12px; 
   border: none;  
   background-color: #FADE5E;
+  overflow: hidden;
 }
 
 .networks{
@@ -284,11 +272,9 @@ div#fromulario{
 
 /*Seccion-9*/
 .banner{
-  width: 100%;
-  height: 720px;
-  background-image: url(../img/BANNER.png);
-  background-position: center;
-  background-size: cover;
+  height: auto;
+  border-style: solid;
+  object-fit: cover;
 
 }
 @media only screen and (max-width: 478px) {
@@ -297,7 +283,7 @@ div#fromulario{
     height: 65%;
   }
   .btn-wsp {
-   right: -25%;
+   right: 25px;
   }
   .imagen-1{
     height: auto;
