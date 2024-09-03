@@ -20,21 +20,20 @@
 /*Seccion-2*/
 
 #seccion-2{
-    padding-right: 20%;
-    position: relative;
+    /* padding-right: 20%; */
     background-size: cover;
     background-image: url(../img/COLLAGE_Mesa\ de\ trabajo\ 1.jpg);
 }
 
 
 .form-parent{
-width: 40%; 
+/* width: 40%;  */
 height: 550px;
 background-color: #F1F1F1;
 /* border-radius: 15px; */
-position: relative;
+/* position: relative;
 margin: 10px 0 12px;
-margin-left: 28%;
+margin-left: 28%; */
 padding: 20px;
 }
 
@@ -52,7 +51,7 @@ padding: 20px;
 .campos{
     margin-top: 5%;
     padding: 14px;
-    display: flexbox;
+    /* display: flexbox; */
     /* border-radius: 12px; */
     margin-left: 35px;
     background-color: #e8ca53;

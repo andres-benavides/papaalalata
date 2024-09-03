@@ -50,74 +50,75 @@
 
                     <!---Seccion-2-->
 
-                    <div class="row" id="seccion-2">
-                                        <div class=" col form-parent" id="contendor-blanco">
-                                                <form class="form" autocomplete="off" id="contact-form">
-                                                    <div class="row">
-                                                        <div class="row">
-                                                            <h1 style="font-size: 3em; width: 3%; height: 2%; text-align: center; color: gray; opacity: 40%;">Cotizar</h1>
-                                                        </div>
-                                                        <div class="row">
-                                                            <div class="col">
-                                                                <input type="text" name="name" placeholder="Nombre" class="campo" />
-                                                            </div>
-                                                            <div class="col">    
-                                                                <input type="text" name="lastname" placeholder="Apellido" class="campo" />
-                                                            </div>
-                                                        </div>
-                                                        <div class="row">
-                                                            <div class="col">
-                                                                <input type="email" name="email" placeholder="Correo" class="campos" id="email"/>
-                                                            </div>
-                                                            <div class="col">
-                                                                <input type="text" name="phone" placeholder="Telefono" class="campos" />
-                                                            </div>
-                                                        </div>
-
-
-                                                            <div class="row desplegable mt-3" id="desplegable-2">
-                                                                <select class="links" name="product">                
-                                                                    <option value="Papa Cabello de angel 1000 gramos">Papa Cabello de angel 1000 gramos</option>
-                                                                    <option value="Papa Cabello de angel 500 gramos">Papa Cabello de angel 500 gramos</option>
-                                                                    <option value="Papa Cabello de angel 150 gramos">Papa Cabello de angel 150 gramos</option>
-                                                                    <option value="Cabello de ángel tipo B">Cabello de ángel tipo B</option>
-                                                                    <option value="Cabello de ángel tipo A">Cabello de ángel tipo A</option>
-                                                                    <option value="Papa Hojuela 225 gramos">Papa Hojuela 225 gramos</option>
-                                                                    <option value="Papa Hojuela 450 gramos">Papa Hojuela 450 gramos</option>
-                                                                    <option value="Pike todo natural">Pike todo natural</option>
-                                                                    <option value="Pike todo Bbq">Pike todo Bbq</option>
-                                                                    <option value="Papa chips 32 gramos">Papa chips 32 gramos</option>
-                                                                    <option value="Papa chips 22 gramos">Papa chips 22 gramos</option>
-                                                                    <option value="Papa chips 8 gramos">Papa chips 8 gramos</option>
-                                                                    <option value="Trocillo de limon">Trocillo de limon</option>
-                                                                    <option value="Trocillo de Queso">Trocillo de Queso</option>
-                                                                    <option value="Trocillo de Pollo">Trocillo de Pollo</option>
-                                                                </select>
-                                                            </div>                                                         
-                                                        <div class="row">
-                                                            <textarea class="mt-3 comentarios" name="message" placeholder="Comentarios"></textarea>
-                                                        </div>
-                                                        <div class="row mt-3">
-                                                            <div id="captcha-content">
-                                                                    <canvas id="canvas"></canvas>
-                                                                    <label for="code">Ingresa el código</label>
-                                                                    <input name="code" id="code" />
-                                                            </div>
-                                                        </div>
-                                                        <div class="row">
-                                                            <div class="enviar" id="btn-form">
-                                                                Solicitud de presupuesto
-                                                            </div>
-                                                        </div>
-
-                                                            <div id="messages">
-                                                                <h3 id="save-message">Gracias por comunicarte. pronto nos pondremos en contacto</h3>
-                                                                <h3 id="error-message"></h3>
-                                                            </div>
-                                                    </div>
-                                                </form>
+                    <div class="row justify-content-center" id="seccion-2">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 form-parent  d-flex justify-content-center align-items-center" id="contendor-blanco">
+                                <form class="form" autocomplete="off" id="contact-form">
+                                    <div class="row">
+                                        <div class="row">
+                                            <h1 style="font-size: 3em; width: 3%; height: 2%; text-align: center; color: gray; opacity: 40%;">Cotizar</h1>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <input type="text" name="name" placeholder="Nombre" class="campo" />
                                             </div>
-                                        </div>                 
+                                            <div class="col">    
+                                                <input type="text" name="lastname" placeholder="Apellido" class="campo" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <input type="email" name="email" placeholder="Correo" class="campos" id="email"/>
+                                            </div>
+                                            <div class="col">
+                                                <input type="text" name="phone" placeholder="Telefono" class="campos" />
+                                            </div>
+                                        </div>
+
+
+                                        <div class="row" >
+                                            <div class="col">
+                                                <select class="campo" name="product">                
+                                                    <option value="Papa Cabello de angel 1000 gramos">Papa Cabello de angel 1000 gramos</option>
+                                                    <option value="Papa Cabello de angel 500 gramos">Papa Cabello de angel 500 gramos</option>
+                                                    <option value="Papa Cabello de angel 150 gramos">Papa Cabello de angel 150 gramos</option>
+                                                    <option value="Cabello de ángel tipo B">Cabello de ángel tipo B</option>
+                                                    <option value="Cabello de ángel tipo A">Cabello de ángel tipo A</option>
+                                                    <option value="Papa Hojuela 225 gramos">Papa Hojuela 225 gramos</option>
+                                                    <option value="Papa Hojuela 450 gramos">Papa Hojuela 450 gramos</option>
+                                                    <option value="Pike todo natural">Pike todo natural</option>
+                                                    <option value="Pike todo Bbq">Pike todo Bbq</option>
+                                                    <option value="Papa chips 32 gramos">Papa chips 32 gramos</option>
+                                                    <option value="Papa chips 22 gramos">Papa chips 22 gramos</option>
+                                                    <option value="Papa chips 8 gramos">Papa chips 8 gramos</option>
+                                                    <option value="Trocillo de limon">Trocillo de limon</option>
+                                                    <option value="Trocillo de Queso">Trocillo de Queso</option>
+                                                    <option value="Trocillo de Pollo">Trocillo de Pollo</option>
+                                                </select>
+                                            </div>
+                                        </div>                                                         
+                                        <div class="row">
+                                            <textarea class="mt-3 comentarios" name="message" placeholder="Comentarios"></textarea>
+                                        </div>
+                                        <div class="row mt-3">
+                                            <div id="captcha-content">
+                                                    <canvas id="canvas"></canvas>
+                                                    <label for="code">Ingresa el código</label>
+                                                    <input name="code" id="code" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="enviar" id="btn-form">
+                                                Solicitud de presupuesto
+                                            </div>
+                                        </div>
+
+                                            <div id="messages">
+                                                <h3 id="save-message">Gracias por comunicarte. pronto nos pondremos en contacto</h3>
+                                                <h3 id="error-message"></h3>
+                                            </div>
+                                    </div>
+                                </form>
+                        </div>                
                     </div>
 <!---Fin de seccion 2-->
 
