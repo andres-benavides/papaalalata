@@ -20,7 +20,7 @@
 /*Seccion-2*/
 
 #seccion-2{
-border-style: solid;
+    padding-right: 20%;
     position: relative;
     background-size: cover;
     background-image: url(../img/COLLAGE_Mesa\ de\ trabajo\ 1.jpg);
@@ -111,7 +111,6 @@ div#desplegable-2{
 
 
 div#contendor-blanco{
-    margin-left: 30%;
     height: auto;
 }
 

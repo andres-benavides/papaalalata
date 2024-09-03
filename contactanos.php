@@ -51,11 +51,7 @@
                     <!---Seccion-2-->
 
                     <div class="row" id="seccion-2">
-                        <div class="col" >
-                                <div class="row" >
-                                    <div class="col">
-                                        <div class=" row form-parent" id="contendor-blanco">
-                                            <div class="col">
+                                        <div class=" col form-parent" id="contendor-blanco">
                                                 <form class="form" autocomplete="off" id="contact-form">
                                                     <div class="row">
                                                         <div class="row">
@@ -118,12 +114,10 @@
                                                                 <h3 id="save-message">Gracias por comunicarte. pronto nos pondremos en contacto</h3>
                                                                 <h3 id="error-message"></h3>
                                                             </div>
+                                                    </div>
                                                 </form>
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>               
-                        </div>   
+                                        </div>                 
                     </div>
 <!---Fin de seccion 2-->
 
