@@ -22,8 +22,6 @@ div#container-fluid{
 
 
 div#seccion-0{
-  padding: 15px;
-  height: auto;
   background-image: url(../img/31cf39_0a52ef63125b4bdeb6b244610d783645~mv2\(1\).png);
   background-size: cover;
   position: relative;
@@ -71,16 +69,26 @@ div#texto-1{
 
 
 .asaditas{
+  position: relative;
   object-fit: cover;
 }
 
-.img-papas{
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+
+
+/*Seccion papas*/
+div#contenedor{
+background-image: url(../img/fondo.png);
+background-size: cover;
+position: relative;
 }
+
+.img-papas{
+  width: 105%;
+  height: auto;
+  margin-left: -3%;
+  position: relative;
+}
+/*Seccion papas*/
 
 
 /*Seccion 1*/
