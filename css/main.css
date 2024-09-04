@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'JOckey one'; /* Nombre que quieres darle a la fuente */
+  src: url('fonts/JockeyOne-Regular.ttf') format('truetype'); /* Ruta y formato de la fuente */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima nova'; /* Nombre que quieres darle a la fuente */
+  src: url('fonts/Fontspring-DEMO-proximanovaexcn-regular.otf') format('opentype'); /* Ruta y formato de la fuente */
+  font-weight: normal;
+  font-style: normal;
+}
+.general{
+  width: 1348px;
+  height: 5875px;
+  margin: auto;
+  background-color: rgb(11, 107, 203);
+  overflow: hidden;
+
+}

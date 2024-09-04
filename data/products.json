@@ -125,7 +125,7 @@
     "description":"Elaborado a base de harina de trigo procesado con aceite vegetal, y saborizantes. Ideal para la lonchera o como pasabocas.",
     "presentation": "Presentación: 16 Grs. Paquete por 12 Unds (Docena) Paca de 20 docenas."
   },
-  "Cabellodeangel":{
+  "cabellodeangel":{
     "images":[
       "img/Cabello de angel 1000 gr.png"
     ],
@@ -133,7 +133,7 @@
     "description":"Producto elaborado con papa seleccionada, aceite vegetal y sal.",
     "presentation": "Paca con 25 unidades de kilo. Ideal para acompañar perros caliente, hamburguesas, mazorcadas, salchipapas, creamas y sopas."
   },
-  "Cabellodeangel150g":{
+  "cabellodeangel150g":{
     "images":[
       "img/Cabello de angel 150gr.png"
     ],
@@ -141,7 +141,7 @@
     "description":"Producto elaborado con papa seleccionada, aceite vegetal y sal.",
     "presentation": "Paca con 25 unidades de kilo. Ideal para acompañar perros caliente, hamburguesas, mazorcadas, salchipapas, creamas y sopas."
   },
-  "Cabellodeangel500g":{
+  "cabellodeangel500g":{
     "images":[
       "img/Cabello de angel 500gr.png"
     ],
@@ -149,7 +149,7 @@
     "description":"Producto elaborado con papa seleccionada, aceite vegetal y sal.",
     "presentation": "Paca con 25 y 50 unidades de kilo. Ideal para acompañar perros caliente, hamburguesas, mazorcadas, salchipapas, creamas y sopas."
   },
-  "Hojuelas":{
+  "hojuelas":{
     "images":[
       "img/Hojuela 225gr con sello.png"
     ],
@@ -157,7 +157,7 @@
     "description":"roducto elaborado con papa seleccionada, aceite vegetal y sal.",
     "presentation": "225 gramos de papa ideal para acompañar arroz con pollo, sandwich y/o como pasaboca."
   },
-  "Hojuelas450":{
+  "hojuelas450":{
     "images":[
       "img/Hojuela 450gr con sello.png"
     ],
@@ -165,7 +165,7 @@
     "description":"Producto elaborado con papa seleccionada, aceite vegetal y sal.",
     "presentation": "450 gramos de papa ideal para acompañar arroz con pollo, sandwich y/o como pasaboca."
   },
-  "Papasbbq":{
+  "papasbbq":{
     "images":[
       "img/CHIPS SABORES BBQ sin sello.png",
       "img/Docena Chips Surtida 32 gr.jpeg"
@@ -182,7 +182,7 @@
     ],
     "title":"PAPAS SABOR LIMON",
     "description":"Delicioso sabor que te hará vibrar. Ideal para la lonchera o como pasabocas.",
-    "presentation": "resentación: 32 grs. Paquete por 12 unds sabores surtidos. Caja de 5 docenas. NOTA: Nueva presentación próximamente"
+    "presentation": " 32 grs. Paquete por 12 unds sabores surtidos. Caja de 5 docenas. NOTA: Nueva presentación próximamente"
   },
   "papasdepollo":{
     "images":[
@@ -191,7 +191,7 @@
     ],
     "title":"PAPAS SABOR A POLLO",
     "description":"Papas con tradicional sabor a pollo, que no podrás comerte solo una. Ideal para la lonchera o como pasabocas.",
-    "presentation": "resentación: 32 grs. Paquete por 12 unds sabores surtidos. Caja de 5 docenas. NOTA: Nueva presentación próximamente"
+    "presentation": "32 grs. Paquete por 12 unds sabores surtidos. Caja de 5 docenas. NOTA: Nueva presentación próximamente"
 
   },
   "papasnatural":{
@@ -201,7 +201,16 @@
     ],
     "title":"PAPAS SABOR NATURAL",
     "description":"Deliciosas hojuelas naturales crocanticas  acompañadas con una deliciosa salsa de tomate. Ideal para la lonchera o como pasabocas.",
-    "presentation": "resentación: 32 grs. Paquete por 12 unds sabores surtidos. Caja de 5 docenas. NOTA: Nueva presentación próximamente"
+    "presentation": " 32 grs. Paquete por 12 unds sabores surtidos. Caja de 5 docenas. NOTA: Nueva presentación próximamente"
+
+  },
+  "snacks":{
+    "images":[
+      "img/CHIPS SABORES ASADITAS sin sello.png"
+    ],
+    "title":"PAPAS SABOR ASADITAS",
+    "description":"Exquisito sabor asadito, ideal para acompañar la, lonchera o como pasabocas. Ideal para la lonchera o como pasabocas. ",
+    "presentation": "Presentación: 32 Grs. Paquete por 12 Unds sabores surtidos. Caja de 5 docenas NOTA: Nueva imagen proximamente. "
 
   }
 

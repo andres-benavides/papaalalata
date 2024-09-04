@@ -1,0 +1,44 @@
+.container-product{
+  padding: 15px;
+}
+.img-product{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel-inner,
+.carousel-item {
+  height: auto; /* Ajusta automáticamente la altura según el contenido */
+}
+
+.carousel-item img {
+  display: block;
+  max-width: 100%;
+  max-height: 400px; /* Ajusta según tus necesidades */
+  width: auto;
+  height: auto;
+  margin: 0 auto; /* Centra la imagen */
+  object-fit: contain;
+}
+
+.btn-wsp{
+  position: fixed;
+  width: 300px;
+  height: 150px;
+  line-height: 55px;
+  margin-left: 1050px;
+  bottom: 30px;
+  border-radius: 12px;
+  z-index: 999;
+}
+@media only screen and (max-width: 478px) {
+  .btn-wsp img {
+    width: 65%;
+    height: 65%;
+  }
+  .btn-wsp {
+   right: -25%;
+  }
+}

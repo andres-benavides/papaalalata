@@ -1,221 +1,308 @@
-body{
-    width: 1349px;
-    height: 5050px;
+*{
+  margin: 0;
+  padding: 0;
+
 }
 
 
-div#General{
-    width: 1349px;
-    height: 5050px;
-    background-color: #FEB902;
-    overflow: hidden;
+div#container-fluid{
+  overflow: hidden;
 }
 
-div#main{   
-    width: 1349px;
-    height: 698px;
-    position: relative;
+.btn-wsp{
+  position: fixed;
+  height: 150px;
+  line-height: 70px;
+  bottom: 30px;
+  border-radius: 12px;
+  z-index: 999;
 }
 
-div#texto-1{    
-    background: radial-gradient(#AA2103,#FF4A23 );
-    position: relative;
-    margin-top: -650px;
-    margin-left: 25px;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;  
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    font-size: 50px;
-    line-height: 130px;
-    animation-name: mtexto;
-    animation-duration: 2s;
+/*seccion 0*/
+
+
+div#seccion-0{
+  background-image: url(../img/31cf39_0a52ef63125b4bdeb6b244610d783645~mv2\(1\).png);
+  background-size: cover;
+  position: relative;
+}
+
+div#texto-1{
+  max-width: 720px;
+  height: auto;
+  margin-left: 5%;
+  margin-top: 5% ;
+  position: relative;
+  animation-name: mtexto;
+  animation-duration: 2s;
 }
 
 @keyframes mtexto{
-    0% { opacity: 0%; right: 50px;}
-    100% { opacity: 100%; right: 0px;}
+  0% { opacity: 0%; right: 50%;}
+  100% { opacity: 100%; right: 0%;}
 }
 
-.btn{
-    background-color: #ffff;
+.buton-1{
+  background-color: #ffff;
     color: #AA2103;
     cursor: pointer;
+    padding: 12px;
+    border-radius: 12px;
+    text-decoration: none;
     border: 2px solid #AA2103;
-}
-.btn:hover{
-    color: white;
-    background-color: #FF4A23;
+    object-fit: cover;
 }
 
-
-
-div#imagen-1{
-    margin-top: -365px;
-    margin-left: 800px;
-    position: relative;
-    transform: rotate(15deg);
-    animation-name: movimiento;
-    animation-duration: 2s;
-
+.buton-1:hover{
+  color: white;
+  background-color: #FF4A23;
 }
 
-@keyframes movimiento {
-    0% { opacity: 0%; left: 90px;}
-    100% { opacity: 100%; left: 0px;}
 
+
+.imagen-1{
+  height: 100%;
+  margin-top: 15%;
+  margin-left: 15%;
+  position: relative;
 }
-div#papas{
-    position: absolute;
-    
+
+
+.asaditas{
+  position: relative;
+  object-fit: cover;
 }
+
+
+
+/*Seccion papas*/
+div#contenedor{
+background-image: url(../img/fondo.png);
+background-size: cover;
+position: relative;
+}
+
+.img-papas{
+  width: 105%;
+  height: auto;
+  margin-left: -3%;
+  position: relative;
+}
+/*Seccion papas*/
+
+
+/*Seccion 1*/
+
 
 div#seccion-1{
-    margin-top: 45px;
-    height: 650px;
-    width: auto;
+  background-image: url(../img/fondo.png);
+  background-size: cover;
+  
 }
 
 
-div#imagen-2{
-    transform: rotate(40deg);
-    margin-top: -515px;
-    margin-left: -50px;
-    width: 35%;
-    height: 67%;
-    position: relative;
-}
-
-div#imagen-3{
-    transform: rotate(40deg);
-    margin-top: -415px;
-    margin-left: 260px;
-    width: 35%;
-    height: 67%;
-    position: relative; 
-}
-
-div#imagen-4{
-    transform: rotate(29deg);
-    margin-top: -405px;
-    margin-left: 560px;
-    width: 35%;
-    height: 67%;
-    position: relative; 
+.product-home{
+  width: 80%;
+  height: auto;
+  display: block;
+  margin-left: 10%;
+  
 }
 
 
-div#imagen-5{
-    margin-top: -645px;
-    margin-left: 900px;
-    width: 25%;
-    height: 67%;
-    position: relative; 
+
+.product-home-2{
+  width: 80%;
+  text-align: center;
+  height: auto;
+  margin-left: 10%;
+  display: block;
+  margin-top: 1%;
+  padding: 0px 30px 0px;
+  
 }
 
-div#imagen-6{
-    margin-top: -355px;
-    margin-left: 820px;
-    width: 35%;
-    height: 67%;
-    position: relative;   
+.contenedor-unificacion{
+  margin-left: -15%;
+}
+
+.unificacion{
+  width: 100%;
+  border-style: solid;
+  object-fit: cover;
+  z-index: 999;
+
+}
+
+/*Seccion-2*/
+
+.seccion-2{
+  width: 100%;
+  height: 720px;
+  background-image: url('../img/Imagen2.webp');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+  
 }
 
 
-div#seccion-2{
-    margin-top: -50px;
-    width: auto;
-    height: 500px;
-    position: relative;
+/*Seccion-3*/
+.seccion-3{
+  height: auto;
+  background-image: url('../img/31cf39_0a52ef63125b4bdeb6b244610d783645~mv2\(1\).png') ;
+  background-size: cover;
+  
 }
 
 
-div#seccion-3{
-    width: auto;
-    height: 500px;
-    position: relative;
+.mesa{
+  width: 100%;
+  height: 90%;
 }
 
-.btn-1{
-    margin-left: 620px;
-    margin-top: -85px;
-    width: 115px;
-    height: 30px;
+.boton-2{
+    padding: 1%;
+    text-decoration: none;
     background-color: #ffff;
     color: #AA2103;
-    cursor: pointer;
-    border: 2px solid #AA2103;
+    border-radius: 15%;
+    border: 1px solid #AA2103;
     position: relative;
 }
-.btn-1:hover{
+.boton-2:hover{
     color: white;
     background-color: #FF4A23;
 }
 
 
-div#seccion-4{
-    margin-top: -1%;
-    background-color: #ffff;
-    width: auto;
-    height: 550px;
-    position: relative;
+
+
+
+/*Seccion-4*/
+.container-4{
+  background-size: cover;
+  background-position: left;
+
 }
+
+/*Seccion-5*/
+
 
 div#seccion-5{
-    width: auto;
-    height: 450px;
-    position: relative;
+  background-image: url(../img/azul\ fondo\ Mesa\ de\ trabajo\ 1.png);
+  background-size: cover;
 }
 
-div#seccion-6{
-    height: 30em;
-    background-image: url(../img/novedadesMesa\ de\ trabajo\ 1.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 110%;
+.product-home-1{
+  height: auto;
+  margin-top: 1%;
+  margin-left: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+.start-2{
+  height: 50%;
+  
+  
+}
+
+/*Seccion-6*/
+div#seccion-6{
+  height: 520px;
+  background-image: url(../img/novedadesMesa\ de\ trabajo\ 1.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 110%;
+  overflow: hidden;
+}
+
+
+.text-center-1{
+  font-size: 7EM; 
+  font-family: arial black; 
+  color: #FFFF; 
+  padding-top: 150px;
+  position: center;
+}
+
+
+/*Seccion-7*/
 
 div#seccion-7{
-    width: auto;
-    height: 300px;
-    position: relative;
-
+  height: auto;
+  background-image: url('../img/Imagen2.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
 }
 
-div#seccion-8{
-    box-sizing:border-box;
-    padding: 1em;
-    font-family: arial;
-    border: none;
-}
-
-.boton{
-    background-color: #FBCF05;
-    color: #ffff;
-    padding: 10px;
-    position: relative;
-    text-align: center;
-    margin-left: 1%;
-
-}
-.boton:hover{
-    color: white;
-    background-color: #FF4A23;
+div#container-7{
+  padding: 25px;
+  margin: 12% 35% 15%  ;
+  background: #ffff;
 }
 
 
-div#logo-2{
-    display: flex;
-    margin-top: 5px;
-    margin-left: 30%;
+
+
+
+/*Seccion-8*/
+
+
+div#fromulario{ 
+  width: 51%;
+  margin-left: 25%;
+  object-fit: cover;
 }
 
-.imagen-2{
-    display: flex;
-    position: relative;
-    width: 30px;
-    margin: 2px;
-    border-radius: 50%;
+.seccion{
+  border-style: solid;
+  border-radius: 12px; 
+  color: hsl(0, 2%, 38%); 
+  padding: 12px; 
+  border: none;  
+  background-color: #FADE5E;
+  overflow: hidden;
 }
 
+.networks{
+  border-radius: 50%;
+}
+
+
+/*Seccion-9*/
+.banner{
+  height: auto;
+  border-style: solid;
+  object-fit: cover;
+
+}
+.btn-wsp img {
+  width: 100%;
+  height: 100%;
+}
+@media only screen and (max-width: 478px) {
+  .btn-wsp img {
+    width: 75% !important;
+    height: 60% !important;
+  }
+  .btn-wsp {
+   right: 55%  !important;
+  }
+  .imagen-1{
+    height: auto;
+    margin-top: 0;
+    margin-left: 0;
+    position: static;
+    transform: none;
+    animation: none;
+  }
+  div#contenedor{
+    display: none;
+  }
+}
