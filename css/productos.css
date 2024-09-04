@@ -138,10 +138,14 @@ div#container{
 
 
 div#contenedor-1{
+
     margin-top: -5%;
 }
 
-
+div#contenedor-13{
+    display: block;
+    margin-top: -5%;
+}
 
 .imagen-4{
     margin-top: -5%;
@@ -172,7 +176,6 @@ div#contenedor-1{
 
 
 .imagen-6{
-    height: 105%;
     position: relative;
     animation-name: imagen-6;
     animation-duration: 10s;
@@ -187,11 +190,11 @@ div#contenedor-1{
 div#contenedor-2{
     position: relative;
     margin-top: -13%;
+    display: block;
 }
 
 
 .imagen-7{
-    height: 105%;
     position: relative;
     animation-name: imagen-7;
     animation-duration: 10s;
@@ -205,11 +208,11 @@ div#contenedor-2{
 
 div#contenedor-3{
     position: relative;
+    display: block;
     margin-top: -5%;
 }
 
 .imagen-8{
-    height: 105%;
     position: relative;
     animation-name: imagen-8;
     animation-duration: 10s;
@@ -221,7 +224,6 @@ div#contenedor-3{
 }
 
 .imagen-9{
-    height: 105%;
     position: relative;
     animation-name: imagen-9;
     animation-duration: 10s;
@@ -234,13 +236,19 @@ div#contenedor-3{
 
 
 div#contenedor-4{
+    display: block;
     position: relative;
     margin-top: -9%;
 }
 
 
+
+
+div#contenedor-8{
+    display: block;
+}
+
 .imagen-10{
-    height: 105%;
     position: relative;
     animation-name: imagen-9;
     animation-duration: 10s;
@@ -263,7 +271,6 @@ div#contenedor-5{
     margin-top: -4%;
 }
 .imagen-11{
-    height: 105%;
     position: relative;
     animation-name: imagen-11;
     animation-duration: 12s;
@@ -281,7 +288,6 @@ div#contenedor-6{
 
 
 .imagen-12{
-    height: 100%;
     position: relative;
     animation-name: imagen-12;
     animation-duration: 12s;
@@ -300,7 +306,6 @@ div#contenedor-7{
 
 
 .imagen-13{
-    height: 105%;
     position: relative;
     animation-name: imagen-13;
     animation-duration: 5s;
@@ -316,7 +321,7 @@ div#contenedor-7{
     position: relative;
     animation-name: mbot-1;
     animation-duration: 5s;
-    z-index: 999;
+    z-index: 888;
 }
 
 @keyframes mbot-1{
@@ -328,11 +333,11 @@ div#contenedor-7{
 
 
 .bot-2{
-    margin-left: 15%;
+    margin-left: 20%;
     position: relative;
     animation-name: mbot-2;
     animation-duration: 5s;
-    z-index: 999;
+    z-index: 888;
 }
 
 @keyframes mbot-2{
@@ -341,11 +346,11 @@ div#contenedor-7{
 }
 
 .bot-3{
-    margin-left: 75%;
+    margin-left: 65%;
     position: relative;
     animation-name: mbot-3;
     animation-duration: 5s;
-    z-index: 999;
+    z-index: 888;
 }
 
 @keyframes mbot-3{
