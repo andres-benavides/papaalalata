@@ -13,7 +13,7 @@ const template = (data)=>{
             </div>
         </div>   
         <div class="row related-products">
-            <div class="col">
+            <div class="col unit-product">
                 <div class="row justify-content-center">
                     <div class="col text-center">
                         <img src="${data[0].imagen}" class="related-product">
@@ -25,7 +25,7 @@ const template = (data)=>{
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col unit-product">
                 <div class="row justify-content-center">
                     <div class="col text-center">
                         <img src="${data[1].imagen}" class="related-product">
@@ -37,7 +37,7 @@ const template = (data)=>{
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col unit-product">
                 <div class="row justify-content-center">
                     <div class="col text-center">
                         <img src="${data[2].imagen}" class="related-product">
