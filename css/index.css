@@ -206,6 +206,11 @@ div#seccion-5{
   max-width: 60% !important;
 }
 
+.papas-pollo{
+  height: auto;
+  max-width: 80% !important;
+}
+
 .start-2{
   height: 50%;
   
@@ -294,7 +299,7 @@ div#fromulario{
     height: 60% !important;
   }
   .btn-wsp {
-   right: 55%  !important;
+    right: -8% !important;
   }
   .imagen-1{
     height: auto;
