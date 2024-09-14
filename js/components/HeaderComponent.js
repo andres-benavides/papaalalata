@@ -1,7 +1,6 @@
 import { html, render } from "https://cdn.jsdelivr.net/npm/lit-html@3.1.2/+esm";
 const template = html`
 <link rel="stylesheet" href="./css/navbar.css">
-<header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
@@ -68,8 +67,7 @@ const template = html`
 
             </div>
         </div>
-    </nav>
-</header>`;
+    </nav>`;
 
 
 class HeaderComponent extends HTMLElement {
