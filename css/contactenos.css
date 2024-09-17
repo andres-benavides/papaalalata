@@ -1,8 +1,7 @@
+body { padding-top: 100px; }
 .general{
     overflow: hidden;
 }
-
-
 
 .btn-wsp{
     position: fixed;

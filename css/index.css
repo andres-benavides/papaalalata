@@ -1,3 +1,5 @@
+body { padding-top: 110px; }
+
 *{
   margin: 0;
   padding: 0;
@@ -26,6 +28,7 @@ div#seccion-0{
   background-image: url(../img/31cf39_0a52ef63125b4bdeb6b244610d783645~mv2\(1\).png);
   background-size: cover;
   position: relative;
+  overflow: hidden;
 }
 
 div#texto-1{
@@ -41,6 +44,25 @@ div#texto-1{
 @keyframes mtexto{
   0% { opacity: 0%; right: 50%;}
   100% { opacity: 100%; right: 0%;}
+}
+
+/* Animaciones ajustadas para entrar desde los lados */
+.slide-in-left {
+  opacity: 0;
+  transform: translateX(-50%); /* Reduce la distancia de salida */
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.slide-in-right {
+  opacity: 0;
+  transform: translateX(50%); /* Reduce la distancia de salida */
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+/* Cuando están visibles */
+.visible {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 .buton-1{
@@ -310,6 +332,9 @@ div#fromulario{
     animation: none;
   }
   div#contenedor{
+    display: none;
+  }
+  #div-hola{
     display: none;
   }
 }

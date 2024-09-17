@@ -10,7 +10,7 @@
     font-weight: normal;
     font-style: normal;
 }
-
+body { padding-top: 100px; }
 *{
     padding: 0;
     margin: 0;
@@ -394,5 +394,6 @@ div#contenedor-7{
     .imagen-5{
         margin-left: -14%
     }
-  }
+    body { padding-top: 100px !important; }
+}
 

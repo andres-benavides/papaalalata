@@ -1,3 +1,4 @@
+body { padding-top: 100px; }
 *{
     padding: 0;
     margin: 0;
@@ -42,17 +43,6 @@ border-radius: 10px;
 }
 
 
-h1{
-    position: relative;
-    color: red;
-    font-size: 3em;
-    width: 4%;
-    margin-left: 1%;
-}
-
-
-
-
 /*Seccion 2*/
 
 .linea-temporal{
@@ -85,7 +75,7 @@ h1{
     border-radius: 12px; 
     font-size: 3em; 
     text-align: center;
-    color: red;
+    color: red !important;
     margin-left: 25%;
 }
 
@@ -236,4 +226,7 @@ h1{
     .btn-wsp {
      right: -25%;
     }
-  }
+    .text{
+        font-size: 1.5em !important; 
+    }
+}

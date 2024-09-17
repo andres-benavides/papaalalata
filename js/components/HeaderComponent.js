@@ -1,7 +1,7 @@
 import { html, render } from "https://cdn.jsdelivr.net/npm/lit-html@3.1.2/+esm";
 const template = html`
 <link rel="stylesheet" href="./css/navbar.css">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
                 <img src="img/LOGO PNGMesa de trabajo 3_1.png" alt="logo" width="100%" height="100%">
@@ -22,9 +22,13 @@ const template = html`
                     <li class="dropdown-submenu">
                         <a class="dropdown-item dropdown-toggle" href="#">Cabello de ángel</a>
                         <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="Cabellodeangel.html">cabello de ángel 1.000gr</a></li>
-                        <li><a class="dropdown-item" href="Cabellodeangel500g.html">cabello de ángel 500gr</a></li>
-                        <li><a class="dropdown-item" href="Cabellodeangel150g.html">cabello de ángel 150gr</a></li>
+                        <li><a class="dropdown-item" href="cabellodeangel.html">cabello de ángel 1.000gr Premium</a></li>
+                        <li><a class="dropdown-item" href="cabellodeangel500g.html">cabello de ángel 500gr</a></li>
+                        <li><a class="dropdown-item" href="cabellodeangel150g.html">cabello de ángel 150gr</a></li>
+                        <li><a class="dropdown-item" href="cabellodeangel15g.html">cabello de ángel 15gr</a></li>
+                        <li><a class="dropdown-item" href="cabellodeangel1000g.html">cabello de ángel 1.000gr</a></li>
+                        <li><a class="dropdown-item" href="cabellodeangeWilly.html">cabello de ángel Willy Cronch</a></li>
+
                         </ul>
                     </li>
                     <li class="dropdown-submenu">
@@ -37,12 +41,14 @@ const template = html`
                     <li class="dropdown-submenu">
                         <a class="dropdown-item dropdown-toggle" href="#">Snacks</a>
                         <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="chipsnaturales8g.html">Papa chips 8gr</a></li>
-                        <li><a class="dropdown-item" href="chipsdelimon.html">Papa chips 22gr</a></li>
-                        <li><a class="dropdown-item" href="papasnatural.html">Papa chips 32gr</a></li>
+                        <li><a class="dropdown-item" href="snacks-8gr.html">Papa chips 8gr</a></li>
+                        <li><a class="dropdown-item" href="snacks-22gr.html">Papa chips 22gr</a></li>
+                        <li><a class="dropdown-item" href="snacks-32gr.html">Papa chips 32gr</a></li>
                         <li><a class="dropdown-item" href="pikenatural.html">Pike todo Natural</a></li>
                         <li><a class="dropdown-item" href="pikebbq.html">Pike todo Bbq</a></li>
-                        <li><a class="dropdown-item" href="trocillos_pollo.html">Trocillos</a></li>
+                        <li><a class="dropdown-item" href="trocillos.html">Trocillos</a></li>
+                        <li><a class="dropdown-item" href="boluditos.html">Boluditos</a></li>
+                        <li><a class="dropdown-item" href="guditos.html">Guditos</a></li>
                         </ul>
                     </li>
                     </ul>
