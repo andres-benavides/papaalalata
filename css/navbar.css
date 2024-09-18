@@ -6,7 +6,7 @@
 }
 @font-face {
   font-family: 'proxima nova'; /* Nombre que quieres darle a la fuente */
-  src: url('fonts/Fontspring-DEMO-proximanovaexcn-regular.otf') format('opentype'); /* Ruta y formato de la fuente */
+  src: url('fonts/Montserrat-VariableFont_wght.ttf') format('truetype'); /* Ruta y formato de la fuente */
   font-weight: normal;
   font-style: normal;
 }
