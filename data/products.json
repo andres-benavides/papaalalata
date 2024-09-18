@@ -39,6 +39,24 @@
     "presentation": "22 Grs. Paquete de 24 unds, en caja de 6 paquetes.",
     "section-type": "chips-22g"
   },
+  "chipspollo22g":{
+    "images":[
+      "img/Papa chips Pollo 23gr.png"
+    ],
+    "title":"Papa sabor a Pollo",
+    "description":"Hojuelas crocanticas con el espectacular sabor a pollo, elaborada con la mejor cosecha de papa, aceite vegetela y saborizante",
+    "presentation": "22 Grs. Paquete de 24 unds, en caja de 6 paquetes.",
+    "section-type": "chips-22g"
+  },
+  "chipsnatural22g":{
+    "images":[
+      "img/Papa chips Natural 22gr.png"
+    ],
+    "title":"Papa sabor natural",
+    "description":"Hojuelas crocanticas con el espectacular sabor natural, elaborada con la mejor cosecha de papa, aceite vegetela y saborizante",
+    "presentation": "22 Grs. Paquete de 24 unds, en caja de 6 paquetes.",
+    "section-type": "chips-22g"
+  },
   "chipsbbq":{
     "images":[
       "img/BBQ 8gr.png",
