@@ -80,8 +80,8 @@ div#container{
 }
 
 .imagen-0{
-    height: 80%;
-    position: relative;
+    max-width: 100%;
+    height: auto;
     animation-name: imagen-0;
     animation-duration: 5s;
 }
@@ -94,7 +94,7 @@ div#container{
 
 
 .imagen-1{
-    max-width: 70%;
+    max-width: 100%;
     height: auto;
     margin-top: -20%;
     position: relative;
@@ -123,7 +123,8 @@ div#container{
 
 
 .imagen-3{
-    height: 60%;
+    max-width: 100%;
+    height: auto;
     margin-left: 15%;
     margin-top: 6%;
     position: relative;
@@ -396,5 +397,8 @@ div#contenedor-7{
         margin-left: -14%
     }
     body { padding-top: 100px !important; }
+    #ocultar{
+        display: none !important;
+    }
 }
 
