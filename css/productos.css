@@ -94,7 +94,8 @@ div#container{
 
 
 .imagen-1{
-    height: 60%;
+    max-width: 70%;
+    height: auto;
     margin-top: -20%;
     position: relative;
     transform: rotate(12deg);
