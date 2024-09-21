@@ -55,7 +55,7 @@ const template = html`
                 </li>
                 <!-- FIN MENU DE PRODUCTOS -->
                 <li class="nav-item"><a class="nav-link" href="conocenos.html">QUIENES SOMOS</a></li>
-                <li class="nav-item"><a class="nav-link" href="contactanos.php">CONTÁCTENOS</a></li> 
+                <li class="nav-item"><a class="nav-link" href="contactanos.html">CONTÁCTENOS</a></li> 
                 </ul>
                 <!-- REDES SOCIALES -->
                 <div class="row">

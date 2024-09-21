@@ -40,7 +40,7 @@ const template = html`
             Calle 16c Bis# 79D-33 Barrio Visión<br>
             Colombia Semindustrial, Bogotá<br>
             Tel: 4122130<br>
-            WhathsApp: 3133800415<br>
+            WhatsApp: 3133800415<br>
             Correo: ventas@papaalalata.com</p><br>
         </div>
     </div>

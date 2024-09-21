@@ -165,9 +165,7 @@ div#seccion-1{
   background-image: url('../img/Imagen2.webp');
   background-size: cover;
   background-position: center;
-  position: relative;
-
-  
+  position: relative; 
 }
 
 
@@ -268,11 +266,12 @@ div#seccion-7{
   background-repeat: no-repeat;
   background-position: center;
   overflow: hidden;
+  padding: 8px;
 }
 
-div#container-7{
-  padding: 25px;
-  margin: 12% 35% 15%  ;
+.container-7{
+  padding: 5px;
+  /* margin: 12% 35% 15%; */
   background: #ffff;
 }
 
@@ -315,11 +314,11 @@ div#fromulario{
   width: 100%;
   height: 100%;
 }
+#div-hola{
+  display: none;
+}
 @media only screen and (max-width: 478px) {
-  .btn-wsp img {
-    width: 75% !important;
-    height: 60% !important;
-  }
+
   .btn-wsp {
     right: -8% !important;
   }
@@ -336,5 +335,16 @@ div#fromulario{
   }
   #div-hola{
     display: none;
+  }
+  #img-all-papas{
+    display:none !important;
+  }
+  .seccion-2{
+    width: 100%;
+    height: auto;
+    background-image: url('../img/Imagen2.webp');
+    background-size: auto;
+    background-position: center;
+    position: relative; 
   }
 }
