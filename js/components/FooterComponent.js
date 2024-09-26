@@ -8,7 +8,7 @@ const template = html`
         </div>
 
         <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
-            <p>
+            <p class="celebrating">
                 "Celebrando 25 años en el mercado, nos
                 dedicamos a ofrecer productos de papa
                 que se distinguen por su calidad

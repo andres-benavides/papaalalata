@@ -163,8 +163,6 @@ div#contenedor-13{
 }
 
 .imagen-5{
-
-    height: 85%;
     margin-top: 20%;
     position: relative;
     animation-name: imagen-5;
@@ -172,7 +170,7 @@ div#contenedor-13{
 }
 
 @keyframes imagen-5{
-    0% {  opacity: 0% ; left: 10%;}
+    0% {  opacity: 0% ;}
     100% { opacity: 100%; left: 0%;}
 }
 
@@ -392,9 +390,6 @@ div#contenedor-7{
     }
     .btn-wsp {
      right: -25%;
-    }
-    .imagen-5{
-        margin-left: -14%
     }
     body { padding-top: 100px !important; }
     #ocultar{
