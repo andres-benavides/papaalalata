@@ -231,9 +231,12 @@ div#seccion-5{
 }
 
 .start-2{
-  height: 50%;
+  height: 50%; 
   
-  
+}
+.start-2-trocillos{
+  max-width: 80% !important;
+  height: 80%; 
 }
 
 /*Seccion-6*/

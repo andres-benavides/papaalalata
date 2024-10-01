@@ -165,7 +165,12 @@ div#contendor-blanco{
     height: 400px;
 }
 /*Fin de seccion-3*/
-
+.btn-porta{
+    padding: 13px !important;
+    background-color: #e8ca53 !important;
+    margin-top: 18px !important;
+    font-size: larger !important;
+}
 .disabled {
     pointer-events: none;  /* Deshabilita los eventos de clic */
     opacity: 0.6;  /* Cambia la apariencia para que parezca deshabilitado */
