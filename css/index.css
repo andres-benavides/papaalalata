@@ -161,10 +161,9 @@ div#seccion-1{
 
 .seccion-2{
   width: 100%;
-  height: 720px;
-  background-image: url('../img/Imagen2.webp');
+  height: 900px;
+  background-image: url('../img/all-papas.jpg');
   background-size: cover;
-  background-position: center;
   position: relative; 
 }
 
@@ -260,11 +259,10 @@ div#seccion-6{
 /*Seccion-7*/
 
 div#seccion-7{
-  height: 280px;
-  background-image: url('../img/Imagen2.webp');
+  height: 300px;
+  background-image: url('../img/all-papas.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
   overflow: hidden;
   padding: 8px;
 }
@@ -346,7 +344,7 @@ div#fromulario{
   .seccion-2{
     width: 100%;
     height: auto;
-    background-image: url('../img/Imagen2.webp');
+    background-image: url('../img/all-papas.jpg');
     background-size: auto;
     background-position: center;
     position: relative; 
