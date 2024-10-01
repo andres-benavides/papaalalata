@@ -199,7 +199,7 @@
   "papasbbq":{
     "images":[
       "img/CHIPS SABORES BBQ sin sello.png",
-      "img/Docena Chips Surtida 32 gr.jpeg"
+      "img/Docena Chips Surtida 32 gr.png"
     ],
     "title":"PAPA SABOR BBQ",
     "description":"Hojuelas picanticas, ideal para la lonchera o como pasabocas.",
@@ -210,7 +210,7 @@
   "papasdelimon":{
     "images":[
       "img/CHIPS SABORES LIMON sin sello.png",
-      "img/Docena Chips Surtida 32 gr.jpeg"
+      "img/Docena Chips Surtida 32 gr.png"
     ],
     "title":"PAPAS SABOR LIMON",
     "description":"Delicioso sabor que te hará vibrar. Ideal para la lonchera o como pasabocas.",
@@ -220,7 +220,7 @@
   "papasdepollo":{
     "images":[
       "img/CHIPS SABORES POLLO sin sello.png",
-      "img/Docena Chips Surtida 32 gr.jpeg"
+      "img/Docena Chips Surtida 32 gr.png"
     ],
     "title":"PAPAS SABOR A POLLO",
     "description":"Papas con tradicional sabor a pollo, que no podrás comerte solo una. Ideal para la lonchera o como pasabocas.",
@@ -231,7 +231,7 @@
   "papasnatural":{
     "images":[
       "img/CHIPS SABORES NATURAL sin sello.png",
-      "img/Docena Chips Surtida 32 gr.jpeg"
+      "img/Docena Chips Surtida 32 gr.png"
     ],
     "title":"PAPAS SABOR NATURAL",
     "description":"Deliciosas hojuelas naturales crocanticas. Ideal para la lonchera o como pasabocas.",
@@ -241,7 +241,8 @@
   },
   "snacks":{
     "images":[
-      "img/CHIPS SABORES ASADITAS sin sello_test.png"
+      "img/CHIPS SABORES ASADITAS sin sello_test.png",
+      "img/Docena Chips Surtida 32 gr.png"
     ],
     "title":"PAPAS SABOR ASADITAS",
     "description":"Exquisito sabor asadito, ideal para acompañar la, lonchera o como pasabocas. Ideal para la lonchera o como pasabocas. ",
