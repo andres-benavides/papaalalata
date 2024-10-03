@@ -1,3 +1,5 @@
+body { padding-top: 110px; }
+
 *{
   margin: 0;
   padding: 0;
@@ -11,12 +13,13 @@ div#container-fluid{
 
 .btn-wsp{
   position: fixed;
+  width: 300px;
   height: 150px;
-  line-height: 70px;
+  line-height: 55px;
   bottom: 30px;
   border-radius: 12px;
   z-index: 999;
-  right: -1%;
+  right: -1px;
 }
 
 /*seccion 0*/
@@ -26,6 +29,7 @@ div#seccion-0{
   background-image: url(../img/31cf39_0a52ef63125b4bdeb6b244610d783645~mv2\(1\).png);
   background-size: cover;
   position: relative;
+  overflow: hidden;
 }
 
 div#texto-1{
@@ -41,6 +45,25 @@ div#texto-1{
 @keyframes mtexto{
   0% { opacity: 0%; right: 50%;}
   100% { opacity: 100%; right: 0%;}
+}
+
+/* Animaciones ajustadas para entrar desde los lados */
+.slide-in-left {
+  opacity: 0;
+  transform: translateX(-50%); /* Reduce la distancia de salida */
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.slide-in-right {
+  opacity: 0;
+  transform: translateX(50%); /* Reduce la distancia de salida */
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+/* Cuando están visibles */
+.visible {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 .buton-1{
@@ -84,9 +107,8 @@ position: relative;
 }
 
 .img-papas{
-  width: 105%;
+  width: 100%;
   height: auto;
-  margin-left: -3%;
   position: relative;
 }
 /*Seccion papas*/
@@ -139,13 +161,10 @@ div#seccion-1{
 
 .seccion-2{
   width: 100%;
-  height: 720px;
-  background-image: url('../img/Imagen2.webp');
+  height: 900px;
+  background-image: url('../img/all-papas.jpg');
   background-size: cover;
-  background-position: center;
-  position: relative;
-
-  
+  position: relative; 
 }
 
 
@@ -212,9 +231,12 @@ div#seccion-5{
 }
 
 .start-2{
-  height: 50%;
+  height: 50%; 
   
-  
+}
+.start-2-trocillos{
+  max-width: 80% !important;
+  height: 80%; 
 }
 
 /*Seccion-6*/
@@ -240,17 +262,17 @@ div#seccion-6{
 /*Seccion-7*/
 
 div#seccion-7{
-  height: auto;
-  background-image: url('../img/Imagen2.webp');
+  height: 300px;
+  background-image: url('../img/all-papas.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
   overflow: hidden;
+  padding: 8px;
 }
 
-div#container-7{
-  padding: 25px;
-  margin: 12% 35% 15%  ;
+.container-7{
+  padding: 5px;
+  margin: 6% 20% 8%;
   background: #ffff;
 }
 
@@ -293,13 +315,13 @@ div#fromulario{
   width: 100%;
   height: 100%;
 }
-@media only screen and (max-width: 478px) {
-  .btn-wsp img {
-    width: 75% !important;
-    height: 60% !important;
-  }
+#div-hola{
+  display: none;
+}
+@media only screen and (max-width: 500px) {
+
   .btn-wsp {
-    right: -8% !important;
+    right: -15% !important;
   }
   .imagen-1{
     height: auto;
@@ -309,7 +331,26 @@ div#fromulario{
     transform: none;
     animation: none;
   }
+  .btn-wsp img {
+    width: 80% !important;
+    height: 80% !important;
+}
   div#contenedor{
+    display: none;
+  }
+  #div-hola{
+    display: none;
+  }
+  #img-all-papas{
+    display:none !important;
+  }
+  .seccion-2{
+    width: 100%;
+    height: auto;
+    background-image: url('../img/all-papas.jpg');
+    background-size: auto;
+    background-position: center;
+    position: relative; 
     display: none;
   }
 }

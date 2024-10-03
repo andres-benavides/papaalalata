@@ -5,8 +5,9 @@
       "img/Trentena chips Natural 8gr.png"
     ],
     "title":"Papa sabor a natural",
-    "description":"Disfruta el sabro natural de la papa como solo papa a la lata sabe hacerlo.Elaborada con papa seleccionada, aceite vegetal y savorizante. Ideal para la lonchera o como pasabocas.",
-    "presentation": "8 Grs  Paquete de 30 unds (Treinta), en caja de 11 trentenas."
+    "description":"Disfruta el sabor natural de la papa como solo papa a la lata sabe hacerlo.Elaborada con papa seleccionada, aceite vegetal y saborizantes. Ideal para la lonchera o como pasabocas.",
+    "presentation": "8 Grs  Paquete de 30 unds (Trentena), en caja de 11 trentena.",
+    "section-type": "chips-8g"
   },
   "chipsdelimon":{
     "images":[
@@ -14,8 +15,9 @@
       "img/24 chips Limon 22gr.png"
     ],
     "title":"Papa sabor a Limón",
-    "description":"Hojuelas crocanticas con el espectacular sabot a limón,elaborada con la mejor cosecha de papa, aceite vegetal y saborizante",
-    "presentation": "Presentación: 22 Grs. Paquete de 24 unidades, en caja de 6 paquetes."
+    "description":"Hojuelas crocanticas con el espectacular sabor a limón, elaborada con la mejor cosecha de papa, aceite vegetal y saborizante",
+    "presentation": "22 Grs. Paquete de 24 unidades, en caja de 6 paquetes.",
+    "section-type": "chips-22g"
   },
   "chipsasaditas8g":{
     "images":[
@@ -24,7 +26,8 @@
     ],
     "title":"Papa sabor a Asaditas",
     "description":"Su exquisito sabor te hará recordar los asados en casa, Ideal para la lonchera o como pasabocas.",
-    "presentation": "Presentación: 8 Grs. Paquete de 30 unds (Trentena), en caja de 11 trentenas."
+    "presentation": "8 Grs. Paquete de 30 unds (Trentena), en caja de 11 trentenas.",
+    "section-type": "chips-8g"
   },
   "chipsasaditas22g":{
     "images":[
@@ -32,8 +35,29 @@
       "img/24 asaditas 22g.png"
     ],
     "title":"Papa sabor a Asaditas",
-    "description":"Hojuelas crocanticas con el espectacular sabor a limón, elaborada con la mejor cosecha de papa, aceite vegetela y saborizante",
-    "presentation": "Presentación: 22 Grs. Paquete de 24 unds, en caja de 6 paquetes."
+    "description":"Hojuelas crocanticas con el espectacular sabor a asaditas, elaborada con la mejor cosecha de papa, aceite vegetal y saborizante",
+    "presentation": "22 Grs. Paquete de 24 unds, en caja de 6 paquetes.",
+    "section-type": "chips-22g"
+  },
+  "chipspollo22g":{
+    "images":[
+      "img/Papa chips Pollo 23gr.png",
+      "img/Papa chips Pollo 23gr paquete.png"
+    ],
+    "title":"Papa sabor a Pollo",
+    "description":"Hojuelas crocanticas con el espectacular sabor a pollo, elaborada con la mejor cosecha de papa, aceite vegetal y saborizante",
+    "presentation": "22 Grs. Paquete de 24 unds, en caja de 6 paquetes.",
+    "section-type": "chips-22g"
+  },
+  "chipsnatural22g":{
+    "images":[
+      "img/Papa chips Natural 22gr.png",
+      "img/Papa chips Natural 22gr paquete.png"
+    ],
+    "title":"Papa sabor natural",
+    "description":"Hojuelas crocanticas con el espectacular sabor natural, elaborada con la mejor cosecha de papa, aceite vegetal y saborizante",
+    "presentation": "22 Grs. Paquete de 24 unds, en caja de 6 paquetes.",
+    "section-type": "chips-22g"
   },
   "chipsbbq":{
     "images":[
@@ -42,7 +66,7 @@
     ],
     "title":"Papa sabor BBQ",
     "description":"Deliciosas hojuelas de papa atrevidamente picanticas elaborada con la mejor cosecha, aceite vegetel y saborizante. Ideal para la lonchera o como pasabocas.",
-    "presentation": "Presentación: 16 Grs. Paquete de 30 unds (Trentena), en caja de 11 trentenas."
+    "presentation": "16 Grs. Paquete de 30 unds (Trentena), en caja de 11 trentenas."
   },
   "chipsbbq22g":{
     "images":[
@@ -50,8 +74,9 @@
       "img/24 BBQ 22gr.png"
     ],
     "title":"Papa sabor BBQ",
-    "description":"Hojuelas crocanticas con el espectacular sabor a Bbq, elaborada con la mejor cosecha de papa, aceite vegetela y saborizante.",
-    "presentation": "Presentación: 22 Grs. Paquete de 24 unds, en caja de 6 paquetes."
+    "description":"Hojuelas crocanticas con el espectacular sabor a Bbq, elaborada con la mejor cosecha de papa, aceite vegetal y saborizante.",
+    "presentation": "22 Grs. Paquete de 24 unds, en caja de 6 paquetes.",
+    "section-type": "chips-22g"
   },
   "chipsjalapeño8g":{
     "images":[
@@ -59,8 +84,9 @@
       "img/trentina jalapeño 8g.png"
     ],
     "title":"Papa sabor a Jalapeño",
-    "description":"Hojuelas crocanticas con el espectacular sabor a Jalapeño, elaborada con la mejor cosecha de papa, aceite vegetela y saborizante.",
-    "presentation": "Presentación: 22 Grs. Paquete de 30 Unidades (Trentena), en caja de 11 trentena."
+    "description":"Hojuelas crocanticas con el espectacular sabor a Jalapeño, elaborada con la mejor cosecha de papa, aceite vegetal y saborizante.",
+    "presentation": "8 Grs. Paquete de 30 Unidades (Trentena), en caja de 11 trentena.",
+    "section-type": "chips-8g"
   },
   "chipslimon8g":{
     "images":[
@@ -69,7 +95,8 @@
     ],
     "title":"Papa sabor a limon",
     "description":"Hojuelas crocanticas con el espectacular sabor a limón, elaborada con la mejor cosecha de papa, aceite vegetal y saborizante.",
-    "presentation": "Presentación: 8 Grs. Paquete de 30 unds (Trentena), en caja de 11 trentenas."
+    "presentation": "8 Grs. Paquete de 30 unds (Trentena), en caja de 11 trentenas.",
+    "section-type": "chips-8g"
   },
   "chipspollo8g":{
     "images":[
@@ -77,8 +104,9 @@
       "img/Trentena chips Pollo 8gr.png"
     ],
     "title":"Papa sabor a Pollo",
-    "description":"Deliciosas hojuelas con sabor a pollo, elaborada con la mejor cosecha de papa, aceite vegetal y saborizante Ideal para la linchera o como pasabocas.",
-    "presentation": "Presentación: 8 Grs. Paquete de 30 unds (Trentena), en caja de 11 trentenas."
+    "description":"Deliciosas hojuelas con sabor a pollo, elaborada con la mejor cosecha de papa, aceite vegetal y saborizante Ideal para la lonchera o como pasabocas.",
+    "presentation": "8 Grs. Paquete de 30 unds (Trentena), en caja de 11 trentenas.",
+    "section-type": "chips-8g"
   },
   "pikebbq":{
     "images":[
@@ -87,7 +115,7 @@
     ],
     "title":"Pike todo Bbq",
     "description":"Elaborado con deliciosas hojuelas de papas chips, delicioso chicharrón crujiente y las mas ricas tajadas de plátano, con el más delicioso sabor Bbq, Ideales para cualquier ocasión.",
-    "presentation": "Docena, Caja 6 docenas, Sexta Caja 12 sextas."
+    "presentation": "Docena y Sextas. Caja por 6 docenas y 12 sextas."
   },
   "pikenatural":{
     "images":[
@@ -96,7 +124,7 @@
     ],
     "title":"Pike todo Natural",
     "description":"Elaborado con deliciosas hojuelas de papas chips, delicioso chicharrón crujiente y las mas ricas tajadas de plátano, Ideales para cualquier ocasión",
-    "presentation": "Docena, Caja 6 docenas, Sexta Caja 12 sextas."
+    "presentation": "Docena y Sextas. Caja por 6 docenas y 12 sextas."
   },
   "trocillos_limon":{
     "images":[
@@ -105,7 +133,8 @@
     ],
     "title":"Trocillos sabor a Limon",
     "description":"Elaborado a base de harina de trigo procesado con aceite vegetal, y saborizantes. Ideal para la lonchera o como pasabocas.",
-    "presentation": "Presentación: 16 Grs. Paquete por 12 Unds (Docena) Paca de 20 docenas."
+    "presentation": "16 Grs. Paquete por 12 Unds (Docena) Paca de 20 docenas.",
+    "section-type": "trocillos"
   },
   "trocillos_pollo":{
     "images":[
@@ -114,7 +143,8 @@
     ],
     "title":"Trocillos sabor a pollo",
     "description":"Elaborado a base de harina de trigo procesado con aceite vegetal, y saborizantes. Ideal para la lonchera o como pasabocas.",
-    "presentation": "Presentación: 16 Grs. Paquete por 12 Unds (Docena) Paca de 20 docenas."
+    "presentation": "16 Grs. Paquete por 12 Unds (Docena) Paca de 20 docenas.",
+    "section-type": "trocillos"
   },
   "trocillos_queso":{
     "images":[
@@ -123,13 +153,14 @@
     ],
     "title":"Trocillos sabor a Queso",
     "description":"Elaborado a base de harina de trigo procesado con aceite vegetal, y saborizantes. Ideal para la lonchera o como pasabocas.",
-    "presentation": "Presentación: 16 Grs. Paquete por 12 Unds (Docena) Paca de 20 docenas."
+    "presentation": "16 Grs. Paquete por 12 Unds (Docena) Paca de 20 docenas.",
+    "section-type": "trocillos"
   },
   "cabellodeangel":{
     "images":[
       "img/Cabello de angel 1000 gr.png"
     ],
-    "title":"PAPA CABELLO DE ANGEL",
+    "title":"PAPA CABELLO DE ÁNGEL",
     "description":"Producto elaborado con papa seleccionada, aceite vegetal y sal.",
     "presentation": "Paca con 25 unidades de kilo. Ideal para acompañar perros caliente, hamburguesas, mazorcadas, salchipapas, cremas y sopas."
   },
@@ -137,7 +168,7 @@
     "images":[
       "img/Cabello de angel 150gr.png"
     ],
-    "title":"PAPA CABELLO DE ANGEL",
+    "title":"PAPA CABELLO DE ÁNGEL",
     "description":"Producto elaborado con papa seleccionada, aceite vegetal y sal.",
     "presentation": "Paca con 25 unidades de kilo. Ideal para acompañar perros caliente, hamburguesas, mazorcadas, salchipapas, cremas y sopas."
   },
@@ -145,7 +176,7 @@
     "images":[
       "img/Cabello de angel 500gr.png"
     ],
-    "title":"PAPA CABELLO DE ANGEL",
+    "title":"PAPA CABELLO DE ÁNGEL",
     "description":"Producto elaborado con papa seleccionada, aceite vegetal y sal.",
     "presentation": "Paca con 25 y 50 unidades de kilo. Ideal para acompañar perros caliente, hamburguesas, mazorcadas, salchipapas, cremas y sopas."
   },
@@ -154,7 +185,7 @@
       "img/Hojuela 225gr con sello.png"
     ],
     "title":"PAPA HOJUELA",
-    "description":"roducto elaborado con papa seleccionada, aceite vegetal y sal.",
+    "description":"Producto elaborado con papa seleccionada, aceite vegetal y sal.",
     "presentation": "225 gramos de papa ideal para acompañar arroz con pollo, sandwich y/o como pasaboca."
   },
   "hojuelas450":{
@@ -168,50 +199,96 @@
   "papasbbq":{
     "images":[
       "img/CHIPS SABORES BBQ sin sello.png",
-      "img/Docena Chips Surtida 32 gr.jpeg"
+      "img/Docena Chips Surtida 32 gr.png"
     ],
     "title":"PAPA SABOR BBQ",
-    "description":"Hojuelas picanticas, disfrutalas solas o acompañadas de una salsa de tomate. Ideal para la lonchera o como pasabocas.",
-    "presentation": "Presentación: 32 grs. Paquete por 12 unds sabores surtidos. Caja de 5 docenas. NOTA: Nueva imagen próximamente."
+    "description":"Hojuelas picanticas, ideal para la lonchera o como pasabocas.",
+    "presentation": "32 grs. Paquete por 12 unds sabores surtidos. Caja de 5 docenas. NOTA: Nueva imagen próximamente.",
+    "section-type": "chips-32g"
 
   },
   "papasdelimon":{
     "images":[
       "img/CHIPS SABORES LIMON sin sello.png",
-      "img/Docena Chips Surtida 32 gr.jpeg"
+      "img/Docena Chips Surtida 32 gr.png"
     ],
     "title":"PAPAS SABOR LIMON",
     "description":"Delicioso sabor que te hará vibrar. Ideal para la lonchera o como pasabocas.",
-    "presentation": " 32 grs. Paquete por 12 unds sabores surtidos. Caja de 5 docenas. NOTA: Nueva presentación próximamente"
+    "presentation": " 32 grs. Paquete por 12 unds sabores surtidos. Caja de 5 docenas. NOTA: Nueva presentación próximamente",
+    "section-type": "chips-32g"
   },
   "papasdepollo":{
     "images":[
       "img/CHIPS SABORES POLLO sin sello.png",
-      "img/Docena Chips Surtida 32 gr.jpeg"
+      "img/Docena Chips Surtida 32 gr.png"
     ],
     "title":"PAPAS SABOR A POLLO",
     "description":"Papas con tradicional sabor a pollo, que no podrás comerte solo una. Ideal para la lonchera o como pasabocas.",
-    "presentation": "32 grs. Paquete por 12 unds sabores surtidos. Caja de 5 docenas. NOTA: Nueva presentación próximamente"
+    "presentation": "32 grs. Paquete por 12 unds sabores surtidos. Caja de 5 docenas. NOTA: Nueva presentación próximamente",
+    "section-type": "chips-32g"
 
   },
   "papasnatural":{
     "images":[
       "img/CHIPS SABORES NATURAL sin sello.png",
-      "img/Docena Chips Surtida 32 gr.jpeg"
+      "img/Docena Chips Surtida 32 gr.png"
     ],
     "title":"PAPAS SABOR NATURAL",
-    "description":"Deliciosas hojuelas naturales crocanticas  acompañadas con una deliciosa salsa de tomate. Ideal para la lonchera o como pasabocas.",
-    "presentation": " 32 grs. Paquete por 12 unds sabores surtidos. Caja de 5 docenas. NOTA: Nueva presentación próximamente"
+    "description":"Deliciosas hojuelas naturales crocanticas. Ideal para la lonchera o como pasabocas.",
+    "presentation": "32 grs. Paquete por 12 unds sabores surtidos. Caja de 5 docenas. NOTA: Nueva presentación próximamente",
+    "section-type": "chips-32g"
 
   },
   "snacks":{
     "images":[
-      "img/CHIPS SABORES ASADITAS sin sello.png"
+      "img/CHIPS SABORES ASADITAS sin sello_test.png",
+      "img/Docena Chips Surtida 32 gr.png"
     ],
     "title":"PAPAS SABOR ASADITAS",
     "description":"Exquisito sabor asadito, ideal para acompañar la, lonchera o como pasabocas. Ideal para la lonchera o como pasabocas. ",
-    "presentation": "Presentación: 32 Grs. Paquete por 12 Unds sabores surtidos. Caja de 5 docenas NOTA: Nueva imagen proximamente. "
+    "presentation": "32 Grs. Paquete por 12 Unds sabores surtidos. Caja de 5 docenas NOTA: Nueva imagen proximamente. ",
+    "section-type": "chips-32g"
 
+  },
+  "cabellodeangel15g":{
+    "images":[
+      "img/Cabello de angel x 15gr.png"
+    ],
+    "title":"PAPA CABELLO DE ÁNGEL",
+    "description":"Producto elaborado con papa seleccionada, aceite vegetal y sal.",
+    "presentation": "Paquete x 70 unidades, Caja por 20 setentenas. Ideal para acompañar perros caliente, hamburguesas, mazorcadas, salchipapas, cremas y sopas."
+  },
+  "cabellodeangel1000g":{
+    "images":[
+      "img/cda1g.png"
+    ],
+    "title":"PAPA CABELLO DE ÁNGEL",
+    "description":"Producto elaborado con papa seleccionada, aceite vegetal y sal.",
+    "presentation": "1000 gr Paca con 25 unidades de kilo. Ideal para acompañar perros caliente, hamburguesas, mazorcadas, salchipapas, cremas y sopas."
+  },
+  "cabellodeangeWilly":{
+    "images":[
+      "img/cwill.png"
+    ],
+    "title":"CABELLO DE ÁNGEL WILLY CRONCH",
+    "description":"Producto elaborado con papa seleccionada, aceite vegetal y sal.",
+    "presentation": "1000 gr Paca con 25 unidades de kilo. Ideal para acompañar perros caliente, hamburguesas, mazorcadas, salchipapas, cremas y sopas."
+  },
+  "boluditos":{
+    "images":[
+      "img/BOLUDITOS.png"
+    ],
+    "title":"BOLUDITOS DE QUESO",
+    "description":"Boluditos de maíz con sabor a queso",
+    "presentation": "Trentena"
+  },
+  "guditos":{
+    "images":[
+      "img/GUDITOS.png"
+    ],
+    "title":"GUDITOS",
+    "description":"Bolitas de maíz con sabores frutales.",
+    "presentation": "Trentena"
   }
 
 

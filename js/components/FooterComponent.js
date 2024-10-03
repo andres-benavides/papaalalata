@@ -8,7 +8,7 @@ const template = html`
         </div>
 
         <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
-            <p>
+            <p class="celebrating">
                 "Celebrando 25 años en el mercado, nos
                 dedicamos a ofrecer productos de papa
                 que se distinguen por su calidad
@@ -40,7 +40,7 @@ const template = html`
             Calle 16c Bis# 79D-33 Barrio Visión<br>
             Colombia Semindustrial, Bogotá<br>
             Tel: 4122130<br>
-            WhathsApp: 3133800415<br>
+            WhatsApp: 3133800415<br>
             Correo: ventas@papaalalata.com</p><br>
         </div>
     </div>
