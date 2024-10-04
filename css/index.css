@@ -1,17 +1,17 @@
-body { padding-top: 110px; }
-
-*{
-  margin: 0;
-  padding: 0;
-
+body {
+  padding-top: 110px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
 
-div#container-fluid{
+div#container-fluid {
   overflow: hidden;
 }
 
-.btn-wsp{
+.btn-wsp {
   position: fixed;
   width: 300px;
   height: 150px;
@@ -24,27 +24,32 @@ div#container-fluid{
 
 /*seccion 0*/
 
-
-div#seccion-0{
+div#seccion-0 {
   background-image: url(../img/31cf39_0a52ef63125b4bdeb6b244610d783645~mv2\(1\).png);
   background-size: cover;
   position: relative;
   overflow: hidden;
 }
 
-div#texto-1{
+div#texto-1 {
   max-width: 720px;
   height: auto;
   margin-left: 5%;
-  margin-top: 5% ;
+  margin-top: 5%;
   position: relative;
   animation-name: mtexto;
   animation-duration: 2s;
 }
 
-@keyframes mtexto{
-  0% { opacity: 0%; right: 50%;}
-  100% { opacity: 100%; right: 0%;}
+@keyframes mtexto {
+  0% {
+    opacity: 0%;
+    right: 50%;
+  }
+  100% {
+    opacity: 100%;
+    right: 0%;
+  }
 }
 
 /* Animaciones ajustadas para entrar desde los lados */
@@ -66,75 +71,63 @@ div#texto-1{
   transform: translateX(0);
 }
 
-.buton-1{
+.buton-1 {
   background-color: #ffff;
-    color: #AA2103;
-    cursor: pointer;
-    padding: 12px;
-    border-radius: 12px;
-    text-decoration: none;
-    border: 2px solid #AA2103;
-    object-fit: cover;
+  color: #aa2103;
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 12px;
+  text-decoration: none;
+  border: 2px solid #aa2103;
+  object-fit: cover;
 }
 
-.buton-1:hover{
+.buton-1:hover {
   color: white;
-  background-color: #FF4A23;
+  background-color: #ff4a23;
 }
 
-
-
-.imagen-1{
+.imagen-1 {
   height: 100%;
   margin-top: 15%;
   margin-left: 15%;
   position: relative;
 }
 
-
-.asaditas{
+.asaditas {
   position: relative;
   object-fit: cover;
 }
 
-
-
 /*Seccion papas*/
-div#contenedor{
-background-image: url(../img/fondo.png);
-background-size: cover;
-position: relative;
+div#contenedor {
+  background-image: url(../img/fondo.png);
+  background-size: cover;
+  position: relative;
 }
 
-.img-papas{
+.img-papas {
   width: 100%;
   height: auto;
   position: relative;
 }
 /*Seccion papas*/
 
-
 /*Seccion 1*/
 
-
-div#seccion-1{
+div#seccion-1 {
   background-image: url(../img/fondo.png);
   background-size: cover;
-  
 }
 
-
-.product-home{
+.product-home {
   width: 80%;
   height: auto;
   display: block;
   margin-left: 10%;
-  
 }
 
-
-
-.product-home-2{
+.product-home-2 {
   width: 80%;
   text-align: center;
   height: auto;
@@ -142,80 +135,69 @@ div#seccion-1{
   display: block;
   margin-top: 1%;
   padding: 0px 30px 0px;
-  
 }
 
-.contenedor-unificacion{
+.contenedor-unificacion {
   margin-left: -15%;
 }
 
-.unificacion{
+.unificacion {
   width: 100%;
   border-style: solid;
   object-fit: cover;
   z-index: 999;
-
 }
 
 /*Seccion-2*/
 
-.seccion-2{
+.seccion-2 {
   width: 100%;
   height: 900px;
-  background-image: url('../img/all-papas.jpg');
+  background-image: url("../img/all-papas.jpg");
   background-size: cover;
-  position: relative; 
+  position: relative;
 }
-
 
 /*Seccion-3*/
-.seccion-3{
+.seccion-3 {
   height: auto;
-  background-image: url('../img/31cf39_0a52ef63125b4bdeb6b244610d783645~mv2\(1\).png') ;
+  background-image: url("../img/31cf39_0a52ef63125b4bdeb6b244610d783645~mv2\(1\).png");
   background-size: cover;
-  
 }
 
-
-.mesa{
+.mesa {
   width: 100%;
   height: 90%;
 }
 
-.boton-2{
-    padding: 1%;
-    text-decoration: none;
-    background-color: #ffff;
-    color: #AA2103;
-    border-radius: 15%;
-    border: 1px solid #AA2103;
-    position: relative;
+.boton-2 {
+  padding: 1%;
+  text-decoration: none;
+  background-color: #ffff;
+  color: #aa2103;
+  border-radius: 15%;
+  border: 1px solid #aa2103;
+  position: relative;
 }
-.boton-2:hover{
-    color: white;
-    background-color: #FF4A23;
+.boton-2:hover {
+  color: white;
+  background-color: #ff4a23;
 }
-
-
-
-
 
 /*Seccion-4*/
-.container-4{
+.container-4 {
   background-size: cover;
   background-position: left;
-
 }
 
 /*Seccion-5*/
 
-
-div#seccion-5{
+div#seccion-5 {
   background-image: url(../img/azul\ fondo\ Mesa\ de\ trabajo\ 1.png);
   background-size: cover;
 }
 
-.product-home-1{
+.product-home-1 {
   height: auto;
   margin-top: 1%;
   margin-left: 10%;
@@ -225,22 +207,21 @@ div#seccion-5{
   max-width: 60% !important;
 }
 
-.papas-pollo{
+.papas-pollo {
   height: auto;
   max-width: 80% !important;
 }
 
-.start-2{
-  height: 50%; 
-  
+.start-2 {
+  height: 50%;
 }
-.start-2-trocillos{
+.start-2-trocillos {
   max-width: 80% !important;
-  height: 80%; 
+  height: 80%;
 }
 
 /*Seccion-6*/
-div#seccion-6{
+div#seccion-6 {
   height: 520px;
   background-image: url(../img/novedadesMesa\ de\ trabajo\ 1.png);
   background-repeat: no-repeat;
@@ -249,81 +230,71 @@ div#seccion-6{
   overflow: hidden;
 }
 
-
-.text-center-1{
-  font-size: 7EM; 
-  font-family: arial black; 
-  color: #FFFF; 
+.text-center-1 {
+  font-size: 7em;
+  font-family: arial black;
+  color: #ffff;
   padding-top: 150px;
   position: center;
 }
 
-
 /*Seccion-7*/
 
-div#seccion-7{
+div#seccion-7 {
   height: 300px;
-  background-image: url('../img/all-papas.jpg');
+  background-image: url("../img/all-papas.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
   padding: 8px;
 }
 
-.container-7{
+.container-7 {
   padding: 5px;
   margin: 6% 20% 8%;
   background: #ffff;
 }
 
-
-
-
-
 /*Seccion-8*/
 
-
-div#fromulario{ 
+div#fromulario {
   width: 51%;
   margin-left: 25%;
   object-fit: cover;
 }
 
-.seccion{
+.seccion {
   border-style: solid;
-  border-radius: 12px; 
-  color: hsl(0, 2%, 38%); 
-  padding: 12px; 
-  border: none;  
-  background-color: #FADE5E;
+  border-radius: 12px;
+  color: hsl(0, 2%, 38%);
+  padding: 12px;
+  border: none;
+  background-color: #fade5e;
   overflow: hidden;
 }
 
-.networks{
+.networks {
   border-radius: 50%;
 }
 
-
 /*Seccion-9*/
-.banner{
+.banner {
   height: auto;
   border-style: solid;
   object-fit: cover;
-
 }
 .btn-wsp img {
   width: 100%;
   height: 100%;
 }
-#div-hola{
+#div-hola {
   display: none;
 }
 @media only screen and (max-width: 500px) {
-
   .btn-wsp {
     right: -15% !important;
   }
-  .imagen-1{
+  .imagen-1 {
     height: auto;
     margin-top: 0;
     margin-left: 0;
@@ -334,23 +305,23 @@ div#fromulario{
   .btn-wsp img {
     width: 80% !important;
     height: 80% !important;
-}
-  div#contenedor{
+  }
+  div#contenedor {
     display: none;
   }
-  #div-hola{
+  #div-hola {
     display: none;
   }
-  #img-all-papas{
-    display:none !important;
+  #img-all-papas {
+    display: none !important;
   }
-  .seccion-2{
+  .seccion-2 {
     width: 100%;
     height: auto;
-    background-image: url('../img/all-papas.jpg');
+    background-image: url("../img/all-papas.jpg");
     background-size: auto;
     background-position: center;
-    position: relative; 
+    position: relative;
     display: none;
   }
 }
